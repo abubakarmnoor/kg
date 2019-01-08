@@ -1,0 +1,389 @@
+/* 14/06/2016 body, other style to the box */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #555557;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body.ar .loadingOverlay p {
+    text-align: right;
+}
+
+.clearleft {
+    clear: left;
+}
+
+.clear {
+    clear: both;
+    height: 1px;
+    overflow: hidden;
+    float: none!important;
+}
+
+object,
+embed {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+img {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #B3A258;
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover {
+    color: #58595B;
+}
+
+form {
+    margin: 0;
+}
+
+fieldset {
+    border: 0;
+}
+
+body.ar #pageImage .caption,
+body.ar #pageImage .tag {
+    right: auto;
+    left: 0;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 5px 0 5px 150px;
+    background-position: left top;
+}
+
+#pageImage .caption {
+    padding: 5px 0 5px 220px;
+}
+
+#pageImage .caption span {
+    display: block;
+}
+
+#pageImage .caption .line1 {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+#pageImage .caption .line2 {
+    color: #B3A258;
+    font-size: 12px;
+}
+
+#pageImage .tag {
+    background-position: top right;
+    width: 100%;
+    color: #B3A258;
+    text-transform: none;
+    font-size: 22px;
+    padding: 10px 150px 0 0;
+    text-align: right;
+}
+
+* html #pageImage .tag {
+    background: #000 none;
+    height: 40px;
+    width: 600px;
+}
+
+#pageImage .tag span {
+    color: #FFF;
+}
+
+#pageImage #header_content {
+    margin: 0 auto;
+    padding: 0;
+    width: 950px;
+    height: 500px;
+    position: relative;
+}
+
+.bookingMask {
+    margin: 0px auto 0;
+    padding: 14px 10px 12px 20px;
+    width: 840px;
+    height: auto;
+    position: relative;
+    background: #f2f2f2;
+    z-index: 10;
+    color: #58595B;
+}
+
+.bookingMask .cover {
+    margin: 0;
+    padding: 0;
+    height: 90px;
+    z-index: 10;
+}
+
+#contentLeft .bookingMask {
+    position: static;
+}
+
+.bookingMask h4 {
+    font-size: 13px;
+    color: #58595B;
+    margin: 0 0 12px;
+    padding: 0;
+    line-height: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#contentLeft .bookingMask h4 {
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+.bookingMask .form fieldset {
+    float: left;
+    margin: -26px 6px 0 0;
+    padding: 0;
+}
+
+.bookingMask .form fieldset.line {
+    margin-top: 0;
+}
+
+.bookingMask .form fieldset.space {
+    margin: 0 20px 0 0;
+}
+
+body.vn .bookingMask .form fieldset.space {
+    margin: 0 5px 0 0;
+}
+
+* html .bookingMask .form fieldset.date {
+    margin-right: 0;
+}
+
+.bookingMask .form fieldset.date input {
+    float: left;
+}
+
+.bookingMask .form fieldset.date button {
+    background: #f2f2f2;
+    width: 17px;
+    height: 19px;
+    padding: 0;
+    float: left;
+    margin: -1px 0 0 6px;
+}
+
+.bookingMask .form label {
+    margin: 0 0 12px;
+    display: block;
+    color: #58595B;
+    font-size: 11px;
+    white-space: nowrap;
+    line-height: 15px;
+}
+
+.bookingMask .form input,
+.bookingMask .form select {
+    font-size: 11px;
+    color: #776a60;
+    width: 65px;
+    overflow: hidden;
+}
+
+.bookingMask .form fieldset input {
+    padding: 3px 0 0 4px;
+    background: transparent;
+    border: 0 none;
+    color: #90704a;
+}
+
+.bookingMask .form label.error {
+    display: none;
+}
+
+.bookingMask .form label.flexi {
+    margin: 5px 0 0;
+    float: left;
+}
+
+.bookingMask .form select {
+    width: 190px;
+    border: 1px #8d7149 solid;
+    -webkit-border-radius: 3px;
+           border-radius: 3px;
+}
+
+.bookingMask .form select#cmbHotel {
+    text-transform: none;
+}
+
+.bookingMask .form option.country,
+.bookingMask .form option.city {
+    font-weight: bold;
+}
+
+.bookingMask .form input.date {
+    width: 65px;
+    float: left;
+}
+
+.bookingMask .form fieldset .inputBG1 {
+    margin: 0 0 0 0px;
+    padding: 0;
+    width: 105px;
+    height: 20px;
+    font-size: 11px;
+    border: 0 none;
+    background: #fff;
+    border: 1px #8d7149 solid;
+    -webkit-border-radius: 3px;
+           border-radius: 3px;
+    
+}
+
+.bookingMask .form fieldset .inputBG1 input {
+    width: 78px;
+}
+
+.bookingMask .form fieldset .inputBG1 input.promocode {
+    width: 90px;
+}
+
+.bookingMask .form fieldset.date button {
+    float: right;
+    margin: 0px 3px 0 0;
+    min-width: 18px;
+}
+
+.bookingMask .form fieldset .inputBG2 {
+    margin: 0 0 2px;
+    padding: 0;
+    width: 42px;
+    height: 19px;
+    font-size: 11px;
+    border: 0 none;
+    background: #fff;
+    border: 1px #8d7149 solid;
+    -webkit-border-radius: 3px;
+           border-radius: 3px;
+}
+    
+}
+
+.bookingMask .form fieldset .inputBG2 input {
+    width: 32px;
+    text-align: center;
+
+    
+}
+
+.bookingMask .form fieldset .inputBG2 input.error {
+    color: red;
+}
+
+.bookingMask .form fieldset div.Night {
+    position: relative;
+}
+
+.bookingMask .form fieldset div.Night label.error {
+    display: block;
+    position: absolute;
+    top: 23px;
+    left: 0;
+    background: #FFF;
+    visibility: visible;
+    padding: 0 5px;
+    color: Red;
+    border: 1px solid #CCCAC6;
+}
+
+body.ar .bookingMask .form fieldset div.Night label.error {
+    left: auto;
+    right: 0;
+}
+
+.bookingMask .flexiDate {
+    clear: both;
+}
+
+.bookingMask .flexiDate input {
+    float: left;
+}
+
+.bookingMask .form button {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+    border: 0 none;
+    min-width: 180px;
+    color: #FFF;
+}
+
+body.vn .bookingMask .form button {
+    float: right;
+}
+
+.bookingMask .form button span {
+    display: block;
+    margin-left: 10px;
+    padding: 5px 0 0 0px;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 26px;
+    height: 34px;
+    width: 170px;
+    background: #8d714c;
+   -webkit-border-radius: 5px;
+           border-radius: 5px;
+}
+    
+}
+
+.bookingMask .form button span em {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    height: 34px;
+    line-height: 34px;
+    font-style: normal;
+    white-space: nowrap;
+}
+
+.bookingMask a.code {
+    float: left;
+    margin: 4px 0 0 0;
+    padding: 0 0 0 0px;
+    height: 13px;
+    font-size: 11px;
+    border: 0 none;
+    color: #58595B;
+    line-height: 13px;
+    display: block;
+}
+
+.bookingMask {
+    background: #f2f2f2;
+    padding-bottom: 30px;
+}
+
+select#cmbHotel {
+    background: #fff;
+    border: 1px solid #000;
+}

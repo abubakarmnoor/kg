@@ -1,0 +1,4623 @@
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+
+body {
+    line-height: normal
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+    content: '';
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+div#ccm-highlighter {
+    z-index: 995!important
+}
+
+div.error {
+    position: absolute;
+    z-index: 1;
+    background-color: #8d7249;
+    color: #fff;
+    right: 0;
+    font-size: 12px;
+    padding: 3px 5px;
+    margin-top: -47px
+}
+
+#newsletter_signup .confirmprocess {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #111;
+    padding: 19px;
+    color: #fff
+}
+
+#newsletter_signup.working .confirmprocess {
+    display: block
+}
+
+#newsletter_signup.done .confirmprocess {
+    display: block
+}
+
+#newsletter_signup.done .text-inworking {
+    display: none
+}
+
+#newsletter_signup .message-validator {
+    position: absolute;
+    z-index: 1;
+    background-color: red;
+    color: #fff;
+    right: 0;
+    font-size: 12px;
+    padding: 3px 5px
+}
+
+.header_social_icons_group {
+    position: fixed;
+    right: 0;
+    z-index: 100;
+    top: 154px
+}
+
+.header_social_icons_group #fb_content_3 .pw-widget {
+    width: 40px!important
+}
+
+.header_social_icons_group #fb_content_3 .pw-button {
+    display: block!important;
+    margin: 0!important;
+    background: url(../imgs/icons/banner-social-new.png)!important
+}
+
+.header_social_icons_group #fb_content_3 .pw-button-twitter {
+    cursor: pointer;
+    width: 40px!important;
+    height: 39px!important;
+    background-position: 0 -33px!important
+}
+
+.header_social_icons_group #fb_content_3 .pw-button-facebook {
+    cursor: pointer;
+    width: 40px!important;
+    height: 39px!important;
+    background-position: 0 -2px!important
+}
+
+.header_social_icons_group #fb_content_3 .pw-button.follow-instagram {
+    cursor: pointer;
+    width: 40px!important;
+    height: 34px!important;
+    background-position: 0 -65px!important
+}
+
+.header_social_icons_group #fb_content_3 .pw-button-pinterest {
+    cursor: pointer;
+    width: 40px!important;
+    height: 35px!important;
+    background-position: 0 -121px!important
+}
+
+.header_social_icons_group #fb_content_3 .pw-button-googleplus {
+    cursor: pointer;
+    width: 40px!important;
+    height: 33px!important;
+    background-position: 0 -95px!important
+}
+
+.header_social_icons_group #fb_content_3 .pw-button.sound-cloud {
+    cursor: pointer;
+    width: 40px!important;
+    height: 39px!important;
+    background-position: 0 -150px!important
+}
+
+.header_social_icons_group #fb_content_3 .pw-button-post {
+    cursor: pointer;
+    width: 40px!important;
+    height: 38px!important;
+    background-position: 0 -229px!important
+}
+
+.header_social_icons_group #fb_content_3 .pw-button-twitter:hover {
+    cursor: pointer;
+    width: 40px!important;
+    height: 39px!important;
+    background-position: 40px -33px!important
+}
+
+.header_social_icons_group #fb_content_3 .pw-button-facebook:hover {
+    cursor: pointer;
+    width: 40px!important;
+    height: 39px!important;
+    background-position: 40px -2px!important
+}
+
+.header_social_icons_group #fb_content_3 .pw-button.follow-instagram:hover {
+    cursor: pointer;
+    width: 40px!important;
+    height: 34px!important;
+    background-position: 40px -65px!important
+}
+
+.header_social_icons_group #fb_content_3 .pw-button-pinterest:hover {
+    cursor: pointer;
+    width: 40px!important;
+    height: 35px!important;
+    background-position: 40px -121px!important
+}
+
+.header_social_icons_group #fb_content_3 .pw-button-googleplus:hover {
+    cursor: pointer;
+    width: 40px!important;
+    height: 33px!important;
+    background-position: 40px -95px!important
+}
+
+.header_social_icons_group #fb_content_3 .pw-button.sound-cloud:hover {
+    cursor: pointer;
+    width: 40px!important;
+    height: 39px!important;
+    background-position: 40px -150px!important
+}
+
+.header_social_icons_group #fb_content_3 .pw-button-post:hover {
+    cursor: pointer;
+    width: 39px!important;
+    height: 38px!important;
+    background-position: 40px -229px!important
+}
+
+.header_social_icons_group #fb_content_3 .pw-button .pw-icon,
+.header_social_icons_group #fb_content_3 .r1f-icon-instagram {
+    display: none!important
+}
+
+.header_social_icons_group #fb_content_3 .pw-transparency {
+    background-color: #d3d3d3!important;
+    opacity: .3!important
+}
+
+.fixed_nav {
+    position: fixed;
+    top: 133px;
+    z-index: 200
+}
+
+@media screen and (max-width:768px) {
+    .header_social_icons_group {
+        display: none
+    }
+}
+
+#location {
+    max-width: 1260px;
+    margin: 20px auto 0 auto;
+    padding: 50px 0 50px 0
+}
+
+#location .upper_section {
+    margin-bottom: 50px
+}
+
+#location .upper_section .left {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    margin: 0 -4px;
+    padding-right: 25px
+}
+
+#location .upper_section .left .title {
+    font-size: 36px
+}
+
+#location .upper_section .right {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    padding-left: 25px
+}
+
+#location .upper_section .right .title {
+    font-size: 36px
+}
+
+#location .lower_section .left {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    margin: 0 -5px 0 0;
+    margin-bottom: 25px
+}
+
+#location .lower_section .right {
+    display: inline-block;
+    vertical-align: top;
+    width: 55%
+}
+
+#location .lower_section .right #location_map {
+    height: 470px
+}
+
+#location .lower_section .right #location_map img {
+    max-width: none;
+    height: initial
+}
+
+#location .lower_section .right #location_map #map_infoBubble.infoBubble_location_block h3 {
+    font-size: 16px;
+    font-weight: 600;
+    font-style: italic
+}
+
+#location .lower_section .right #location_map #map_infoBubble.infoBubble_location_block p.desc {
+    font-size: 14px;
+    margin: 2px 0;
+    font-weight: 400
+}
+
+#location .lower_section .right .location_map {
+    height: 470px
+}
+
+#location .lower_section .resort_details_section {
+    padding: 30px
+}
+
+#location .lower_section .resort_details_section .left {
+    padding-right: 5px
+}
+
+#location .lower_section .resort_details_section .right {
+    padding-left: 5px
+}
+
+#location .lower_section .resort_details_section .resort_title {
+    font-size: 30px;
+    margin: 0;
+    font-style: italic;
+    font-weight: 400;
+    color: #101820
+}
+
+#location .lower_section .resort_details_section .resort_address {
+    margin-top: 0;
+    color: #101820;
+    font-size: 18px
+}
+
+#location .lower_section .resort_details_section .resort_phone {
+    color: #8d7249;
+    margin: 0;
+    font-size: 21px
+}
+
+#location .lower_section .resort_details_section .resort_email {
+    color: #8d7249;
+    border-bottom: 1px solid #8d7249;
+    display: inline-block
+}
+
+#location .lower_section .resort_details_section .weather {
+    display: inline-block;
+    width: 50%
+}
+
+#location .lower_section .resort_details_section .weather .left {
+    display: inline-block;
+    padding-right: 0
+}
+
+#location .lower_section .resort_details_section .weather .left .weather_condition {
+    background: url(../imgs/icons/weather-conditions.png);
+    height: 50px;
+    background-repeat: no-repeat
+}
+
+#location .lower_section .resort_details_section .weather .right {
+    display: inline-block;
+    padding-left: 5px
+}
+
+#location .lower_section .resort_details_section .weather .right .temp {
+    font-size: 30px;
+    font-style: italic;
+    color: #101820
+}
+
+#location .lower_section .resort_details_section .weather .right .condition {
+    margin: 0;
+    font-size: 18px
+}
+
+#location .lower_section .resort_details_section .resort_local_time {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top
+}
+
+#location .lower_section .resort_details_section .resort_local_time .left {
+    padding-right: 5px;
+    width: initial
+}
+
+#location .lower_section .resort_details_section .resort_local_time .right {
+    padding-left: 5px;
+    width: initial
+}
+
+#location .lower_section .resort_details_section .resort_local_time .right .time {
+    font-size: 30px;
+    margin: 0;
+    font-style: italic;
+    font-weight: 400;
+    color: #101820
+}
+
+#location .lower_section .resort_details_section .resort_local_time .right .meridies {
+    margin: 0;
+    font-size: 18px;
+    text-indent: 7px
+}
+
+#location .lower_section .resort_details_section .brand_logo {
+    display: block;
+    text-align: right;
+    margin-left: auto;
+    pointer-events: none
+}
+
+#location .lower_section .gallery button {
+    margin-top: 25px
+}
+
+#location .lower_section #gallery_thumb_controls,
+#location .lower_section #gallery_thumb_controls2 {
+    position: relative;
+    overflow: hidden
+}
+
+#gallery_thumb_controls2 {
+    height: 100px
+}
+
+#location .lower_section #gallery_thumb_controls .gallery_thumb_icon,
+#location .lower_section #gallery_thumb_controls2 .gallery_thumb_icon {
+    height: 70px;
+    cursor: pointer
+}
+
+#location .lower_section #gallery_thumb_controls .gallery_thumb_icon,
+#location .lower_section #gallery_thumb_controls2 .gallery_thumb_icon {
+    width: 125px
+}
+
+#location .lower_section #gallery_thumb_controls a.flex-next,
+#location .lower_section #gallery_thumb_controls a.flex-prev,
+#location .lower_section #gallery_thumb_controls2 a.flex-next,
+#location .lower_section #gallery_thumb_controls2 a.flex-prev {
+    background: #000;
+    background: rgba(0, 0, 0, .7);
+    height: 70px;
+    width: 60px;
+    top: 20px;
+    text-indent: 9999em;
+    opacity: 1
+}
+
+#location .lower_section #gallery_thumb_controls a.flex-prev,
+#location .lower_section #gallery_thumb_controls2 a.flex-prev {
+    left: 0!important;
+    background-image: url(../imgs/icons/gallery-arrow-prev.png);
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+#location .lower_section #gallery_thumb_controls a.flex-next,
+#location .lower_section #gallery_thumb_controls2 a.flex-next {
+    right: 0!important;
+    background-image: url(../imgs/icons/gallery-arrow-next.png);
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+#location .lower_section .gallery_slider {
+    position: relative;
+    overflow: hidden
+}
+
+#location .lower_section .gallery_slider li {
+    display: none
+}
+
+#location .lower_section .gallery_slider .gallery_image {
+    height: 470px;
+    width: 100%
+}
+
+#location .lower_section .gallery_slider .gallery_info {
+    padding: 30px 50px
+}
+
+#location .lower_section .gallery_slider .gallery_info .gallery_counter {
+    font-size: 21px;
+    font-style: italic;
+    color: #101820
+}
+
+#location .lower_section .gallery_slider .gallery_info p {
+    margin-top: 5px
+}
+
+.hide {
+    display: none
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px
+}
+
+.nav-tabs>li {
+    float: left;
+    margin-bottom: -1px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border: 1px solid #ccc;
+    margin-right: 2px
+}
+
+.nav-tabs>li.active {
+    background-color: #333
+}
+
+.nav-tabs>li.active a {
+    color: #fff
+}
+
+.nav-tabs>li>a {
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    display: block
+}
+
+.cf:after,
+.cf:before {
+    content: "";
+    display: table
+}
+
+.cf:after {
+    clear: both
+}
+
+.ccm-block-field-group h2 {
+    font-size: 16px
+}
+
+.ccm-block-field-group input {
+    padding: 6px
+}
+
+#karma {
+    position: relative
+}
+
+#karma hr {
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    margin: 0
+}
+
+#karma .member_check_popup {
+    width: 90%;
+    max-width: 800px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    margin-left: -400px;
+    z-index: 150;
+    background-color: #fff
+}
+
+#karma .member_check_popup .image {
+    height: 200px;
+    position: relative;
+    background-image: url(../imgs/popup-img.jpg)
+}
+
+#karma .member_check_popup .lower_section {
+    padding: 25px;
+    text-align: center
+}
+
+#karma .member_check_popup .lower_section h2 {
+    font-size: 48px;
+    font-style: italic
+}
+
+#karma .member_check_popup .close_popup {
+    height: 40px;
+    width: 40px;
+    background-color: #121212;
+    position: absolute;
+    right: 0;
+    /*background-image: url(../imgs/icons/close.png);*/
+    background: url('../imgs/icons.png') -167px 2px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer
+}
+
+#karma .popup_overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .75);
+    z-index: 101
+}
+
+@media (max-width:991px) {
+    #karma .member_check_popup {
+        left: 5%;
+        margin: 0
+    }
+}
+
+#karma .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    padding: 50px;
+    font-size: 26px;
+    font-style: italic;
+    z-index: 999;
+    -webkit-box-shadow: 0 1px 12px 0 rgba(0, 0, 0, .75);
+    -moz-box-shadow: 0 1px 12px 0 rgba(0, 0, 0, .75);
+    box-shadow: 0 1px 12px 0 rgba(0, 0, 0, .75);
+    font-family: Georgia, Times, 'Times New Roman', serif
+}
+
+#karma .type-content .main_content ul {
+    list-style: initial;
+    margin: initial;
+    padding: 0 0 0 20px
+}
+
+#karma .type-content .main_content ul.slides {
+    padding: 0
+}
+
+#karma .type-content .main_content li {
+    display: list-item;
+    font-weight: 300
+}
+
+#karma #location_page_nav {
+    background-color: #54565b;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    z-index: 9
+}
+
+#karma #location_page_nav div li {
+    display: inline-block;
+    width: 13%;
+    vertical-align: middle
+}
+
+#karma #location_page_nav div li a {
+    padding: 20px 0;
+    display: block;
+    font-weight: 600;
+    color: #fff
+}
+
+#karma #location_page_nav div li a.active {
+    background-color: #30373f;
+    color: #8d7249
+}
+
+#karma #location_page_nav div a.back_top {
+    display: block;
+    position: absolute;
+    right: 25px;
+    top: 15px
+}
+
+#karma #location_page_nav.fixed_nav {
+    position: fixed;
+    width: 100%;
+    top: 105px
+}
+
+#karma select#location_nav_mobile {
+    background-color: #101820;
+    background-image: url(../imgs/icons/dropdown-arrow-icon.png);
+    background-position: center right 20px;
+    border: 0;
+    border-radius: 0;
+    color: #fff;
+    font-size: 21px;
+    padding: 20px 5% 20px 5%;
+    width: 100%;
+    -moz-appearance: none;
+    -webkit-appearance: none
+}
+
+@media (max-width:991px) {
+    #karma #location_page_nav {
+        display: none
+    }
+}
+
+@media (min-width:991px) {
+    #karma select#location_nav_mobile {
+        display: none
+    }
+}
+
+#karma * {
+    background-repeat: no-repeat;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+#karma body,
+#karma html {
+    min-height: 100%;
+    margin: 0;
+    padding: 0
+}
+
+#karma h1 {
+    font-size: 32px;
+    font-weight: 300;
+    margin: 6px 0
+}
+
+#karma h2 {
+    font-size: 28px;
+    font-weight: 300;
+    margin: 6px 0
+}
+
+#karma h3 {
+    font-size: 28px;
+    font-weight: 300
+}
+
+#karma h4 {
+    font-size: 20px;
+    font-weight: 300
+}
+
+#karma p {
+    margin: 1em 0;
+    font-weight: 300;
+    line-height: 150%
+}
+
+#karma a {
+    text-decoration: none;
+    color: #8d7249
+}
+
+#karma img {
+    max-width: 100%;
+    height: auto
+}
+
+#karma em {
+    font-style: italic
+}
+
+#karma strong {
+    font-weight: 600
+}
+
+#karma .stick {
+    position: fixed!important;
+    width: 100%;
+    top: 0;
+    z-index: 250
+}
+
+#karma .cf:after,
+#karma .cf:before {
+    content: "";
+    display: table
+}
+
+#karma .cf:after {
+    clear: both
+}
+
+#karma .container {
+    width: 95%;
+    max-width: 1000px;
+    margin: 0 auto
+}
+
+#karma .container.wide {
+    max-width: 1325px
+}
+
+#karma select#find_destination {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 10px 60px 10px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 0;
+    border: 2px solid #fff;
+    /*background-image: url(../imgs/icons/dropdown-arrow-icon.png);/
+    background-position: right 10px center;
+    background-repeat: no-repeat*/
+}
+#karma .page_list_select_form{
+    display: table;
+    position: relative;
+}
+#karma .page_list_select_form:after{
+    content: '';
+    background: url('../imgs/icons.png') -252px 2px no-repeat;
+    height: 9px;
+    width: 12px;
+    display: table;
+    position: absolute;
+    right: 11px;
+    top: 16px;
+}
+#karma select#find_destination optgroup {
+    color: #333
+}
+
+#karma .button_outline {
+    background-color: transparent;
+    border: 2px solid #101820;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #101820;
+    cursor: pointer;
+    font-weight: 700;
+    display: inline-block;
+    text-decoration: none;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+
+#karma .button_outline.white {
+    border-color: #fff;
+    color: #fff
+}
+
+#karma .button_outline.white:hover {
+    background-color: #fff;
+    color: #333!important
+}
+
+#karma .button_outline.gold {
+    border-color: #8d7249;
+    color: #8d7249
+}
+
+#karma .button_outline.gold:hover {
+    background-color: #8d7249;
+    color: #fff!important
+}
+
+#karma .button_outline.black {
+    border-color: #333;
+    color: #333
+}
+
+#karma .button_outline.black:hover {
+    background-color: #333;
+    color: #fff!important
+}
+
+#karma .button_outline:hover {
+    background-color: #101820;
+    color: #fff
+}
+
+#karma .white_button {
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, .3);
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+
+#karma .white_text {
+    color: #fff!important
+}
+
+#karma .white_text a {
+    color: #fff!important
+}
+
+#karma .gold_text {
+    color: #8d7249!important
+}
+
+#karma .gold_text a {
+    color: #8d7249!important
+}
+
+#karma a.gold_text {
+    color: #8d7249!important
+}
+
+#karma .dark_blue_text {
+    color: #101820!important
+}
+
+#karma .dark_blue_text a {
+    color: #101820!important
+}
+
+#karma a.dark_blue_text {
+    color: #101820!important
+}
+
+#karma .light_blue_text {
+    color: #4f8196!important
+}
+
+#karma .light_blue_text a {
+    color: #4f8196!important
+}
+
+#karma a.light_blue_text {
+    color: #4f8196!important
+}
+
+#karma .georgia_font {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #1e2526
+}
+
+#karma .georgia_font strong {
+    font-family: Georgia, Times, 'Times New Roman', serif
+}
+
+#karma .georgia_font.italic {
+    font-style: italic
+}
+
+#karma .georgia_font.bold {
+    font-weight: 700
+}
+
+#karma .banner_text {
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #fff
+}
+
+#karma .banner_text_georgia {
+    font-size: 60px;
+    color: #fff;
+    font-weight: 400;
+    margin: -15px 0 25px 0;
+    font-style: italic;
+    font-family: Georgia, Times, 'Times New Roman', serif
+}
+
+#karma .inline_image {
+    display: inline-block;
+    padding: 5px
+}
+
+#karma header {
+    position: absolute;
+    width: 100%;
+    background: url(../imgs/header-bg.png);
+    background-size: cover;
+    z-index: 100;
+    -webkit-transition: background-color .5s ease-in-out;
+    -moz-transition: background-color .5s ease-in-out;
+    -ms-transition: background-color .5s ease-in-out;
+    -o-transition: background-color .5s ease-in-out;
+    transition: background-color .5s ease-in-out
+}
+
+#karma header .logo {
+    float: left;
+    width: 20%;
+    padding: 18px 0
+}
+
+#karma header .main_nav {
+    float: right;
+    width: 80%
+}
+
+#karma header .main_nav .upper_nav {
+    text-align: right
+}
+
+#karma header .main_nav .upper_nav li {
+    display: inline-block;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 600;
+    vertical-align: top;
+    margin: 0 -4px 0 0
+}
+
+#karma header .main_nav .upper_nav li:nth-child(4) {
+    margin-right: 8px
+}
+
+#karma header .main_nav .upper_nav li a {
+    padding: 10px 10px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700
+}
+
+#karma header .main_nav .upper_nav li.book_btn {
+    background-color: #2b2b2b;
+    background-image: url(../imgs/book-btn-bg.png);
+    background-size: cover
+}
+
+#karma header .main_nav .upper_nav li.book_btn img {
+    padding-left: 6px;
+    vertical-align: middle
+}
+
+#karma header .main_nav .upper_nav li.member_login_btn {
+    background-color: #8a6f47;
+    /*background-image: url(../imgs/member-login-btn-bg.png);*/
+    background-size: cover;
+    height: 39px
+}
+#karma header .main_nav .upper_nav li.member_login_btn a{
+    position: relative;
+    padding-right: 15px;
+}
+#karma header .main_nav .upper_nav li.member_login_btn .lock-icon {
+    padding-left: 6px;
+    vertical-align: middle;
+    background: url('../imgs/icons.png') -15px 2px no-repeat;
+    height: 25px;
+    width: 14px;
+    display: table;
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+
+#karma header .main_nav .header_nav {
+    text-align: right;
+    padding: 20px 0
+}
+
+#karma header .main_nav .header_nav li {
+    display: inline-block;
+    padding-left: 47px;
+    margin: 0 16px
+}
+
+#karma header .main_nav .header_nav li:nth-last-child(1) {
+    margin-right: 0!important
+}
+
+#karma header .main_nav .header_nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600
+}
+
+.page-id-3143 #karma header .main_nav .header_nav li a {
+    font-size: 14px
+}
+
+#karma header .main_nav .header_nav .navContent {
+    padding-bottom: 30px
+}
+
+#karma header .main_nav .header_nav .navContent li {
+    margin: 0
+}
+
+#karma header.fixed_header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100
+}
+
+#karma .nav_toggle {
+    position: relative;
+    float: right;
+    top: 15px;
+    cursor: pointer
+}
+
+#karma .nav_toggle .bar_group {
+    background-color: #8d7249;
+    color: #333!important;
+    padding: 9px 4px 8px 10px;
+    width: 37px
+}
+
+#karma .nav_toggle .bar {
+    background: #020000;
+    height: 3px;
+    width: 18px;
+    margin: 2px 0
+}
+
+#karma .pw-icon {
+    width: 100%;
+    height: 40px;
+    display: block!important;
+    opacity: 0
+}
+
+#karma .header_social_icons_group {
+    position: fixed;
+    top: 150px;
+    right: 0;
+    background: #1e2526;
+    display: none;
+    background: rgba(0, 0, 0, .4)
+}
+
+#karma .header_social_icons_group .icon {
+    display: block;
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    background-repeat: no-repeat!important
+}
+
+#karma .header_social_icons_group .icon.facebook {
+    background: url(../imgs/banner-social-sprite.png);
+    background-position: 5px 10px
+}
+
+#karma .header_social_icons_group .icon.twitter {
+    background: url(../imgs/banner-social-sprite.png);
+    background-position: 5px -20px
+}
+
+#karma .header_social_icons_group .icon.instagram {
+    background: url(../imgs/banner-social-sprite.png);
+    background-position: 5px -48px
+}
+
+#karma .header_social_icons_group .icon.flickr {
+    background: url(../imgs/banner-social-sprite.png);
+    background-position: 5px -77px
+}
+
+#karma .header_social_icons_group .icon.pinterest {
+    background: url(../imgs/banner-social-sprite.png);
+    background-position: 5px -105px
+}
+
+#karma .header_social_icons_group .icon.soundcloud {
+    background: url(../imgs/banner-social-sprite.png);
+    background-position: 5px -135px
+}
+
+#karma .header_social_icons_group .icon.karma {
+    background: url(../imgs/icons/karma-icon.png);
+    background-position: 5px 10px;
+    background-size: contain
+}
+
+#karma #banner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px
+}
+
+@media screen and (min-width:1280px) and (max-width:1440px) {
+    #karma #banner {
+        height: 476px
+    }
+}
+
+#karma #banner h2 {
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #fff
+}
+
+#karma #banner p {
+    font-size: 72px;
+    color: #fff;
+    font-weight: 400;
+    margin: -15px 0 25px 0;
+    font-style: italic;
+    font-family: Georgia, Times, 'Times New Roman', serif
+}
+
+#karma #banner.content_banner h2 {
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #fff
+}
+
+#karma #banner.content_banner p {
+    font-size: 72px;
+    color: #fff;
+    font-weight: 400;
+    margin: -15px 0 25px 0;
+    font-style: italic;
+    font-family: Georgia, Times, 'Times New Roman', serif
+}
+
+#karma #banner.content_banner .content img {
+    margin: 20px 0;
+    max-width: 200px
+}
+
+#karma #banner.home_banner h2 {
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 20px
+}
+
+#karma #banner.home_banner h2 span {
+    font-style: italic;
+    text-transform: none;
+    font-family: Georgia, Times, 'Times New Roman', serif
+}
+
+#karma #banner.home_banner p {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 100;
+    margin-bottom: 20px;
+    font-style: normal
+}
+
+#karma #banner.home_banner .content img {
+    margin: 20px 0;
+    max-width: 200px
+}
+
+#karma #banner.location_banner h2 {
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #fff
+}
+
+#karma #banner.location_banner p {
+    font-size: 72px;
+    color: #fff;
+    font-weight: 400;
+    margin: -15px 0 25px 0;
+    font-style: italic;
+    font-family: Georgia, Times, 'Times New Roman', serif
+}
+
+#karma #banner.location_banner .content img {
+    margin: 20px 0
+}
+
+#karma #banner.news_events_banner .content img {
+    margin: 20px 0;
+    max-width: 200px
+}
+
+#karma #banner .content {
+    padding: 130px 0 100px 0;
+    text-align: center;
+    max-width: 870px;
+    margin: 0 auto;
+    background: url(../imgs/fade.png) no-repeat;
+    background-size: contain;
+    background-position: bottom
+}
+
+.page-id-279 #karma #banner .content {
+    padding-top: 220px
+}
+
+#karma #banner .content select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 10px 30px 10px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 0;
+    border: 2px solid #fff;
+    background-image: url(../imgs/icons/dropdown-arrow-icon.png);
+    background-position: right 10px center;
+    background-repeat: no-repeat
+}
+
+#karma #banner .content select option {
+    color: #1b1b1b
+}
+
+#karma #banner .destination_search {
+    background-color: #121212;
+    background-color: rgba(18, 18, 18, .65);
+    padding: 25px 0
+}
+
+#karma #banner .destination_search p {
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0;
+    font-size: 14px!important;
+    font-weight: 700;
+    font-style: normal;
+    font-family: inherit
+}
+
+#karma #banner .destination_search p img {
+    vertical-align: middle
+}
+
+#karma #banner .destination_search ul {
+    color: #fff;
+    padding: 10px 0
+}
+
+#karma #banner .destination_search ul li {
+    display: inline-block;
+    vertical-align: middle
+}
+
+#karma #banner .destination_search ul li img {
+    vertical-align: middle
+}
+
+#karma #banner .destination_search ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+#karma #banner .destination_search .search_form_container {
+    position: relative
+}
+
+#karma #banner .destination_search .search_form_container input.search {
+    width: 100%;
+    background: 0 0;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+    font-size: 52px;
+    font-weight: 100;
+    color: #fff;
+    outline: 0;
+    padding-right: 60px
+}
+
+#karma #banner .destination_search .search_form_container button.search_submit {
+    border: 0;
+    background: 0 0;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 50%;
+    margin-top: -26px
+}
+
+@media (max-width:991px) {
+    #karma #banner .content {
+        padding: 150px 0 100px 0
+    }
+    #karma #banner.content_banner h2,
+    #karma #banner.location_banner h2 {
+        font-size: 38px
+    }
+    #karma #banner.content_banner p,
+    #karma #banner.location_banner p {
+        font-size: 52px
+    }
+    #karma #banner .destination_search .search_form_container input.search {
+        font-size: 36px
+    }
+    #karma #banner .destination_search .search_form_container button.search_submit {
+        width: 50px
+    }
+}
+
+#karma #find_destination_map {
+    padding: 50px 0;
+    background-color: #111110
+}
+
+#karma #find_destination_map .map_title {
+    width: 30%;
+    margin: 0 -4px;
+    font-size: 36px;
+    color: #fff;
+    font-style: italic;
+    display: inline-block;
+    vertical-align: middle
+}
+
+#karma #find_destination_map .filter_wrapper {
+    padding: 25px 0
+}
+
+#karma #find_destination_map .filter_wrapper .map_filters {
+    width: 70%;
+    display: inline-block;
+    text-align: right
+}
+
+#karma #find_destination_map .filter_brand,
+#karma #find_destination_map .filter_type {
+    display: inline-block;
+    vertical-align: middle
+}
+
+#karma #find_destination_map .filter_brand .brand_selector,
+#karma #find_destination_map .filter_brand .type_selector,
+#karma #find_destination_map .filter_type .brand_selector,
+#karma #find_destination_map .filter_type .type_selector {
+    border: 2px solid #fff;
+    background: 0 0;
+    color: #fff;
+    padding: 8px 35px 8px 20px;
+    background: url(../imgs/icons/dropdown-arrow-icon.png) center right 15px no-repeat;
+    cursor: pointer;
+    width: 200px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+#karma #find_destination_map .filter_brand ul,
+#karma #find_destination_map .filter_type ul {
+    display: none;
+    position: absolute;
+    margin: 0;
+    background: #ddd;
+    list-style: none;
+    padding: 0;
+    z-index: 5;
+    max-height: 200px;
+    overflow: scroll;
+    text-align: left
+}
+
+#karma #find_destination_map .filter_brand ul li,
+#karma #find_destination_map .filter_type ul li {
+    width: 200px;
+    background: #1b1b1b;
+    color: #8d7249;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px;
+    cursor: pointer;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
+}
+
+#karma #find_destination_map .filter_brand ul li:hover,
+#karma #find_destination_map .filter_type ul li:hover {
+    background: #fff
+}
+
+#karma #find_destination_map .filter_brand ul li.selected,
+#karma #find_destination_map .filter_type ul li.selected {
+    background-color: #8d7249;
+    color: #fff
+}
+
+#karma #find_destination_map img {
+    max-width: none
+}
+
+#karma #find_destination_map .destination_map {
+    height: 500px;
+    width: 100%
+}
+
+#karma #find_destination_map #map_infoBubble .title h3 {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400
+}
+
+#karma #find_destination_map #map_infoBubble .desc {
+    font-size: 12px;
+    margin: 5px 0
+}
+
+#karma #find_destination_map #map_infoBubble a.link {
+    font-size: 12px;
+    text-decoration: underline
+}
+
+#karma .global_search {
+    padding: 50px 0
+}
+
+#karma .global_search .item {
+    margin: 10px 0;
+    border-bottom: 1px solid #eee
+}
+
+#karma .two_column {
+    max-width: 1260px;
+    margin: 0 auto
+}
+
+#karma .two_column .left {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    margin: 0 -4px
+}
+
+#karma .two_column .left img {
+    margin: 0 auto;
+    display: block
+}
+
+#karma .two_column .right {
+    display: inline-block;
+    vertical-align: middle;
+    width: 49%
+}
+
+#karma .two_column .right img {
+    margin: 0 auto;
+    display: block
+}
+
+@media (max-width:1400px) {
+    #karma .two_column {
+        padding: 0 5%
+    }
+}
+
+@media (max-width:991px) {
+    #karma .two_column {
+        margin-bottom: 50px
+    }
+    #karma .two_column .left {
+        margin-bottom: 25px
+    }
+    #karma .two_column .inner {
+        padding: 0!important
+    }
+}
+
+#karma .news_list .search_filter {
+    padding: 20px;
+    background-color: #333;
+    text-align: center
+}
+
+#karma .news_list .search_filter p {
+    margin: 0;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600
+}
+
+#karma .news_list .search_filter label {
+    font-size: 30px;
+    font-weight: 300;
+    cursor: pointer;
+    vertical-align: middle;
+    color: #5f5f5f;
+    margin: 0 15px
+}
+
+#karma .news_list .search_filter label.selected {
+    color: #8d7249
+}
+
+#karma .news_list .search_filter input[type=checkbox] {
+    visibility: hidden;
+    opacity: 0
+}
+
+#karma .news_list .search_filter input[type=checkbox]:checked+label {
+    color: #fff!important
+}
+
+#karma .news_list .search_filter button {
+    border: 0;
+    background: 0 0;
+    cursor: pointer;
+    vertical-align: middle
+}
+
+#karma .news_list .search_filter a {
+    font-size: 30px;
+    font-weight: 300;
+    cursor: pointer;
+    vertical-align: middle
+}
+
+#karma .news_list .news_item {
+    text-align: center;
+    margin-bottom: 25px
+}
+
+#karma .news_list .news_item .left_content {
+    display: inline-block;
+    margin-left: -3px;
+    vertical-align: middle;
+    padding-right: 15px
+}
+
+#karma .news_list .news_item .left_content .article_image {
+    width: 280px;
+    height: 240px
+}
+
+#karma .news_list .news_item .right_content {
+    display: inline-block;
+    width: 70%;
+    margin-left: -1.5px;
+    vertical-align: middle;
+    padding-left: 15px;
+    text-align: left
+}
+
+#karma .news_list .news_item .right_content .title {
+    font-size: 30px;
+    font-style: italic;
+    color: #101820
+}
+
+#karma .news_list .news_item .right_content .description {
+    font-size: 20px;
+    color: #101820;
+    margin: 15px 0;
+    font-weight: 100
+}
+
+#karma .news_list .page_list {
+    margin: 70px auto
+}
+
+#karma .news_list #pagination {
+    padding: 50px 0;
+    background-color: #333
+}
+
+#karma .news_list #pagination .ccm-page-left,
+#karma .news_list #pagination .ccm-page-right {
+    font-size: 30px;
+    color: #5f5f5f;
+    top: -10px;
+    font-weight: 300
+}
+
+#karma .news_list #pagination .numbers {
+    color: #5f5f5f;
+    font-size: 18px
+}
+
+#karma .news_list #pagination .numbers a {
+    color: #5f5f5f
+}
+
+#karma .news_list #pagination .currentPage.active.numbers {
+    color: #8d7249
+}
+
+#karma .ba_promo_form,
+#karma .contact_form_container,
+#karma .enquiry_form_container,
+#karma .enquiryspa_form_container,
+#karma .spa_form_container {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background-color: rgba(51, 51, 51, .85)
+}
+
+#karma .ba_promo_form #contact_form,
+#karma .contact_form_container #contact_form,
+#karma .enquiry_form_container #contact_form,
+#karma .enquiryspa_form_container #contact_form,
+#karma .spa_form_container #spa_form {
+    width: 90%;
+    max-width: 600px;
+    position: relative;
+    top: 50px;
+    margin: auto;
+    background: #1b1b1b;
+    padding: 25px
+}
+
+#karma .ba_promo_form #contact_form h2.form_title,
+#karma .contact_form_container #contact_form h2.form_title,
+#karma .enquiry_form_container #contact_form h2.form_title,
+#karma .enquiryspa_form_container #contact_form h2.form_title,
+#karma .spa_form_container #spa_form h2.form_title {
+    color: #fff;
+    margin-top: 0;
+    display: inline-block;
+    vertical-align: middle
+}
+
+#karma .ba_promo_form #contact_form input,
+#karma .ba_promo_form #contact_form select,
+#karma .contact_form_container #contact_form input,
+#karma .contact_form_container #contact_form select,
+#karma .enquiry_form_container #contact_form input,
+#karma .enquiry_form_container #contact_form select,
+#karma .enquiryspa_form_container #contact_form input,
+#karma .enquiryspa_form_container #contact_form select,
+#karma .spa_form_container #spa_form input,
+#karma .spa_form_container #spa_form select {
+    display: block;
+    width: 100%
+}
+
+#karma .ba_promo_form #contact_form input[type=email],
+#karma .ba_promo_form #contact_form input[type=text],
+#karma .contact_form_container #contact_form input[type=email],
+#karma .contact_form_container #contact_form input[type=text],
+#karma .enquiry_form_container #contact_form input[type=email],
+#karma .enquiry_form_container #contact_form input[type=text],
+#karma .enquiryspa_form_container #contact_form input[type=email],
+#karma .enquiryspa_form_container #contact_form input[type=text],
+#karma .spa_form_container #spa_form input[type=email],
+#karma .spa_form_container #spa_form input[type=text] {
+    border: 0;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    background: #363636;
+    color: #fff;
+    -webkit-appearance: none
+}
+
+@media screen and (min-width:320px) and (max-width:667px) {
+    .enquiry_form_container #contact_form {
+        padding-top: 5px!important
+    }
+    .enquiry_form_container h2 {
+        font-size: 16px!important
+    }
+    .enquiry_form_container input[type=select],
+    .enquiry_form_container input[type=text] {
+        padding: 5px 10px!important;
+        font-size: 14px!important
+    }
+    .enquiry_form_container .cf label {
+        width: 50px!important;
+        float: left!important
+    }
+    .enquiry_form_container .cf input {
+        width: 10px!important;
+        margin-top: 15px!important;
+        float: left!important
+    }
+}
+
+#karma .ba_promo_form #contact_form input#website,
+#karma .contact_form_container #contact_form input#website,
+#karma .enquiry_form_container #contact_form input#website,
+#karma .enquiryspa_form_container #contact_form input#website,
+#karma .spa_form_container #spa_form input#website {
+    display: none!important
+}
+
+#karma .ba_promo_form #contact_form input[type=checkbox],
+#karma .contact_form_container #contact_form input[type=checkbox],
+#karma .enquiry_form_container #contact_form input[type=checkbox],
+#karma .enquiryspa_form_container #contact_form input[type=checkbox],
+#karma .spa_form_container #spa_form input[type=checkbox] {
+    display: inline-block;
+    width: initial
+}
+
+#karma .ba_promo_form #contact_form span,
+#karma .contact_form_container #contact_form span,
+#karma .enquiry_form_container #contact_form span,
+#karma .enquiryspa_form_container #contact_form span,
+#karma .spa_form_container #spa_form span {
+    color: #fff;
+    font-size: 14px
+}
+
+#karma .ba_promo_form #contact_form select,
+#karma .contact_form_container #contact_form select,
+#karma .enquiry_form_container #contact_form select,
+#karma .enquiryspa_form_container #contact_form select,
+#karma .spa_form_container #spa_form select {
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 0;
+    border-radius: 0;
+    background-color: #333;
+    color: #fff;
+    background-image: url(../imgs/icons/dropdown-arrow-icon.png);
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+    -moz-appearance: none;
+    -webkit-appearance: none
+}
+
+#karma .ba_promo_form #contact_form textarea,
+#karma .contact_form_container #contact_form textarea,
+#karma .enquiry_form_container #contact_form textarea,
+#karma .enquiryspa_form_container #contact_form textarea,
+#karma .spa_form_container #spa_form textarea {
+    display: block;
+    width: 100%;
+    border: 0;
+    background-color: #333;
+    padding: 10px;
+    color: #fff
+}
+
+#karma .ba_promo_form #contact_form label,
+#karma .contact_form_container #contact_form label,
+#karma .enquiry_form_container #contact_form label,
+#karma .enquiryspa_form_container #contact_form label,
+#karma .spa_form_container #spa_form label {
+    color: #fff;
+    font-size: 12px;
+    display: inline-block;
+    width: 80%;
+    vertical-align: middle;
+    margin: 10px 0
+}
+
+#karma .ba_promo_form #contact_form .submit_btn,
+#karma .contact_form_container #contact_form .submit_btn,
+#karma .enquiry_form_container #contact_form .submit_btn,
+#karma .enquiryspa_form_container #contact_form .submit_btn,
+#karma .spa_form_container #spa_form .submit_btn {
+    margin-top: 15px
+}
+
+#karma .ba_promo_form #contact_form .close_btn,
+#karma .contact_form_container #contact_form .close_btn,
+#karma .enquiry_form_container #contact_form .close_btn,
+#karma .enquiryspa_form_container #contact_form .close_btn,
+#karma .spa_form_container #spa_form .close_btn {
+    height: 25px;
+    width: 25px;
+    background-size: contain;
+    background-image: url(../imgs/icons/close-icon-rounded.png);
+    float: right;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle
+}
+
+#karma .ba_promo_form #contact_form .error_message,
+#karma .contact_form_container #contact_form .error_message,
+#karma .enquiry_form_container #contact_form .error_message,
+#karma .enquiryspa_form_container #contact_form .error_message,
+#karma .spa_form_container #spa_form .error_message {
+    display: none;
+    border: 1px solid red;
+    padding: 15px;
+    margin-bottom: 10px
+}
+
+#karma .ba_promo_form #contact_form .error_message li,
+#karma .contact_form_container #contact_form .error_message li,
+#karma .enquiry_form_container #contact_form .error_message li,
+#karma .enquiryspa_form_container #contact_form .error_message li,
+#karma .spa_form_container #spa_form .error_message li {
+    color: red
+}
+
+#karma .ba_promo_form #contact_form .success_message,
+#karma .contact_form_container #contact_form .success_message,
+#karma .enquiry_form_container #contact_form .success_message,
+#karma .enquiryspa_form_container #contact_form .success_message,
+#karma .spa_form_container #spa_form .success_message {
+    border: 1px solid;
+    color: #fff;
+    font-size: 21px
+}
+
+#karma #book_online_select h2 {
+    color: #8d7249
+}
+
+#karma #book_online_select p {
+    color: #8d7249
+}
+
+#karma #book_online_select select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 11px 0 10px 10px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #54565b;
+    border-radius: 0;
+    border: 0;
+/*    background-image: url(../imgs/icons/dropdown-arrow-icon.png);
+    background-position: right 10px center;
+    background-repeat: no-repeat;*/
+    cursor: pointer;
+    text-align: center;
+    width: 183px;
+    padding-right: 30px;
+    height: 39px
+}
+#karma #book_online_select{
+    display: table;
+    position: relative;
+}
+#karma #book_online_select:after{
+    content: '';
+    background: url('../imgs/icons.png') -252px 2px no-repeat;
+    height: 9px;
+    width: 12px;
+    display: table;
+    position: absolute;
+    right: 11px;
+    top: 16px;
+}
+
+
+#karma .resort_search {
+    padding: 25px 0
+}
+
+#karma .resort_search .search_result_title {
+    margin: 25px 0!important;
+    word-break: break-word
+}
+
+#karma .resort_search .item_container {
+    width: 49%;
+    display: inline-block;
+    padding: 10px;
+    vertical-align: top
+}
+
+#karma .resort_search .item_container .content {
+    border: 1px solid #ddd;
+    padding: 20px
+}
+
+@media (max-width:768px) {
+    #karma #searchResults {
+        text-align: center
+    }
+    #karma .resort_search .item_container {
+        width: 100%%
+    }
+}
+
+#karma #flex_banner ul.slides {
+    padding: 0
+}
+
+#karma #flex_banner .content {
+    padding: 225px 0 130px 0;
+    text-align: initial;
+    background: url(../imgs/fade.png) no-repeat;
+    background-size: contain;
+    background-position: bottom
+}
+
+#karma #flex_banner .content h1,
+#karma #flex_banner .content h2,
+#karma #flex_banner .content h3,
+#karma #flex_banner .content h4,
+#karma #flex_banner .content h5,
+#karma #flex_banner .content h6,
+#karma #flex_banner .content ol,
+#karma #flex_banner .content p,
+#karma #flex_banner .content ul {
+    color: #fff
+}
+
+#karma .calendar {
+    background-color: #333;
+    padding: 100px 0
+}
+
+#karma .calendar .main {
+    max-width: 600px;
+    margin: auto
+}
+
+#karma .calendar h2,
+#karma .calendar h3 {
+    font-weight: 400
+}
+
+#karma .calendar .fc-calendar .fc-head {
+    color: #8d7249
+}
+
+#karma .calendar .fc-calendar .fc-row>div.fc-today {
+    background: #8d7249
+}
+
+#karma .calendar .fc-calendar .fc-row>div.fc-content:hover:after {
+    color: #8d7249
+}
+
+#karma .calendar .custom-header {
+    border-top: 5px solid #8d7249
+}
+
+#karma .calendar .custom-content-reveal span.custom-content-close {
+    background: #8d7249
+}
+
+#karma .calendar .custom-content-reveal h4 {
+    border-top: 5px solid #8d7249
+}
+
+#karma .calendar .custom-header nav span:before {
+    color: #8d7249
+}
+
+#karma .cta_banner {
+    position: relative
+}
+
+#karma .cta_banner .content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%
+}
+
+#karma .cta_banner .content h2,
+#karma .cta_banner .content h4 {
+    color: #fff
+}
+
+#karma .cta_banner .content h2,
+#karma .cta_banner .content h3 {
+    font-size: 30px;
+    font-style: italic
+}
+
+#karma .cta_banner .content h4 {
+    margin: 5px 0 15px 0
+}
+
+#karma .cta_banner .cta_banner_overlay {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(../imgs/cta-banner-overlay.png);
+    background: rgba(0, 0, 0, .8)
+}
+
+#karma #carousel_cta_section {
+    padding: 50px 0;
+    margin: 0 auto;
+    position: relative
+}
+
+#karma #carousel_cta_section .carousel_container {
+    position: relative
+}
+
+#karma #carousel_cta_section .carousel {
+    padding: 25px 25px 0 25px
+}
+
+#karma #carousel_cta_section .carousel .image {
+    height: 250px
+}
+
+#karma #carousel_cta_section .carousel .content {
+    padding: 20px
+}
+
+#karma #carousel_cta_section .carousel h2 {
+    font-size: 30px;
+    font-style: italic;
+    color: #101820
+}
+
+#karma #carousel_cta_section .carousel p {
+    font-size: 18px;
+    color: #262626;
+    padding: 10px 0;
+    margin: 5px 0
+}
+
+#karma #carousel_cta_section .carousel button {
+    border: 0;
+    background: 0 0;
+    border: 3px solid #101820;
+    padding: 15px 25px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #101820;
+    cursor: pointer;
+    margin-top: 15px;
+    text-transform: uppercase;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+
+#karma #carousel_cta_section .carousel button:hover {
+    background-color: #101820;
+    color: #fff
+}
+
+#karma #carousel_cta_section .flex-direction-nav li {
+    list-style-type: none
+}
+
+#karma #carousel_cta_section .flex-prev {
+    /*background: url(../imgs/icons/slider-arrow-left.png) 5px center no-repeat;xx*/
+
+    background: url('../imgs/icons.png') -111px 2px no-repeat;
+    height: 47px;
+    width: 25px;
+    /*display: table;*/
+
+    left: 0;
+    text-indent: -9999em;
+    left: -30px;
+    opacity: 1;
+    z-index: 2;
+    margin-top: -100px
+}
+
+#karma #carousel_cta_section .flex-next {
+    /*background: url(../imgs/icons/slider-arrow-right.png) 5px center no-repeat;*/
+
+    background: url('../imgs/icons.png') -140px 2px no-repeat;
+    height: 47px;
+    width: 25px;
+    /*display: table;*/
+
+    right: 0;
+    text-indent: 9999em;
+    right: -30px;
+    opacity: 1;
+    z-index: 2;
+    margin-top: -100px
+}
+
+#karma #carousel_cta_section:hover .flex-prev {
+    opacity: 1;
+    left: -30px
+}
+
+#karma #carousel_cta_section:hover .flex-next {
+    opacity: 1;
+    right: -30px
+}
+
+#karma #accomodation_slider,
+#karma #cuisine_slider {
+    padding: 50px
+}
+
+#karma #accomodation_slider .top_section,
+#karma #cuisine_slider .top_section {
+    padding: 30px;
+    background-color: #ebeced;
+    text-align: center
+}
+
+#karma #accomodation_slider .top_section .content,
+#karma #cuisine_slider .top_section .content {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center
+}
+
+#karma #accomodation_slider .top_section .content h2,
+#karma #cuisine_slider .top_section .content h2 {
+    font-size: 36px;
+    font-weight: 400;
+    font-style: italic;
+    color: #101820
+}
+
+#karma #accomodation_slider .top_section .slider_btns a,
+#karma #cuisine_slider .top_section .slider_btns a {
+    margin: 0 3px 5px
+}
+
+#karma #accomodation_slider .top_section .slider_btns a.flex-active,
+#karma #cuisine_slider .top_section .slider_btns a.flex-active {
+    background-color: #101820;
+    color: #fff
+}
+
+#karma #accomodation_slider .bottom_section .slider,
+#karma #cuisine_slider .bottom_section .slider {
+    background-color: #101820;
+    position: relative
+}
+
+#karma #accomodation_slider .bottom_section .slider .left,
+#karma #cuisine_slider .bottom_section .slider .left {
+    width: 50%;
+    display: inline-block;
+    height: 450px;
+    margin-right: -4.5px;
+    vertical-align: top
+}
+
+#karma #accomodation_slider .bottom_section .slider .right,
+#karma #cuisine_slider .bottom_section .slider .right {
+    width: 50%;
+    display: inline-block;
+    padding: 50px;
+    background-color: #101820;
+    vertical-align: top;
+    position: relative
+}
+
+#karma #accomodation_slider .bottom_section .slider .right ul,
+#karma #cuisine_slider .bottom_section .slider .right ul {
+    padding-left: 30px;
+    margin: 15px 0
+}
+
+#karma #accomodation_slider .bottom_section .slider .right ul li,
+#karma #cuisine_slider .bottom_section .slider .right ul li {
+    color: #4f8196;
+    list-style-type: disc
+}
+
+#karma #accomodation_slider .bottom_section .slider ul,
+#karma #cuisine_slider .bottom_section .slider ul {
+    padding: 0
+}
+
+#karma #accomodation_slider .bottom_section .slider ul.flex-direction-nav,
+#karma #cuisine_slider .bottom_section .slider ul.flex-direction-nav {
+    list-style-type: none!important
+}
+
+#karma #accomodation_slider .bottom_section .slider ul.flex-direction-nav a.flex-prev,
+#karma #cuisine_slider .bottom_section .slider ul.flex-direction-nav a.flex-prev {
+    background: url(../imgs/icons/flex-arrow-prev.png) 5px center no-repeat;
+    left: -50px;
+    text-indent: 9999em;
+    opacity: 1
+}
+
+#karma #accomodation_slider .bottom_section .slider ul.flex-direction-nav a.flex-next,
+#karma #cuisine_slider .bottom_section .slider ul.flex-direction-nav a.flex-next {
+    background: url(../imgs/icons/flex-arrow-next.png) 5px center no-repeat;
+    right: -50px;
+    text-indent: 9999em;
+    opacity: 1
+}
+
+#karma #accomodation_slider .bottom_section .slider .flex-control-nav,
+#karma #cuisine_slider .bottom_section .slider .flex-control-nav {
+    text-align: left
+}
+
+#karma #accomodation_slider .bottom_section .right p {
+    font-weight: 400;
+    color: #fff
+}
+
+@media (max-width:991px) {
+    #karma #accomodation_slider,
+    #karma #cuisine_slider {
+        padding: 5%
+    }
+    #karma #accomodation_slider .flex-direction-nav,
+    #karma #cuisine_slider .flex-direction-nav {
+        display: none
+    }
+}
+
+#karma #welcome_booking {
+    background: #f2e6d6;
+    background-size: cover
+}
+
+#karma #welcome_booking .left {
+    width: 50%;
+    float: left;
+    padding: 35px 90px;
+    background: #f2e6d6
+}
+
+#karma #welcome_booking .left h1{
+font-size: 36px;
+color: #101820;
+margin-bottom: 15px;
+font-style: italic
+}
+#karma #welcome_booking .left h2 {
+font-size: 22px;
+color: #101820;
+margin-bottom: 15px;
+font-weight: 400;
+}
+
+#karma #welcome_booking .left h3 {
+    font-size: 26px;
+    color: #101820
+}
+
+#karma #welcome_booking .left h4 {
+    font-size: 20px;
+    color: #101820
+}
+
+#karma #welcome_booking .right {
+    width: 50%;
+    float: right
+}
+
+#karma #welcome_booking .right .content_upper {
+    padding: 35px 90px 50px 90px;
+    background-color: #101820
+}
+
+.home #karma #welcome_booking .right .content_upper {
+    min-height: 400px
+}
+
+#karma #welcome_booking .right h1,
+#karma #welcome_booking .right h2,
+#karma #welcome_booking .right .title {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 15px;
+    font-style: italic
+}
+
+#karma #welcome_booking .right p {
+    color: #fff
+}
+
+#karma #welcome_booking .right img {
+    display: block;
+    margin: 25px auto;
+    max-width: 100%
+}
+
+#karma #welcome_booking .right #find_destination_map {
+    height: 300px;
+    width: 100%;
+    margin: 25px 0 0 0;
+    padding: 0;
+    overflow: hidden
+}
+
+#karma #welcome_booking .right #find_destination_map .destination_map {
+    height: inherit;
+    width: inherit
+}
+
+#karma #welcome_booking .right #find_destination_map .destination_map .title {
+    display: inline-block
+}
+
+#karma #welcome_booking .right #find_destination_map .destination_map img {
+    display: initial;
+    margin: 0;
+    max-width: none
+}
+
+#karma #welcome_booking .right #find_destination_map .destination_map p {
+    color: #333
+}
+
+#karma #welcome_booking .right a {
+    transition: all .3s ease
+}
+
+#karma #welcome_booking .right .best_value_btn {
+    height: 54px;
+    width: 169px;
+    background-image: url(../imgs/icons/LowestValueGuarantee.jpg);
+    background-color: #88704c;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    border: 2px solid #fff
+}
+
+#karma #welcome_booking .right a:hover .best_value_btn {
+    transition: all .3s ease;
+    background-image: url(../imgs/icons/LowestValueGuarantee_hover.jpg);
+    background-color: #fff
+}
+
+@media (max-width:991px) {
+    #karma #welcome_booking .right .content_upper {
+        padding: 50px 30px
+    }
+}
+
+#karma #testimonials {
+    padding: 50px;
+    position: relative
+}
+
+#karma #testimonials .left {
+    width: 60%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 25px;
+    margin: 0 -5px 0 0
+}
+
+#karma #testimonials .left .quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #101820;
+    margin-bottom: 20px;
+    position: relative;
+    font-weight: 300
+}
+
+#karma #testimonials .left .quote .open_quotes {
+    position: absolute;
+    left: -30px;
+    top: 0;
+    background: url('../imgs/icons.png') -86px 2px no-repeat;
+    height: 30px;
+    width: 23px
+}
+
+#karma #testimonials .left .quote .close_quotes {
+    position: absolute;
+    right: -40px;
+    bottom: 20px;
+    background: url('../imgs/icons.png') -63px 2px no-repeat;
+    height: 30px;
+    width: 23px
+}
+
+#karma #testimonials .left .name_location {
+    color: #8d7249;
+    font-size: 24px;
+    font-style: italic
+}
+
+#karma #testimonials .right {
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 25px
+}
+
+#karma #testimonials .right .image {
+    height: 300px
+}
+
+#karma .simple_banner {
+    background-color: #101820;
+    padding: 50px 0
+}
+
+#karma .simple_banner .content {
+    max-width: 768px;
+    margin: 0 auto;
+    text-align: center;
+    font-style: italic
+}
+
+#karma .simple_banner .content h2 {
+    font-size: 36px;
+    color: #8d7249
+}
+
+#karma .simple_banner .openQuote {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(../imgs/icons/open-quote-gold.png) no-repeat center;
+    height: 30px;
+    width: 30px
+}
+
+#karma .simple_banner .closeQuote {
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    background: url(../imgs/icons/close-quote-gold.png) no-repeat center;
+    height: 30px;
+    width: 30px
+}
+
+#karma .hotel_resort_search {
+    background: url(../imgs/welcome-booking-bg.jpg);
+    background-size: cover
+}
+
+#karma .hotel_resort_search .left {
+    width: 75%;
+    padding: 50px 90px;
+    display: inline-block;
+    margin-left: -1.5px
+}
+
+#karma .hotel_resort_search .right {
+    width: 25%;
+    padding: 100px 30px;
+    background-color: #101820;
+    display: inline-block;
+    margin-left: -3px
+}
+
+#karma .hotel_resort_search .right p {
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px
+}
+
+#karma .hotel_resort_search .right img {
+    vertical-align: middle
+}
+
+#karma .hotel_resort_search .right .form_container {
+    position: relative
+}
+
+#karma .hotel_resort_search .right form input[type=text] {
+    width: 100%;
+    padding: 15px 65px 8px 0;
+    border: 0;
+    background: 0 0;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 100
+}
+
+#karma .hotel_resort_search .right form button.submit {
+    -webkit-appearance: none;
+    border: 0;
+    background: 0 0;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 50%;
+    margin-top: -40px
+}
+
+#karma .login_form_wrapper {
+    padding-top: 120px;
+    background-color: #1b1b1b
+}
+
+#karma #login-form {
+    padding: 50px 0;
+    color: #362f2d;
+    background: #8d7249;
+    background: rgba(219, 168, 73, .8);
+    padding: 25px;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ccc;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    position: relative;
+    border-radius: 4px;
+    width: 50%;
+    float: left
+}
+
+#karma #login-form fieldset {
+    border: 0
+}
+
+#karma #login-form label {
+    color: #fff
+}
+
+#karma #login-form .login_title {
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize
+}
+
+#karma #login-form input#register,
+#karma #login-form input#save,
+#karma #login-form input#submit {
+    border: 0;
+    background: rgba(0, 0, 0, .5);
+    box-shadow: none;
+    border-radius: 2px;
+    padding: 15px;
+    text-shadow: none;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    width: 100%;
+    -moz-opacity: .8;
+    opacity: .9;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
+}
+
+#karma #login-form input#register,
+#karma #login-form input#save {
+    width: 150px
+}
+
+#karma #login-form input#register:hover,
+#karma #login-form input#save:hover,
+#karma #login-form input#submit:hover {
+    -moz-opacity: 1;
+    opacity: 1
+}
+
+#karma #login-form input[type=password],
+#karma #login-form input[type=text] {
+    padding: 15px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 2px;
+    background: #fff;
+    background: rgba(255, 255, 255, .4);
+    color: #fff;
+    width: 100%
+}
+
+#karma #login-form .login_bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1
+}
+
+#karma #login-form ::-webkit-input-placeholder {
+    color: red
+}
+
+#karma #login-form :-moz-placeholder {
+    color: red
+}
+
+#karma #login-form ::-moz-placeholder {
+    color: red
+}
+
+#karma #login-form :-ms-input-placeholder {
+    color: red
+}
+
+@media (max-width:950px) {
+    #karma .ccm-forgot-password-form,
+    #karma .ccm-login-form {
+        width: 100%;
+        float: none;
+        margin: 10px 0
+    }
+}
+
+#karma .forgot_password_form {
+    width: 50%;
+    float: right;
+    background: #8d7249;
+    background: rgba(219, 168, 73, .8);
+    padding: 25px;
+    color: #fff;
+    border-radius: 4px;
+    margin-top: 50px
+}
+
+#karma .forgot_password_form h2 {
+    color: #ccc
+}
+
+#karma .forgot_password_form p {
+    color: #fff;
+    padding: 10px 0 20px 0;
+    font-size: 22px;
+    padding-bottom: 0
+}
+
+#karma .forgot_password_form label {
+    font-size: 14px;
+    color: #fff
+}
+
+#karma .forgot_password_form input {
+    padding: 15px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 2px;
+    background: #fff;
+    background: rgba(255, 255, 255, .4);
+    color: #fff;
+    width: 100%;
+    max-width: 320px;
+    display: block;
+    margin-bottom: 10px
+}
+
+#karma .forgot_password_form input#submit {
+    border: 0;
+    background: rgba(0, 0, 0, .5);
+    box-shadow: none;
+    border-radius: 2px;
+    padding: 15px;
+    text-shadow: none;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    width: 100%;
+    -moz-opacity: .8;
+    opacity: .9;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
+}
+
+#karma .forgot_password_form input#submit:hover {
+    -moz-opacity: 1;
+    opacity: 1
+}
+
+#karma .forgot_password_form .forgot_pass_text {
+    margin: 4px 0;
+    padding: 0
+}
+
+#karma .forgot_password_form .forgot_pass_toggle {
+    text-align: center
+}
+
+#karma #gallery {
+    padding: 50px 0;
+    background: url(../imgs/welcome-booking-bg.jpg);
+    background-size: cover
+}
+
+#karma #gallery .gallery_title {
+    color: #333
+}
+
+#karma #gallery .view_gallery {
+    text-align: center;
+    margin-top: 50px
+}
+
+#karma #gallery .gallery_block_slider {
+    position: relative
+}
+
+#karma #gallery .gallery_block_slider .gallery_image {
+    height: 200px
+}
+
+#karma #gallery .gallery_block_slider .flex-control-paging li a {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #8d7249;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: 0 0;
+    box-shadow: none;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+
+#karma #gallery .gallery_block_slider .flex-control-paging li a.flex-active {
+    background-color: #8d7249
+}
+
+#karma #gallery .gallery_block_slider .flex-control-nav li {
+    display: inline-block
+}
+
+#karma #gallery .gallery_block_slider .flex-direction-nav a.flex-prev {
+    background: url(../imgs/icons/gallery-arrow-prev.png) 5px center no-repeat;
+    text-indent: 9999em;
+    opacity: 1
+}
+
+#karma #gallery .gallery_block_slider .flex-direction-nav a.flex-next {
+    background: url(../imgs/icons/gallery-arrow-next.png) 5px center no-repeat;
+    text-indent: 9999em;
+    opacity: 1
+}
+
+#karma #gallery ul {
+    padding: 0;
+    list-style: none
+}
+
+#karma #contact_section .contacts_list {
+    background-color: #101820
+}
+
+#karma #contact_section .contacts_list li {
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px;
+    cursor: pointer;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
+}
+
+#karma #contact_section .contacts_list li.active {
+    color: #8d7249
+}
+
+#karma #contact_section .contact_details {
+    padding: 80px 0
+}
+
+#karma #contact_section .contact_details .left {
+    width: 59%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 50px
+}
+
+#karma #contact_section .contact_details .left .contacts {
+    font-size: 36px;
+    font-weight: 400;
+    color: #8d7249;
+    font-style: italic;
+    margin-bottom: 25px
+}
+
+#karma #contact_section .contact_details .left select#contact_select {
+    padding: 10px 60px 10px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #101820;
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 0;
+    border: 2px solid #101820;
+    background-image: url(../imgs/icons/dropdown-arrow-icon-blue.png);
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    -moz-appearance: none;
+    -webkit-appearance: none
+}
+
+#karma #contact_section .contact_details .left .resort_contact_info {
+    display: none;
+    margin-bottom: 20px
+}
+
+#karma #contact_section .contact_details .left .resort_contact_info.show {
+    display: block
+}
+
+#karma #contact_section .contact_details .left .title {
+    font-style: italic;
+    margin-top: 15px;
+    font-weight: 400
+}
+
+#karma #contact_section .contact_details .left .resort_info {
+    margin: 15px 0;
+    vertical-align: middle
+}
+
+#karma #contact_section .contact_details .left .resort_info img {
+    vertical-align: middle
+}
+
+#karma #contact_section .contact_details .left .resort_info .icon {
+    width: 50px;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle
+}
+
+#karma #contact_section .contact_details .left .resort_info.one .icon {
+    vertical-align: top
+}
+
+#karma #contact_section .contact_details .left .resort_info .desc {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    color: #101820;
+    font-size: 18px;
+    font-weight: 100;
+    max-width: 300px
+}
+
+#karma #contact_section .contact_details .left .resort_info .email {
+    font-size: 26px;
+    font-weight: 100;
+    color: #8d7249;
+    border-bottom: 1px solid #8d7249;
+    word-break: break-word
+}
+
+#karma #contact_section .contact_details .left .resort_info .fax,
+#karma #contact_section .contact_details .left .resort_info .tel {
+    font-size: 26px;
+    font-weight: 100;
+    color: #8d7249;
+    display: inline-block;
+    vertical-align: middle
+}
+
+#karma #contact_section .contact_details .right {
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 50px
+}
+
+#karma #contact_section .contact_details .right img.resort_image {
+    display: none
+}
+
+#karma .offer_container {
+    width: 49%;
+    display: inline-block;
+    padding: 50px 0;
+    vertical-align: top
+}
+
+#karma .offer_container .offer {
+    margin: auto;
+    max-width: 85%
+}
+
+#karma .offer_container .offer img {
+    display: block;
+    width: 100%
+}
+
+#karma .offer_container .offer .content {
+    padding: 35px;
+    text-align: left;
+    background-color: #fdf4e2
+}
+
+@media (min-width:768px) and (max-width:1250px) {
+    #karma .offer_container {
+        width: 49%
+    }
+}
+
+@media (max-width:768px) {
+    #karma .offer_container {
+        width: 100%
+    }
+}
+
+#karma .signature_cocktails {
+    background-color: #101820;
+    background-image: url(../imgs/cocktails.png);
+    background-size: cover;
+    padding: 100px 0;
+    color: #fff
+}
+
+#karma .signature_cocktails .drink_option {
+    margin: 20px 0;
+    text-align: left;
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle
+}
+
+#karma .signature_cocktails .image {
+    display: inline-block;
+    width: 23%;
+    vertical-align: middle;
+    text-align: center;
+    padding-right: 10px
+}
+
+#karma .signature_cocktails .content {
+    display: inline-block;
+    width: 75%;
+    vertical-align: middle;
+    padding-left: 10px
+}
+
+#karma #karma_music {
+    background-image: url(/files/7314/3740/2799/karma-music-bg.jpg);
+    background-repeat: no-repeat;
+    padding: 50px 0 50px 0;
+    background-size: cover
+}
+
+#karma #karma_music .left {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    margin: 0 -4px;
+    padding-right: 25px
+}
+
+#karma #karma_music .right {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    padding-left: 25px
+}
+
+#karma #karma_music .section {
+    margin: 25px 0
+}
+
+#karma #karma_music .section .left_content {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    margin: 0 -4px;
+    padding-right: 10px
+}
+
+#karma #karma_music .section .right_content {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    padding-left: 10px
+}
+
+@media (max-width:991px) {
+    #karma #karma_music {
+        padding: 50px 20px
+    }
+    #karma #karma_music .inner .section {
+        margin: 50px 0
+    }
+    #karma #karma_music .inner .section .left_content {
+        width: 100%;
+        padding: 0
+    }
+    #karma #karma_music .inner .section .right_content {
+        width: 100%;
+        padding: 0
+    }
+}
+
+#karma #blocks_section .grid-sizer,
+#karma #blocks_section .grid_block {
+    width: 33.333%
+}
+
+#karma #blocks_section .grid-sizer .title,
+#karma #blocks_section .grid_block .title {
+    color: #fff
+}
+
+#karma #blocks_section .grid-sizer .title a,
+#karma #blocks_section .grid_block .title a {
+    color: #fff
+}
+
+#karma #blocks_section .grid_block {
+    padding: 25px;
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    background-size: cover!important
+}
+
+#karma #blocks_section .grid_block.page_link {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1)
+}
+
+#karma #blocks_section .grid_block.page_link:hover {
+    -moz-filter: none;
+    -webkit-filter: none;
+    filter: none
+}
+
+#karma #blocks_section .grid_block h3,
+#karma #blocks_section .grid_block p {
+    color: #333
+}
+
+#karma #blocks_section .grid_block p {
+    font-size: 18px
+}
+
+#karma #blocks_section .grid_block .grid_block_news h2 {
+    font-style: italic;
+    font-weight: 400;
+    color: #262626
+}
+
+.mobile_hidden {
+    display: none;
+    color: #fff
+}
+
+@media (max-width:991px) {
+    .mobile_hidden {
+        color: #000
+    }
+    #karma #blocks_section .grid_block {
+        width: 100%
+    }
+    #karma #blocks_section .grid_block {
+        background-size: cover!important
+    }
+    #karma #blocks_section .grid_block:hover {
+        background-size: cover!important
+    }
+}
+
+#karma #twitter {
+    background-color: #fff;
+    padding: 50px 0;
+    width: 50%;
+    display: inline-block;
+    margin: 0 -5px 0 0;
+    vertical-align: middle
+}
+
+#karma #twitter .right {
+    display: inline-block;
+    width: 25%;
+    vertical-align: middle;
+    padding-right: 25px;
+    color: #8d7249;
+    font-size: 18px
+}
+
+#karma #twitter .right p {
+    font-weight: 300;
+    font-style: italic;
+    padding-top: 0;
+    margin: 0
+}
+
+#karma #twitter .right .username {
+    font-style: none;
+    font-weight: 600
+}
+
+#karma #twitter .right .twitter_logo {
+    width: 20%;
+    float: left;
+    vertical-align: top;
+
+    background: url('../imgs/icons.png') -215px 2px no-repeat;
+    height: 29px;
+    width: 29px;
+    /*display: table;*/
+}
+
+#karma #twitter .right .twitter_follow {
+    width: 80%;
+    float: right;
+    vertical-align: top
+}
+
+#karma #twitter .left {
+    display: inline-block;
+    width: 74%;
+    vertical-align: middle;
+    padding-left: 25px
+}
+
+#karma #twitter h3 {
+    font-size: 24px;
+    font-weight: 100
+}
+
+#karma #twitter a {
+    color: #8d7249
+}
+
+#karma #instagram {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle
+}
+
+#karma #instagram .insta_slider {
+    margin: 0
+}
+
+#karma #instagram .follow_slide {
+    text-align: center;
+    font-weight: 300;
+    font-style: italic;
+    padding: 50px 0;
+    border: 1px solid #eee;
+    font-size: 18px
+}
+
+#karma #instagram .follow_slide span {
+    color: #8d7249;
+    font-weight: 500
+}
+
+#karma #galleryPage li {
+    display: inline-block!important;
+    width: 25%;
+    margin: 0 -4px 0 0;
+    height: 300px
+}
+
+#karma #galleryPage .gallery_image {
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+#karma #galleryPage .paging {
+    padding: 25px;
+    text-align: center
+}
+
+#karma #galleryPage .paging .numbers {
+    padding: 2px 8px
+}
+
+#karma #galleryPage .paging .numbers.active {
+    background: #8d7249;
+    color: #fff
+}
+
+#karma #galleryPage .paging .numbers.active a {
+    color: #fff
+}
+
+#karma footer {
+    background: url(../imgs/footer-bg.jpg);
+    background-size: cover;
+    margin-bottom: -20px
+}
+
+#karma footer .upper_footer {
+    padding: 50px 0;
+    border-bottom: 1px solid #2f2f2f
+}
+
+#karma footer .col {
+    float: left;
+    width: 24%
+}
+
+#karma footer .col.one,
+#karma footer .col.two {
+    float: left!important;
+    width: 24%
+}
+
+#karma footer .col.four {
+    width: 28%
+}
+
+#karma footer .gold_footer_header {
+    font-size: 18px;
+    color: #8d7249;
+    font-weight: 600;
+    margin: 15px 0;
+    text-transform: uppercase
+}
+
+#karma footer .gold_footer_header a {
+    color: #8d7249
+}
+
+#karma footer .col h3 {
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    margin: 10px 0
+}
+
+#karma footer .col h3 a {
+    color: #fff
+}
+
+#karma footer .col li {
+    list-style-type: none;
+    padding: 6px 0 6px 10px;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic
+}
+
+#karma footer .col li a {
+    color: #fff
+}
+
+#karma footer .col li.app_download_btn {
+    width: 49%;
+    display: inline-block;
+    padding: 0
+}
+
+#karma footer .col li.app_download_btn img {
+    max-width: 100%;
+    height: auto
+}
+
+#karma footer .form_container {
+    position: relative
+}
+
+#karma footer .form_container #newsletter_signup input[type=email],
+#karma footer .form_container #newsletter_signup input[type=text] {
+    border: 0;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    background: #363636;
+    color: #fff;
+    -webkit-appearance: none
+}
+
+#karma footer .form_container #newsletter_signup input[type=email]::-webkit-input-placeholder,
+#karma footer .form_container #newsletter_signup input[type=text]::-webkit-input-placeholder {
+    font-size: 12px;
+    text-transform: uppercase
+}
+
+#karma footer .form_container #newsletter_signup input[type=email]:-moz-placeholder,
+#karma footer .form_container #newsletter_signup input[type=text]:-moz-placeholder {
+    font-size: 12px;
+    text-transform: uppercase
+}
+
+#karma footer .form_container #newsletter_signup input[type=email]::-moz-placeholder,
+#karma footer .form_container #newsletter_signup input[type=text]::-moz-placeholder {
+    font-size: 12px;
+    text-transform: uppercase
+}
+
+#karma footer .form_container #newsletter_signup input[type=email]:-ms-input-placeholder,
+#karma footer .form_container #newsletter_signup input[type=text]:-ms-input-placeholder {
+    font-size: 12px;
+    text-transform: uppercase
+}
+
+#karma footer .form_container #newsletter_signup select {
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 10px 60px 10px 10px;
+    font-size: 12px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #363636;
+    border-radius: 0;
+    border: 0;
+    background-image: url(../imgs/icons/dropdown-arrow-icon.png);
+    background-position: right 10px center;
+    background-repeat: no-repeat
+}
+
+#karma footer .form_container #newsletter_signup button {
+    font-size: 12px;
+    padding: 10px 20px
+}
+
+#karma footer .lower_footer {
+    padding: 25px 0
+}
+
+#karma footer .lower_footer .left {
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle
+}
+
+#karma footer .lower_footer .left .copy_date {
+    color: #9f9f9f;
+    font-size: 14px;
+    width: 100%
+}
+
+#karma footer .lower_footer .right {
+    display: inline-block;
+    width: 69%;
+    vertical-align: middle;
+    text-align: right
+}
+
+#karma footer .lower_footer .right .social_icons_group .icon {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    vertical-align: middle
+}
+
+#karma footer .lower_footer .right .social_icons_group .icon.karma {
+    background: url(../imgs/social-icons-sprite.png);
+    background-position: 3px -1px
+}
+
+#karma footer .lower_footer .right .social_icons_group .icon.facebook {
+    background: url(../imgs/social-icons-sprite.png);
+    background-position: -45px -1px
+}
+
+#karma footer .lower_footer .right .social_icons_group .icon.twitter {
+    background: url(../imgs/social-icons-sprite.png);
+    background-position: -90px -1px
+}
+
+#karma footer .lower_footer .right .social_icons_group .icon.gplus {
+    background: url(../imgs/social-icons-sprite.png);
+    background-position: -140px -1px
+}
+
+#karma footer .lower_footer .right .social_icons_group .icon.instagram {
+    background: url(../imgs/social-icons-sprite.png);
+    background-position: -185px -1px
+}
+
+#karma footer .lower_footer .right .social_icons_group .icon.flickr {
+    background: url(../imgs/social-icons-sprite.png);
+    background-position: -235px -1px
+}
+
+#karma footer .lower_footer .right .social_icons_group .icon.pinterest {
+    background: url(../imgs/social-icons-sprite.png);
+    background-position: -283px -1px
+}
+
+#karma footer .lower_footer .right .social_icons_group .icon.youtube {
+    background: url(../imgs/social-icons-sprite.png);
+    background-position: -330px -1px
+}
+
+#karma footer .lower_footer .right .social_icons_group .icon.soundcloud {
+    background: url(../imgs/social-icons-sprite.png);
+    background-position: -378px -1px
+}
+
+#karma footer .lower_footer .right .social_icons_group .icon.tripadvisor {
+    background: url(../imgs/social-icons-sprite.png);
+    background-position: -426px -1px
+}
+
+#karma footer .lower_footer .right .staff_login {
+    display: inline-block;
+    color: #777;
+    background-color: #333;
+    padding: 8px 35px 8px 15px;
+    font-size: 10px;
+    font-weight: 700;
+    position: relative;
+/*    background-image: url(../imgs/icons/lock-icon-grey.png);
+    background-position: right 10px center;*/  
+}
+#karma footer .lower_footer .right .staff_login .icon{
+    background: url('../imgs/icons.png') -33px 2px no-repeat;
+    height: 23px;
+    width: 10px;
+    /*display: table;*/
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+#karma .quick_enquire {
+    position: fixed;
+    bottom: 0;
+    z-index: 200;
+    margin: auto;
+    display: table;
+    width: 1010px
+}
+
+#karma .quick_enquire li {
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    padding: 7.5px 15px;
+    margin: 0 0 0 -4px;
+    float: left
+}
+
+#karma .quick_enquire li.live_chat_btn {
+    background-color: #8d7249;
+    padding: 0;
+    margin: 0;
+    vertical-align: bottom
+}
+
+#karma .quick_enquire li.email_enquiry_btn {
+    background-color: #8d7249
+}
+
+#karma .services_slider .top_section {
+    padding: 50px 0;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+#karma .services_slider .top_section .left {
+    width: 50%;
+    display: inline-block;
+    margin-left: -4.5px;
+    vertical-align: middle;
+    padding-right: 25px
+}
+
+#karma .services_slider .top_section .left p {
+    font-weight: 400
+}
+
+#karma .services_slider .top_section .right {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 25px
+}
+
+#karma .services_slider .top_section .slide_controls a {
+    color: #fff;
+    font-weight: 600
+}
+
+#karma .services_slider .top_section .slide_controls a.flex-active {
+    color: #8d7249
+}
+
+#karma .services_slider .top_section .slide_controls a span {
+    color: #8d7249
+}
+
+#karma .services_slider .top_section .slide_controls li {
+    border-bottom: 1px solid #616161;
+    padding: 6px 0;
+    display: block;
+    margin-right: 10px
+}
+
+#karma .services_slider .top_section .slide_controls .left {
+    padding-right: 0;
+    vertical-align: top
+}
+
+#karma .services_slider .top_section .slide_controls .right {
+    padding-left: 0;
+    vertical-align: top
+}
+
+#karma .services_slider .bottom_section {
+    padding: 25px 0;
+    position: relative
+}
+
+#karma .services_slider .bottom_section .left {
+    width: 50%;
+    display: inline-block;
+    margin-left: -4.5px;
+    vertical-align: middle;
+    padding-right: 25px
+}
+
+#karma .services_slider .bottom_section .right {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 25px
+}
+
+#karma .services_slider .bottom_section .right .image {
+    height: 350px;
+    max-width: 500px;
+    margin: 0 auto;
+    background-size: contain!important;
+    background-repeat: no-repeat!important
+}
+
+#karma .services_slider .bottom_section:after {
+    bottom: 100%;
+    left: 66%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-bottom-color: #87714d;
+    border-width: 30px
+}
+
+#karma .services_slider .bottom_section ul.flex-direction-nav {
+    display: none
+}
+
+#karma #events_calendar {
+    padding: 50px 0
+}
+
+#karma #events_calendar select {
+    display: block;
+    width: 100%;
+    padding: 20px 60px 20px 20px;
+    max-width: 400px;
+    margin: auto;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 10px 30px 10px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #101820;
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 0;
+    border: 2px solid #101820;
+    background-image: url(../imgs/icons/dropdown-arrow-icon-blue.png);
+    background-position: right 10px center;
+    background-repeat: no-repeat
+}
+
+#karma #events_calendar .event {
+    float: left;
+    padding: 25px;
+    box-sizing: border-box
+}
+
+#karma #events_calendar .event .lower_content {
+    padding: 25px;
+    background-color: #fdf4e2
+}
+
+#karma #events_calendar .event img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    width: 100%
+}
+
+#karma .text_image_block {
+    background: url(../imgs/welcome-booking-bg.jpg);
+    background-size: cover
+}
+
+#karma .text_image_block .left {
+    padding: 50px 90px;
+    width: 50%;
+    display: inline-block;
+    margin-left: -1.5px;
+    vertical-align: middle
+}
+
+#karma .text_image_block .right {
+    padding: 50px 90px;
+    width: 50%;
+    display: inline-block;
+    margin-left: -3px;
+    vertical-align: middle;
+    min-height: 475px
+}
+
+@media (max-width:991px) {
+    #karma .left,
+    #karma .right,
+    #karma .services_slider .top_section .left {
+        width: 100%!important;
+        padding-left: 5%!important;
+        padding-right: 5%!important;
+        float: none!important;
+        margin: 0 auto
+    }
+    #social_section {
+        width: 90%;
+        display: table;
+        margin: 0 auto
+    }
+    #social_section #twitter {
+        float: left!important;
+        width: 40%!important
+    }
+    #social_section #instagram {
+        float: right!important;
+        width: 40%!important
+    }
+    #karma #banner .social_icons_group {
+        top: 83px
+    }
+    #karma #carousel_cta_section .carousel {
+        padding: 40px
+    }
+    #karma #carousel_cta_section .flex-prev {
+        left: -6px
+    }
+    #karma #carousel_cta_section .flex-next {
+        right: -6px
+    }
+    #karma #carousel_cta_section:hover .flex-prev {
+        left: -6px
+    }
+    #karma #carousel_cta_section:hover .flex-next {
+        right: -6px
+    }
+    #karma #testimonials {
+        padding: 100px 20px
+    }
+    #karma .text_image_block .right {
+        margin-left: 0
+    }
+    #karma #twitter .right .twitter_logo {
+        width: 100%;
+        text-align: center
+    }
+    #karma #twitter .right .twitter_follow {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px
+    }
+    #karma #twitter .left {
+        text-align: center
+    }
+    #karma footer .upper_footer .col {
+        margin-top: 50px
+    }
+    #karma footer .upper_footer .col.two {
+        margin-top: 25px
+    }
+    #karma .hide_mobile {
+        display: none
+    }
+}
+
+.ui-accordion .ui-accordion-content {
+    padding: 0!important
+}
+
+#karma .fa {
+    font-family: FontAwesome
+}
+
+.accordion #location .lower_section .left {
+    margin: 0 0 0 -5px
+}
+
+#location .accordion-content .lower_section .left {
+    width: 100%
+}
+
+#accordion-location-gallery,
+#location.accordion-content .lower_section .resort_details_section .left {
+    margin-left: -9px!important
+}
+
+#accordion-location-gallery {
+    padding-bottom: 80px
+}
+
+#location.location2 {
+    padding: 0;
+    display: table
+}
+
+#karma footer .col.left.footer_header {
+    float: none
+}
+
+#karma footer .col.four {
+    margin-top: -44px
+}
+
+#karma footer .footer_header .gold_footer_header {
+    margin-bottom: 5px
+}
+
+.booking_nav,
+.nav_toggle_booking,
+.nav_toggle_contact {
+    display: none
+}
+
+.cdsComponent.cdsLocName {
+    max-width: none!important;
+    overflow: auto
+}
+
+.booking_form_top_margin {
+    margin: 10px auto 10px
+}
+
+.page-type-location .booking_form_top_margin {
+    margin: 0 auto
+}
+
+.booking-bar-wrapper {
+    width: 100%;
+    background: #f2e6d6
+}
+
+#type-home .booking-bar-wrapper {
+    background: #fff
+}
+
+@media (max-width:991px) {
+    #karma header .main_nav .upper_nav li:nth-of-type(3) {
+        width: 100%;
+        padding-top: 2vw;
+        padding-bottom: 5vw
+    }
+    #karma footer .lower_footer .left .copy_date {
+        text-align: center
+    }
+    #carousel_cta_section .button-wrapper {
+        text-align: center
+    }
+    .flex-direction-nav a.flex-next:before {
+        content: '\f105'
+    }
+    #karma #accomodation_slider .top_section .slider_btns a,
+    #karma #cuisine_slider .top_section .slider_btns a {
+        min-width: 70vw
+    }
+    #karma .services_slider .bottom_section:after {
+        left: 0;
+        right: 0;
+        margin: 0 auto
+    }
+    #location.location2 {
+        margin: 0
+    }
+    #deviceCover {
+        height: auto!important
+    }
+    #enterCode {
+        padding-top: 0!important
+    }
+    .social_icons_group {
+        margin-bottom: 2em
+    }
+    .cdsROW.white.wide {
+        width: 87%!important
+    }
+    #karma footer .col.four {
+        padding-top: 9vw
+    }
+    #karma footer .col.left.one,
+    #karma footer .col.left.two {
+        width: 50%!important
+    }
+    #karma footer .footer_header .gold_footer_header {
+        margin-bottom: 15px
+    }
+    #karma .accordion .white_button {
+        background-color: #101820;
+        border: 2px solid #101820;
+        padding: 15px 25px;
+        text-transform: uppercase;
+        font-size: 14px;
+        color: #fff;
+        cursor: pointer;
+        font-weight: 700;
+        display: inline-block;
+        text-decoration: none;
+        -webkit-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out
+    }
+    .accordion #location {
+        padding: 0;
+        margin: 0
+    }
+    #accordion-location-gallery {
+        padding-bottom: 0
+    }
+    #karma #location_page_nav {
+        display: none
+    }
+    .accordion-content .content>h2,
+    .accordion-content .left>h2 {
+        display: none
+    }
+    #karma .accordion-heading {
+        padding: 7vw 0 7vw 2vw
+    }
+    .accordion-heading .icon {
+        width: 14vw;
+        padding-left: 4vw;
+        padding-right: 0
+    }
+    .accordion-heading .indicator::before {
+        color: #000;
+        background-color: #fff;
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        content: "\f055"
+    }
+    .accordion-heading.expanded .indicator::before {
+        content: "\f056";
+        line-height: 4vw
+    }
+    #karma .type-content .main_content li.accordion-content,
+    #location_nav_mobile,
+    #welcome_booking.welcome-booking-hidden .right,
+    .accordion-content {
+        display: none
+    }
+    #karma .accordion-content .button_outline.black {
+        margin-top: 5vw
+    }
+    #accordion-location-gallery .accordion-content {
+        display: block;
+        height: 0
+    }
+    .accordion #weddings {
+        background-color: #fff;
+        color: #000
+    }
+    #karma .accordion .cta_banner .cta_banner_overlay {
+        background: 0 0
+    }
+    #karma .accordion .white_button {
+        margin-top: 7vw
+    }
+    #karma .accordion #accomodation_slider,
+    #karma .accordion #cuisine_slider {
+        padding: 0
+    }
+    #karma .container.for-accordion {
+        width: 100%
+    }
+    #karma #carousel_cta_section.for-accordion {
+        padding: 0
+    }
+    #accordion-weddings .icon {
+        padding-left: 3vw
+    }
+    #karma .container.wide.accordion-gallery {
+        width: 100%
+    }
+    #accordion-location .accordion-heading,
+    #accordion-location .accordion-heading .indicator::before {
+        color: #8d714c
+    }
+    #accordion-location .accordion-heading .indicator::before {
+        background-color: transparent
+    }
+    #accordion-accommodation,
+    #accordion-accommodation .accordion-heading .indicator::before,
+    #accordion-cuisine,
+    #accordion-cuisine .accordion-heading .indicator::before,
+    .accordion-content.even,
+    .accordion-heading.even,
+    .accordion-heading.even .indicator::before {
+        background-color: #ebeced
+    }
+    #accordion-location-gallery {
+        background-color: #8d714c
+    }
+    #accordion-location-gallery .accordion-heading,
+    #accordion-services .accordion-heading {
+        color: #fff
+    }
+    #accordion-services {
+        background-size: cover
+    }
+    #accordion-location-gallery .accordion-heading .indicator::before,
+    #accordion-services .accordion-heading .indicator::before {
+        color: #fff;
+        background-color: transparent
+    }
+    #accordion-weddings .cta_banner {
+        background-image: none!important
+    }
+    #karma #accordion-weddings .white_text {
+        color: #000!important
+    }
+    .carousel_container.cf .accordion-heading .icon {
+        height: 0;
+        display: none
+    }
+    #karma #carousel_cta_section .accordion-content .carousel,
+    #karma .accordion-content #accomodation_slider .top_section,
+    #karma .accordion-content #cuisine_slider .top_section,
+    #karma .accordion-content .cta_banner .content,
+    #karma .accordion-content .services_slider .top_section {
+        padding-top: 0
+    }
+    #karma .accordion-content #accomodation_slider .top_section .content>p,
+    #karma .accordion-content #cuisine_slider .top_section .content>p,
+    #karma .accordion-content .cta_banner .content>p,
+    #karma .accordion-content .services_slider .top_section .left>p {
+        margin-top: 0
+    }
+    #karma .accordion-content .cta_banner .content p:last-of-type {
+        margin-bottom: 0
+    }
+    #karma #accordion-location-gallery .button_outline.gold {
+        border-color: #fff;
+        color: #fff
+    }
+    #karma .accordion-content .cta_banner .content {
+        padding-bottom: 40px
+    }
+    #karma #carousel_cta_section .accordion-content .carousel .content {
+        padding-bottom: 0
+    }
+    .gallery_info {
+        display: none
+    }
+    #gallery_thumb_controls,
+    #gallery_thumb_controls2 {
+        margin-top: 1em
+    }
+    #karma footer .upper_footer .col.footer_header,
+    #karma footer .upper_footer .col.left.half {
+        margin-top: 0!important
+    }
+    #karma footer .gold_footer_header {
+        margin: 5px 0 10px!important
+    }
+    .col.four.left {
+        clear: both;
+        margin-top: 50px
+    }
+    #karma .col.one.left.half {
+        padding-right: 0!important
+    }
+    #karma .nav_toggle_booking,
+    #karma .nav_toggle_contact {
+        display: inline-block;
+        color: #fff;
+        font-family: Georgia, Times, 'Times New Roman', serif;
+        font-size: 17px;
+        font-style: italic;
+        padding: 15px 0;
+        margin: 0 22vw 0 0;
+        height: 50px;
+        position: absolute;
+        top: 15px;
+        right: 0;
+        width: 160px;
+        text-align: right
+    }
+    .booking_nav>div {
+        padding-top: 75px
+    }
+    .slider_menu_controls {
+        border: 2px solid #000;
+        overflow: auto
+    }
+    .room_type {
+        float: left;
+        width: 80%
+    }
+    .menu_arrow {
+        float: left;
+        width: 20%;
+        border-left: 1px solid #000
+    }
+    .accordion #location .lower_section .resort_details_section .brand_logo {
+        display: none
+    }
+    #karma select#location_nav_mobile {
+        display: none
+    }
+    #type-location .main_content #ctrlSiteHeader_ctrlBooking_ctrlBookingDevice {
+        display: none
+    }
+    #gallery_thumb_controls,
+    #gallery_thumb_controls2 {
+        display: none
+    }
+    #location .lower_section .gallery_slider li {
+        display: block
+    }
+    .accordion .flex-direction-nav a:before {
+        color: #aaa
+    }
+    #karma .accordion .services_slider .bottom_section ul.flex-direction-nav {
+        display: block
+    }
+    .social_icons_group a:last-of-type {
+        display: block;
+        margin-top: 3vw
+    }
+    i.fa-tint {
+        margin-left: 1vw
+    }
+}
+
+@media only screen and (max-width:991px) and (min-width:768px) {
+    .accordion-heading .indicator {
+        margin-top: 0
+    }
+    #karma .accordion-heading {
+        font-size: 2vw;
+        padding: 2vw
+    }
+    #bookingDevice>fieldset>label {
+        margin-bottom: 3em
+    }
+    #karma #accomodation_slider .top_section .slider_btns a,
+    #karma #cuisine_slider .top_section .slider_btns a {
+        min-width: none
+    }
+    #karma header .main_nav .upper_nav li:nth-of-type(3) {
+        width: 100%;
+        padding-top: 2vw;
+        padding-bottom: 3vw
+    }
+}
+
+@media only screen and (min-device-width :320px) and (max-device-width :374px) and (orientation :portrait) {
+    #karma header .logo {
+        max-width: 65px
+    }
+    #karma header .logo {
+        padding: 22px 0
+    }
+    #karma .nav_toggle_booking,
+    #karma .nav_toggle_contact {
+        font-size: 15px;
+        margin: 0 25vw 0 0
+    }
+}
+
+@media (min-width:991px) {
+    .accordion-heading {
+        display: none
+    }
+}
+
+.banner_slider_top_padding {
+    padding: 70px 0 0 0
+}
+
+img.ccm-captcha-image {
+    display: block
+}
+
+.ccm-spacer {
+    clear: both;
+    font-size: 1px;
+    line-height: 1px
+}
+
+div.ccm-pagination {
+    text-align: center;
+    position: relative
+}
+
+div.ccm-pagination span.ccm-page-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 0!important
+}
+
+div.ccm-pagination span.ccm-page-right span {
+    margin-right: 0
+}
+
+div.ccm-pagination span.ccm-page-left {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+div.ccm-pagination span {
+    margin-right: 4px
+}
+
+.ccm-ui div.ccm-pagination span {
+    margin-right: 0
+}
+
+div.pagination ul span.ltgray,
+div.pagination ul strong {
+    display: block;
+    padding: 0 14px;
+    float: left;
+    line-height: 34px;
+    border-right: 1px solid #ddd;
+    text-decoration: none
+}
+
+.ccm-layout-table .ccm-layout-col {
+    float: left
+}
+
+.ccm-layout .first .ccm-layout-col-spacing {
+    margin-left: 0!important
+}
+
+.ccm-layout .last .ccm-layout-col-spacing {
+    margin-right: 0!important
+}
+
+.ccm-error {
+    font-weight: 700;
+    color: red
+}
+
+.ccm-required {
+    font-weight: 700;
+    color: #3975ad
+}
+
+div#ccm-overlay {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    -moz-opacity: .7;
+    opacity: .7;
+    height: 100%;
+    width: 100%;
+    display: none
+}
+
+.ccm-input-time-wrapper select {
+    width: 55px!important;
+    margin-right: 4px!important
+}
+
+.ccm-input-date {
+    width: 80px!important;
+    margin-right: 4px!important
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%!important
+}
+
+@media (min-width:1024px) {
+    #karma .nav_toggle,
+    .mobile_dropdown {
+        display: none
+    }
+}
+
+@media (max-width:1023px) {
+    #karma .simple_banner .content h2 {
+        font-size: 24px
+    }
+    #karma header .logo {
+        float: left;
+        width: 50%;
+        max-width: 85px
+    }
+    #karma header .main_nav {
+        float: none;
+        width: 100%;
+        clear: both;
+        display: none
+    }
+    #karma header .upper_nav li {
+        text-align: center
+    }
+    #karma header .upper_nav li a {
+        font-size: 16px;
+        padding: 5px 0!important;
+        font-weight: 600!important
+    }
+    .bookingMask {
+        margin-bottom: 30px!important
+    }
+    .main_nav.main_nav1 .upper_nav {
+        text-align: center!important
+    }
+    .main_nav.main_nav1 .upper_nav li {
+        display: table;
+        text-align: center;
+        width: 100%
+    }
+    .header_nav.desktop {
+        display: none!important
+    }
+    .mobile_dropdown {
+        display: table;
+        width: 100%;
+        color: #8d714c;
+        position: relative;
+        text-align: center
+    }
+    .mobile_dropdown a {
+        color: #fff!important;
+        margin: 10px auto;
+        display: table;
+        font-size: 110%
+    }
+    .mobile_dropdown .content {
+        position: absolute;
+        width: calc(100% + 40px);
+        height: calc(100vh - 280px);
+        overflow-y: scroll;
+        background-color: #000;
+        font-weight: 100!important;
+        left: -20px
+    }
+    .mobile_dropdown .content:after {
+        content: url(http://www.karmasanctumclub.com/accordion/down.png);
+        left: 0;
+        background-color: #000;
+        width: 100%;
+        display: table;
+        padding: 10px 0 5px;
+        position: fixed;
+        bottom: 0
+    }
+    .mobile_dropdown .content .group_title {
+        display: table;
+        width: 100%;
+        font-weight: 700;
+        margin-top: 10px
+    }
+    .accordion-heading .indicator {
+        float: right;
+        margin-right: 2vw;
+        width: 1vw;
+        height: 0;
+        background-color: #000;
+        font-size: 3vw;
+        color: #fff;
+        font-weight: 700;
+        text-align: center;
+        line-height: 4.5vw;
+        margin-top: -.8vw!important
+    }
+    .accordion .flex-control-nav {
+        display: none
+    }
+    #location.location2 {
+        width: 100%
+    }
+    #accordion-location-gallery {
+        display: none
+    }
+    .carousel_container .accordion-heading .indicator:before {
+        color: #000!important;
+        background-color: transparent!important
+    }
+    .even .carousel_container .accordion-heading.even,
+    .odd .accordion-heading,
+    .odd .carousel_container .accordion-heading.odd {
+        background-color: #ebeced;
+        color: #101820!important
+    }
+    .even .carousel_container .accordion-heading.even .indicator:before,
+    .odd .accordion-heading .indicator:before,
+    .odd .carousel_container .accordion-heading.odd .indicator:before {
+        background-color: transparent!important;
+        color: #8d714c!important
+    }
+    .even .accordion-heading,
+    .even .carousel_container .accordion-heading.odd,
+    .odd .carousel_container .accordion-heading.even {
+        background-color: #8a6f47;
+        color: #faf8f6!important
+    }
+    .even .accordion-heading .indicator:before,
+    .even .carousel_container .accordion-heading.odd .indicator:before,
+    .odd .carousel_container .accordion-heading.even .indicator:before {
+        background-color: transparent!important;
+        color: #fff!important
+    }
+    #karma #gallery .gallery_block_slider .gallery_image {
+        width: 380px
+    }
+    .accordion-heading .icon {
+        float: left;
+        margin-top: 12px;
+        width: 9vw!important;
+        padding: 0!important
+    }
+    .accordion-heading .icon .fa:nth-child(2) {
+        margin-left: 15px;
+        margin-top: -2px
+    }
+    .accordion-heading .icon .fa {
+        width: 50px!important;
+        text-align: center!important;
+        line-height: 0!important;
+        float: left
+    }
+    .accordion-heading .icon .fa:before {
+        font-size: 20px!important
+    }
+}
+
+@media (max-width:767px) {
+    .flex-direction-nav {
+        display: none
+    }
+    .accordion-heading .icon {
+        display: none
+    }
+    .accordion-heading .indicator {
+        margin-right: 6vw;
+        font-size: 5.5vw
+    }
+}
+
+@media all and (max-width:374px) {
+    #karma .nav_toggle .bar_group {
+        padding: 9px 0 8px 7px;
+        width: 32px
+    }
+    #karma .nav_toggle .bar {
+        height: 2px
+    }
+}
+
+@media screen and (max-width:480px) {
+    #karma #banner {
+        min-height: 220px!important;
+        height: 62vh
+    }
+    #karma #banner .content {
+        padding-top: 150px
+    }
+    @media screen and (max-height:680px) {
+        #karma #banner .content p {
+            display: none
+        }
+    }
+    .page-template-page-resort #banner .content {
+        padding-top: 125px!important
+    }
+    #karma #banner.home_banner p {
+        font-size: 18px;
+        text-shadow: 0 0 1px #000
+    }
+    #karma #banner.home_banner h2 {
+        margin-bottom: 40px;
+        line-height: 100%
+    }
+    #karma header .logo {
+        padding: 15px 0 3px 0;
+        width: 120px;
+        max-width: 150px
+    }
+    #blocks_section .grid_block:nth-last-child(0),
+    #karma #welcome_booking .right .content_upper,
+    #testimonials,
+    .home #karma #banner .content img {
+        display: none
+    }
+    #karma #blocks_section .grid_block.page_link {
+        height: 150px!important
+    }
+    #karma .simple_banner .content h2 {
+        font-size: 22px;
+        padding: 0 30px
+    }
+}

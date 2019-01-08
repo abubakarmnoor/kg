@@ -1,0 +1,4112 @@
+/*
+Theme Name: Karma
+Description: Custom theme for Karmagroup.com
+*/
+/***********************************************************************************************
+    with newsletter error msg. 04/06/2016 12:17
+    http://meyerweb.com/eric/tools/css/reset/ 
+	  v2.0 | 20110126
+	  License: none (public domain)
+
+***********************************************************************************************/
+/* line 20, main.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 31, main.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 35, main.scss */
+body {
+  line-height: normal;
+}
+
+/* line 39, main.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 43, main.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 48, main.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 53, main.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 61, main.scss */
+div#ccm-highlighter {
+  z-index: 995 !important;
+}
+
+
+/**********************************************************************************************
+
+Newsletter pop up form.
+
+***********************************************************************************************/
+
+div.error { 
+
+position: absolute;
+    z-index: 1;
+    background-color: #8d7249;
+    color: white;
+    right: 0;
+    font-size: 12px;
+    padding: 3px 5px;
+    margin-top:-47px;
+
+}
+
+
+/***********************************************************************************************
+
+       Radium One Social Icons
+
+***********************************************************************************************/
+
+#newsletter_signup .confirmprocess{
+  display: none;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0; 
+  bottom: 0;
+  left: 0;
+  background-color: #111;
+  padding: 19px;
+  color: #fff;
+}
+
+#newsletter_signup.working .confirmprocess{
+  display: block;
+}
+
+#newsletter_signup.done .confirmprocess{
+  display: block;
+}
+
+#newsletter_signup.done .text-inworking{
+  display: none;
+}
+
+#newsletter_signup .message-validator{
+    position: absolute;
+    z-index: 1;
+    background-color: red;
+    color: white;
+    right: 0;
+    font-size: 12px;
+    padding: 3px 5px;
+}
+
+/* line 84, main.scss */
+.header_social_icons_group {
+  position: fixed;
+  right: 0;
+  z-index: 100;
+  top: 154px;
+}
+/* line 96, main.scss */
+.header_social_icons_group #fb_content_3 .pw-widget {
+  width: 40px !important;
+}
+/* line 100, main.scss */
+.header_social_icons_group #fb_content_3 .pw-button {
+  display: block !important;
+  margin: 0px !important;
+  background: url(../imgs/icons/banner-social-new.png) !important;
+}
+/* line 106, main.scss */
+.header_social_icons_group #fb_content_3 .pw-button-twitter {
+  cursor: pointer;
+  width: 40px!important;
+  height: 39px!important;
+  background-position: 0 -33px !important;
+}
+/* line 113, main.scss */
+.header_social_icons_group #fb_content_3 .pw-button-facebook {
+  cursor: pointer;
+  width: 40px!important;
+  height: 39px!important;
+  background-position: 0 -2px !important;
+}
+/* line 120, main.scss */
+.header_social_icons_group #fb_content_3 .pw-button.follow-instagram {
+  cursor: pointer;
+  width: 40px!important;
+  height: 34px!important;
+  background-position: 0 -65px !important;
+}
+/* line 127, main.scss */
+.header_social_icons_group #fb_content_3 .pw-button-pinterest {
+  cursor: pointer;
+  width: 40px!important;
+  height: 35px!important;
+  background-position: 0 -121px !important;
+}
+/* line 134, main.scss */
+.header_social_icons_group #fb_content_3 .pw-button-googleplus {
+  cursor: pointer;
+  width: 40px!important;
+  height: 33px!important;
+  background-position: 0 -95px !important;
+}
+/* line 141, main.scss */
+.header_social_icons_group #fb_content_3 .pw-button.sound-cloud {
+  cursor: pointer;
+  width: 40px!important;
+  height: 39px!important;
+  background-position: 0 -150px !important;
+}
+/* line 148, main.scss */
+.header_social_icons_group #fb_content_3 .pw-button-post {
+  cursor: pointer;
+  width: 40px!important;
+  height: 38px!important;
+  background-position: 0 -229px !important;
+}
+/* line 155, main.scss */
+.header_social_icons_group #fb_content_3 .pw-button-twitter:hover {
+  cursor: pointer;
+  width: 40px!important;
+  height: 39px!important;
+  background-position: 40px -33px !important;
+}
+/* line 162, main.scss */
+.header_social_icons_group #fb_content_3 .pw-button-facebook:hover {
+  cursor: pointer;
+  width: 40px!important;
+  height: 39px!important;
+  background-position: 40px -2px !important;
+}
+/* line 169, main.scss */
+.header_social_icons_group #fb_content_3 .pw-button.follow-instagram:hover {
+  cursor: pointer;
+  width: 40px!important;
+  height: 34px!important;
+  background-position: 40px -65px !important;
+}
+/* line 176, main.scss */
+.header_social_icons_group #fb_content_3 .pw-button-pinterest:hover {
+  cursor: pointer;
+  width: 40px!important;
+  height: 35px!important;
+  background-position: 40px -121px !important;
+}
+/* line 183, main.scss */
+.header_social_icons_group #fb_content_3 .pw-button-googleplus:hover {
+  cursor: pointer;
+  width: 40px!important;
+  height: 33px!important;
+  background-position: 40px -95px !important;
+}
+/* line 190, main.scss */
+.header_social_icons_group #fb_content_3 .pw-button.sound-cloud:hover {
+  cursor: pointer;
+  width: 40px!important;
+  height: 39px!important;
+  background-position: 40px -150px !important;
+}
+/* line 197, main.scss */
+.header_social_icons_group #fb_content_3 .pw-button-post:hover {
+  cursor: pointer;
+  width: 39px!important;
+  height: 38px!important;
+  background-position: 40px -229px !important;
+}
+/* line 204, main.scss */
+.header_social_icons_group #fb_content_3 .pw-button .pw-icon, .header_social_icons_group #fb_content_3 .r1f-icon-instagram {
+  display: none !important;
+}
+/* line 208, main.scss */
+.header_social_icons_group #fb_content_3 .pw-transparency {
+  background-color: lightgrey !important;
+  opacity: .3 !important;
+}
+
+/* line 220, main.scss */
+.fixed_nav {
+  position: fixed;
+  top: 133px;
+  z-index: 200;
+}
+
+/***********************************************************************************************
+
+       Location Page (Location Block)
+
+***********************************************************************************************/
+/* line 232, main.scss */
+#location {
+  max-width: 1260px;
+  margin: 20px auto 0 auto;
+  padding: 50px 0 50px 0;
+}
+/* line 238, main.scss */
+#location .upper_section {
+  margin-bottom: 50px;
+}
+/* line 242, main.scss */
+#location .upper_section .left {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  margin: 0 -4px;
+  padding-right: 25px;
+}
+/* line 250, main.scss */
+#location .upper_section .left .title {
+  font-size: 36px;
+}
+/* line 255, main.scss */
+#location .upper_section .right {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  padding-left: 25px;
+}
+/* line 262, main.scss */
+#location .upper_section .right .title {
+  font-size: 36px;
+}
+/* line 271, main.scss */
+#location .lower_section .left {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  margin: 0 -5px 0 0;
+  margin-bottom: 25px;
+}
+/* line 280, main.scss */
+#location .lower_section .right {
+  display: inline-block;
+  vertical-align: top;
+  width: 55%;
+}
+/* line 287, main.scss */
+#location .lower_section .right #location_map {
+  height: 470px;
+}
+/* line 294, main.scss */
+#location .lower_section .right #location_map img {
+  max-width: none;
+  height: initial;
+}
+/* line 302, main.scss */
+#location .lower_section .right #location_map #map_infoBubble.infoBubble_location_block h3 {
+  font-size: 16px;
+  font-weight: 600;
+  font-style: italic;
+}
+/* line 308, main.scss */
+#location .lower_section .right #location_map #map_infoBubble.infoBubble_location_block p.desc {
+  font-size: 14px;
+  margin: 2px 0;
+  font-weight: 400;
+}
+/* line 316, main.scss */
+#location .lower_section .right .location_map {
+  height: 470px;
+}
+/* line 322, main.scss */
+#location .lower_section .resort_details_section {
+  padding: 30px;
+}
+/* line 326, main.scss */
+#location .lower_section .resort_details_section .left {
+  padding-right: 5px;
+}
+/* line 330, main.scss */
+#location .lower_section .resort_details_section .right {
+  padding-left: 5px;
+}
+/* line 335, main.scss */
+#location .lower_section .resort_details_section .resort_title {
+  font-size: 30px;
+  margin: 0;
+  font-style: italic;
+  font-weight: 400;
+  color: #101820;
+}
+/* line 343, main.scss */
+#location .lower_section .resort_details_section .resort_address {
+  margin-top: 0;
+  color: #101820;
+  font-size: 18px;
+}
+/* line 349, main.scss */
+#location .lower_section .resort_details_section .resort_phone {
+  color: #8d7249;
+  margin: 0;
+  font-size: 21px;
+}
+/* line 355, main.scss */
+#location .lower_section .resort_details_section .resort_email {
+  color: #8d7249;
+  border-bottom: 1px solid #8d7249;
+  display: inline-block;
+}
+/* line 361, main.scss */
+#location .lower_section .resort_details_section .weather {
+  display: inline-block;
+  width: 50%;
+}
+/* line 366, main.scss */
+#location .lower_section .resort_details_section .weather .left {
+  display: inline-block;
+  padding-right: 0;
+}
+/* line 372, main.scss */
+#location .lower_section .resort_details_section .weather .left .weather_condition {
+  background: url("../imgs/icons/weather-conditions.png");
+  height: 50px;
+  background-repeat: no-repeat;
+}
+/* line 380, main.scss */
+#location .lower_section .resort_details_section .weather .right {
+  display: inline-block;
+  padding-left: 5px;
+}
+/* line 385, main.scss */
+#location .lower_section .resort_details_section .weather .right .temp {
+  font-size: 30px;
+  font-style: italic;
+  color: #101820;
+}
+/* line 391, main.scss */
+#location .lower_section .resort_details_section .weather .right .condition {
+  margin: 0;
+  font-size: 18px;
+}
+/* line 398, main.scss */
+#location .lower_section .resort_details_section .resort_local_time {
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
+}
+/* line 404, main.scss */
+#location .lower_section .resort_details_section .resort_local_time .left {
+  padding-right: 5px;
+  width: initial;
+}
+/* line 409, main.scss */
+#location .lower_section .resort_details_section .resort_local_time .right {
+  padding-left: 5px;
+  width: initial;
+}
+/* line 414, main.scss */
+#location .lower_section .resort_details_section .resort_local_time .right .time {
+  font-size: 30px;
+  margin: 0;
+  font-style: italic;
+  font-weight: 400;
+  color: #101820;
+}
+/* line 422, main.scss */
+#location .lower_section .resort_details_section .resort_local_time .right .meridies {
+  margin: 0;
+  font-size: 18px;
+  text-indent: 7px;
+}
+/* line 430, main.scss */
+#location .lower_section .resort_details_section .brand_logo {
+  display: block;
+  text-align: right;
+  margin-left: auto;
+  pointer-events: none;
+}
+/* line 442, main.scss */
+#location .lower_section .gallery button {
+  margin-top: 25px;
+}
+/* line 447, main.scss */
+#location .lower_section #gallery_thumb_controls,
+#location .lower_section #gallery_thumb_controls2 {
+  position: relative;
+  overflow: hidden;
+}
+/* line 452, main.scss */
+#location .lower_section #gallery_thumb_controls .gallery_thumb_icon,
+#location .lower_section #gallery_thumb_controls2 .gallery_thumb_icon {
+  height: 70px;
+  cursor: pointer;
+}
+#location .lower_section #gallery_thumb_controls .gallery_thumb_icon, #location .lower_section #gallery_thumb_controls2 .gallery_thumb_icon{width:125px;}
+/* line 457, main.scss */
+#location .lower_section #gallery_thumb_controls a.flex-next, 
+#location .lower_section #gallery_thumb_controls a.flex-prev,
+#location .lower_section #gallery_thumb_controls2 a.flex-next, 
+#location .lower_section #gallery_thumb_controls2 a.flex-prev {
+  background: black;
+  /* Fallback */
+  background: rgba(0, 0, 0, 0.7);
+  height: 70px;
+  width: 60px;
+  top: 20px;
+  text-indent: 9999em;
+  opacity: 1;
+}
+/* line 467, main.scss */
+#location .lower_section #gallery_thumb_controls a.flex-prev,
+#location .lower_section #gallery_thumb_controls2 a.flex-prev {
+  left: 0 !important;
+  background-image: url("../imgs/icons/gallery-arrow-prev.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* line 474, main.scss */
+#location .lower_section #gallery_thumb_controls a.flex-next,
+#location .lower_section #gallery_thumb_controls2 a.flex-next {
+  right: 0 !important;
+  background-image: url("../imgs/icons/gallery-arrow-next.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* line 483, main.scss */
+#location .lower_section .gallery_slider {
+  position: relative;
+  overflow: hidden;
+}
+/* line 488, main.scss */
+#location .lower_section .gallery_slider li {
+  display: none;
+}
+/* line 492, main.scss */
+#location .lower_section .gallery_slider .gallery_image {
+  height: 470px;
+  width: 100%;
+}
+/* line 497, main.scss */
+#location .lower_section .gallery_slider .gallery_info {
+  padding: 30px 50px;
+}
+/* line 501, main.scss */
+#location .lower_section .gallery_slider .gallery_info .gallery_counter {
+  font-size: 21px;
+  font-style: italic;
+  color: #101820;
+}
+/* line 507, main.scss */
+#location .lower_section .gallery_slider .gallery_info p {
+  margin-top: 5px;
+}
+
+/***********************************************************************************************
+
+       SASS Mixins
+
+***********************************************************************************************/
+/***********************************************************************************************
+
+       Concrete5 Edit Blocks Styles (Has to be placed outside the site wrapper)
+
+***********************************************************************************************/
+/* line 543, main.scss */
+.hide {
+  display: none;
+}
+
+/* line 547, main.scss */
+.nav-tabs {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 15px;
+}
+
+/* line 552, main.scss */
+.nav-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border: 1px solid #ccc;
+  margin-right: 2px;
+}
+
+/* line 561, main.scss */
+.nav-tabs > li.active {
+  background-color: #333;
+}
+
+/* line 565, main.scss */
+.nav-tabs > li.active a {
+  color: #fff;
+}
+
+/* line 569, main.scss */
+.nav-tabs > li > a {
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+  display: block;
+}
+
+/* For modern browsers */
+/* line 578, main.scss */
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
+}
+
+/* line 584, main.scss */
+.cf:after {
+  clear: both;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+/* line 590, main.scss */
+.cf {
+  *zoom: 1;
+}
+
+/* line 597, main.scss */
+.ccm-block-field-group h2 {
+  font-size: 16px;
+}
+/* line 601, main.scss */
+.ccm-block-field-group input {
+  padding: 6px;
+}
+
+/* line 614, main.scss */
+#karma {
+  position: relative;
+  /***********************************************************************************************
+  
+         Content Page Type
+  
+  ***********************************************************************************************/
+  /***********************************************************************************************
+  
+         Location Page Nav
+  
+  ***********************************************************************************************/
+  /***********************************************************************************************
+  
+         Defaults & Global Styling
+  
+  ***********************************************************************************************/
+  /* For modern browsers */
+  /* For IE 6/7 (trigger hasLayout) */
+  /***********************************************************************************************
+  
+         C5 WYSIWYG Editor & Button Styles
+  
+  ***********************************************************************************************/
+  /* White Text */
+  /* Gold Text */
+  /* Dark Blue Text */
+  /* Light Blue Text */
+  /***********************************************************************************************
+  
+         Header
+  
+  ***********************************************************************************************/
+  /***********************************************************************************************
+  
+         Mobile Nav
+  
+  ***********************************************************************************************/
+  /***********************************************************************************************
+  
+         Social Icons
+  
+  ***********************************************************************************************/
+  /***********************************************************************************************
+  
+         Banner
+  
+  ***********************************************************************************************/
+  /***********************************************************************************************
+  
+         Find A Destination Map
+  
+  ***********************************************************************************************/
+  /***********************************************************************************************
+  
+         Global Search
+  
+  ***********************************************************************************************/
+  /***********************************************************************************************
+  
+         Two Column Block
+  
+  ***********************************************************************************************/
+  /***********************************************************************************************
+  
+         News List
+  
+  ***********************************************************************************************/
+  /***********************************************************************************************
+  
+         Contact & Enquiry Forms
+  
+  ***********************************************************************************************/
+  /***********************************************************************************************
+  
+         Book Online Button (Header)
+  
+  ***********************************************************************************************/
+  /***********************************************************************************************
+  
+         Resort Search
+  
+  ***********************************************************************************************/
+  /***********************************************************************************************
+  
+         Flexslider Banner
+  
+  ***********************************************************************************************/
+  /***********************************************************************************************
+  
+         Override calendar css
+  
+  ***********************************************************************************************/
+  /***********************************************************************************************
+  
+         CTA Banner Block
+  
+  ***********************************************************************************************/
+  /***********************************************************************************************
+  
+         Carousel CTA Section
+  
+  ***********************************************************************************************/
+  /***********************************************************************************************
+  
+         Accomodation
+  
+  ***********************************************************************************************/
+  /***********************************************************************************************
+  
+         Welcome & Booking Block
+  
+  ***********************************************************************************************/
+  /***********************************************************************************************
+  
+         Testimonials
+  
+  ***********************************************************************************************/
+  /***********************************************************************************************
+  
+         Simple Banner
+  
+  ***********************************************************************************************/
+  /***********************************************************************************************
+  
+         Hotel/Resort Search
+  
+  ***********************************************************************************************/
+  /***********************************************************************************************
+   *
+   *             Login Form
+   *
+  ***********************************************************************************************/
+  /***********************************************************************************************
+   *
+   *             Register form on login Page
+   *
+  ***********************************************************************************************/
+  /***********************************************************************************************
+  
+         Gallery Block
+  
+  ***********************************************************************************************/
+  /***********************************************************************************************
+  
+         Contact Block
+  
+  ***********************************************************************************************/
+  /***********************************************************************************************
+  
+         Exclusive Offers Block
+  
+  ***********************************************************************************************/
+  /***********************************************************************************************
+  
+         Signature Cocktails Block
+  
+  ***********************************************************************************************/
+  /***********************************************************************************************
+  
+         Karma Music Block
+  
+  ***********************************************************************************************/
+  /***********************************************************************************************
+  
+         Blocks Section
+  
+  ***********************************************************************************************/
+  /***********************************************************************************************
+  
+         Twitter
+  
+  ***********************************************************************************************/
+  /***********************************************************************************************
+  
+         Gallery Page
+  
+  ***********************************************************************************************/
+  /***********************************************************************************************
+  
+         Footer
+  
+  ***********************************************************************************************/
+  /***********************************************************************************************
+  
+         Quick Enquiry Buttons (Fixed buttons at bottom of screen)
+  
+  ***********************************************************************************************/
+  /***********************************************************************************************
+  
+         Services Slider
+  
+  ***********************************************************************************************/
+  /***********************************************************************************************
+  
+         Events Calendar
+  
+  ***********************************************************************************************/
+  /***********************************************************************************************
+  
+         Text and Image Block
+  
+  ***********************************************************************************************/
+  /***********************************************************************************************
+  
+         Media Queries
+  
+  ***********************************************************************************************/
+}
+/* line 619, main.scss */
+#karma hr {
+  border: 0;
+  border-bottom: 1px solid #ddd;
+  margin: 0;
+}
+/* line 626, main.scss */
+#karma .member_check_popup {
+  width: 90%;
+  max-width: 800px;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  margin-left: -400px;
+  z-index: 150;
+  background-color: #fff;
+}
+/* line 639, main.scss */
+#karma .member_check_popup .image {
+  height: 200px;
+  position: relative;
+  background-image: url("../imgs/popup-img.jpg");
+}
+/* line 645, main.scss */
+#karma .member_check_popup .lower_section {
+  padding: 25px;
+  text-align: center;
+}
+/* line 650, main.scss */
+#karma .member_check_popup .lower_section h2 {
+  font-size: 48px;
+  font-style: italic;
+}
+/* line 656, main.scss */
+#karma .member_check_popup .close_popup {
+  height: 40px;
+  width: 40px;
+  background-color: #121212;
+  position: absolute;
+  right: 0;
+  background-image: url("../imgs/icons/close.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+/* line 669, main.scss */
+#karma .popup_overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 101;
+}
+@media (max-width: 991px) {
+  /* line 681, main.scss */
+  #karma .member_check_popup {
+    left: 5%;
+    margin: 0;
+  }
+}
+/* line 690, main.scss */
+#karma .popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  background: #fff;
+  padding: 50px;
+  font-size: 26px;
+  font-style: italic;
+  z-index: 999;
+  -webkit-box-shadow: 0px 1px 12px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 1px 12px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 1px 12px 0px rgba(0, 0, 0, 0.75);
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+/* line 719, main.scss */
+#karma .type-content .main_content ul {
+  list-style: initial;
+  margin: initial;
+  padding: 0 0 0 20px;
+}
+#karma .type-content .main_content ul.slides{padding:0;}
+/* line 725, main.scss */
+#karma .type-content .main_content li {
+  display: list-item;
+  font-weight: 300;
+}
+/* line 744, main.scss */
+#karma #location_page_nav {
+  background-color: #54565b; /* change here */ 
+  text-align: center;
+  position: relative;
+  width: 100%;
+  z-index: 150;
+}
+/* line 755, main.scss */
+#karma #location_page_nav div li {
+  display: inline-block;
+  width: 13%;
+  vertical-align: middle;
+}
+/* line 761, main.scss */
+#karma #location_page_nav div li a {
+  padding: 20px 0;
+  display: block;
+  font-weight: 600;
+  color: #fff;
+}
+/* line 768, main.scss */
+#karma #location_page_nav div li a.active {
+  background-color: #30373f;
+  color: #8d7249;
+}
+/* line 775, main.scss */
+#karma #location_page_nav div a.back_top {
+  display: block;
+  position: absolute;
+  right: 25px;
+  top: 15px;
+}
+/* line 783, main.scss */
+#karma #location_page_nav.fixed_nav {
+  position: fixed;
+  width: 100%;
+  top: 105px;
+}
+/* line 790, main.scss */
+#karma select#location_nav_mobile {
+  background-color: #101820;
+  background-image: url("../imgs/icons/dropdown-arrow-icon.png");
+  background-position: center right 20px;
+  border: 0;
+  border-radius: 0;
+  color: #fff;
+  font-size: 21px;
+  padding: 20px 5% 20px 5%;
+  width: 100%;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+@media (max-width: 991px) {
+  /* line 807, main.scss */
+  #karma #location_page_nav {
+    display: none;
+  }
+}
+@media (min-width: 991px) {
+  /* line 816, main.scss */
+  #karma select#location_nav_mobile {
+    display: none;
+  }
+}
+/* line 834, main.scss */
+#karma * {
+  background-repeat: no-repeat;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* line 852, main.scss */
+#karma html, #karma body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* line 859, main.scss */
+#karma h1 {
+  font-size: 32px;
+  font-weight: 300;
+  margin: 6px 0;
+}
+/* line 866, main.scss */
+#karma h2 {
+  font-size: 28px;
+  font-weight: 300;
+  margin: 6px 0;
+}
+/* line 873, main.scss */
+#karma h3 {
+  font-size: 24px;
+  font-weight: 300;
+}
+/* line 879, main.scss */
+#karma h4 {
+  font-size: 20px;
+  font-weight: 300;
+}
+/* line 885, main.scss */
+#karma p {
+  margin: 1em 0px;
+  font-weight: 300;
+  line-height: 150%;
+}
+/* line 892, main.scss */
+#karma a {
+  text-decoration: none;
+  color: #8d7249;
+}
+/* line 898, main.scss */
+#karma img {
+  max-width: 100%;
+  height: auto;
+}
+/* line 904, main.scss */
+#karma em {
+  font-style: italic;
+}
+/* line 910, main.scss */
+#karma strong {
+  font-weight: 600;
+}
+/* line 916, main.scss */
+#karma .stick {
+  position: fixed !important;
+  width: 100%;
+  top: 0;
+  z-index: 250;
+}
+/* line 928, main.scss */
+#karma .cf:before,
+#karma .cf:after {
+  content: "";
+  display: table;
+}
+/* line 934, main.scss */
+#karma .cf:after {
+  clear: both;
+}
+/* line 940, main.scss */
+#karma .cf {
+  *zoom: 1;
+}
+/* line 945, main.scss */
+#karma .container {
+  width: 95%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+/* line 951, main.scss */
+#karma .container.wide {
+  max-width: 1325px;
+}
+/* line 957, main.scss */
+#karma select#find_destination {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: 10px 60px 10px 20px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 0;
+  border: 2px solid #fff;
+  background-image: url("../imgs/icons/dropdown-arrow-icon.png");
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+}
+/* line 973, main.scss */
+#karma select#find_destination optgroup {
+  color: #333;
+}
+/* line 988, main.scss */
+#karma .button_outline {
+  background-color: transparent;
+  border: 2px solid #101820;
+  padding: 15px 25px;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #101820;
+  cursor: pointer;
+  font-weight: 700;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+/* line 1002, main.scss */
+#karma .button_outline.white {
+  border-color: #fff;
+  color: #fff;
+}
+/* line 1007, main.scss */
+#karma .button_outline.white:hover {
+  background-color: white;
+  color: #333 !important;
+}
+/* line 1013, main.scss */
+#karma .button_outline.gold {
+  border-color: #8d7249;
+  color: #8d7249;
+}
+/* line 1018, main.scss */
+#karma .button_outline.gold:hover {
+  background-color: #8d7249;
+  color: #fff !important;
+}
+/* line 1024, main.scss */
+#karma .button_outline.black {
+  border-color: #333;
+  color: #333;
+}
+/* line 1029, main.scss */
+#karma .button_outline.black:hover {
+  background-color: #333;
+  color: #fff !important;
+}
+/* line 1035, main.scss */
+#karma .button_outline:hover {
+  background-color: #101820;
+  color: #fff;
+}
+/* line 1041, main.scss */
+#karma .white_button {
+  background-color: transparent;
+  border: 2px solid #fff;
+  padding: 15px 25px;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+  display: inline-block;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+/* line 1064, main.scss */
+#karma .white_text {
+  color: #fff !important;
+}
+/* line 1068, main.scss */
+#karma .white_text a {
+  color: #fff !important;
+}
+/* line 1075, main.scss */
+#karma .gold_text {
+  color: #8d7249 !important;
+}
+/* line 1079, main.scss */
+#karma .gold_text a {
+  color: #8d7249 !important;
+}
+/* line 1084, main.scss */
+#karma a.gold_text {
+  color: #8d7249 !important;
+}
+/* line 1090, main.scss */
+#karma .dark_blue_text {
+  color: #101820 !important;
+}
+/* line 1094, main.scss */
+#karma .dark_blue_text a {
+  color: #101820 !important;
+}
+/* line 1099, main.scss */
+#karma a.dark_blue_text {
+  color: #101820 !important;
+}
+/* line 1105, main.scss */
+#karma .light_blue_text {
+  color: #4f8196 !important;
+}
+/* line 1109, main.scss */
+#karma .light_blue_text a {
+  color: #4f8196 !important;
+}
+/* line 1114, main.scss */
+#karma a.light_blue_text {
+  color: #4f8196 !important;
+}
+/* line 1118, main.scss */
+#karma .georgia_font {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #1e2526;
+}
+/* line 1123, main.scss */
+#karma .georgia_font strong {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+/* line 1127, main.scss */
+#karma .georgia_font.italic {
+  font-style: italic;
+}
+/* line 1131, main.scss */
+#karma .georgia_font.bold {
+  font-weight: bold;
+}
+/* line 1136, main.scss */
+#karma .banner_text {
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #fff;
+}
+/* line 1142, main.scss */
+#karma .banner_text_georgia {
+  font-size: 60px;
+  color: #fff;
+  font-weight: 400;
+  margin: -15px 0 25px 0;
+  font-style: italic;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+/* line 1151, main.scss */
+#karma .inline_image {
+  display: inline-block;
+  padding: 5px;
+}
+/* line 1168, main.scss */
+#karma header {
+  position: absolute;
+  width: 100%;
+  background: url("../imgs/header-bg.png");
+  background-size: cover;
+  z-index: 100;
+  -webkit-transition: background-color 0.5s ease-in-out;
+  -moz-transition: background-color 0.5s ease-in-out;
+  -ms-transition: background-color 0.5s ease-in-out;
+  -o-transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
+}
+/* line 1179, main.scss */
+#karma header .logo {
+  float: left;
+  width: 20%;
+  /*padding: 25px 0;*/
+  padding: 18px 0;
+
+}
+/* line 1185, main.scss */
+#karma header .main_nav {
+  float: right;
+  width: 80%;
+}
+/* line 1190, main.scss */
+#karma header .main_nav .upper_nav {
+  text-align: right;
+}
+/* line 1194, main.scss */
+#karma header .main_nav .upper_nav li {
+  display: inline-block;
+  font-size: 12px;
+  color: #fff;
+  font-weight: 600;
+  vertical-align: top;
+  margin: 0 -4px 0 0;
+}
+/* line 1204, main.scss */
+#karma header .main_nav .upper_nav li a {
+  padding: 10px 20px;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+}
+/* line 1213, main.scss */
+#karma header .main_nav .upper_nav li.book_btn {
+  background-color: #2b2b2b;
+  background-image: url("../imgs/book-btn-bg.png");
+  background-size: cover;
+}
+/* line 1219, main.scss */
+#karma header .main_nav .upper_nav li.book_btn img {
+  padding-left: 6px;
+  vertical-align: middle;
+}
+/* line 1225, main.scss */
+#karma header .main_nav .upper_nav li.member_login_btn {
+  background-color: #8d7249;
+  background-image: url("../imgs/member-login-btn-bg.png");
+  background-size: cover;
+}
+/* line 1231, main.scss */
+#karma header .main_nav .upper_nav li.member_login_btn img {
+  padding-left: 6px;
+  vertical-align: middle;
+}
+/* line 1239, main.scss */
+#karma header .main_nav .header_nav {
+  text-align: right;
+  padding: 20px 0;
+}
+/* line 1244, main.scss */
+#karma header .main_nav .header_nav li {
+  display: inline-block;
+  padding-left: 47px;
+}
+/* line 1249, main.scss */
+#karma header .main_nav .header_nav li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+/* line 1258, main.scss */
+#karma header.fixed_header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+/* line 1281, main.scss */
+#karma .nav_toggle {
+  position: relative;
+  float: right;
+  width: 50%;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fff;
+  z-index: 6;
+  top: 15px;
+  right: 10px;
+  cursor: pointer;
+  -webkit-transition: all 0.5 ease-in-out;
+  -moz-transition: all 0.5 ease-in-out;
+  -ms-transition: all 0.5 ease-in-out;
+  -o-transition: all 0.5 ease-in-out;
+  transition: all 0.5 ease-in-out;
+}
+/* line 1295, main.scss */
+#karma .nav_toggle .bar_group {
+  top: 50%;
+  position: relative;
+  margin-top: -21px;
+  height: 100%;
+  -webkit-transition: all 0.3 ease-in-out;
+  -moz-transition: all 0.3 ease-in-out;
+  -ms-transition: all 0.3 ease-in-out;
+  -o-transition: all 0.3 ease-in-out;
+  transition: all 0.3 ease-in-out;
+}
+/* line 1303, main.scss */
+#karma .nav_toggle .bar {
+  background: white;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  -ms-transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  width: 23px;
+  left: 50%;
+  top: 8px;
+  margin-left: -11.5px;
+}
+/* line 1318, main.scss */
+#karma .nav_toggle .bar.one {
+  margin-top: 10px;
+}
+/* line 1322, main.scss */
+#karma .nav_toggle .bar.two {
+  margin-top: 20px;
+}
+@media (min-width: 1040px) {
+  /* line 1332, main.scss */
+  #karma .nav_toggle {
+    display: none;
+  }
+}
+@media (max-width: 1040px) {
+  /* line 1343, main.scss */
+  #karma header .logo {
+    float: left;
+    width: 50%;
+    max-width: 85px;
+  }
+  /* line 1351, main.scss */
+  #karma header .main_nav {
+    float: none;
+    width: 100%;
+    clear: both;
+    display: none;
+  }
+  /* line 1358, main.scss */
+  #karma header .main_nav .upper_nav {
+    text-align: center;
+  }
+  /* line 1362, main.scss */
+  #karma header .main_nav .header_nav {
+    text-align: center;
+  }
+  /* line 1366, main.scss */
+  #karma header .main_nav .header_nav li {
+    display: block;
+    padding: 8px 0;
+  }
+}
+/* line 1387, main.scss */
+#karma .pw-icon {
+  width: 100%;
+  height: 40px;
+  display: block !important;
+  opacity: 0;
+}
+/* line 1394, main.scss */
+#karma .header_social_icons_group {
+  position: fixed;
+  top: 150px;
+  right: 0;
+  background: #1e2526;
+  /* Fallback */
+  background: rgba(0, 0, 0, 0.4);
+}
+/* line 1402, main.scss */
+#karma .header_social_icons_group .icon {
+  display: block;
+  width: 35px;
+  height: 35px;
+  vertical-align: middle;
+  background-repeat: no-repeat !important;
+}
+/* line 1410, main.scss */
+#karma .header_social_icons_group .icon.facebook {
+  background: url("../imgs/banner-social-sprite.png");
+  background-position: 5px 10px;
+}
+/* line 1415, main.scss */
+#karma .header_social_icons_group .icon.twitter {
+  background: url("../imgs/banner-social-sprite.png");
+  background-position: 5px -20px;
+}
+/* line 1420, main.scss */
+#karma .header_social_icons_group .icon.instagram {
+  background: url("../imgs/banner-social-sprite.png");
+  background-position: 5px -48px;
+}
+/* line 1425, main.scss */
+#karma .header_social_icons_group .icon.flickr {
+  background: url("../imgs/banner-social-sprite.png");
+  background-position: 5px -77px;
+}
+/* line 1430, main.scss */
+#karma .header_social_icons_group .icon.pinterest {
+  background: url("../imgs/banner-social-sprite.png");
+  background-position: 5px -105px;
+}
+/* line 1435, main.scss */
+#karma .header_social_icons_group .icon.soundcloud {
+  background: url("../imgs/banner-social-sprite.png");
+  background-position: 5px -135px;
+}
+/* line 1440, main.scss */
+#karma .header_social_icons_group .icon.karma {
+  background: url("../imgs/icons/karma-icon.png");
+  background-position: 5px 10px;
+  background-size: contain;
+}
+/* line 1458, main.scss */
+#karma #banner {
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 550px;
+}
+/* line 1465, main.scss */
+#karma #banner h2 {
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #fff;
+}
+/* line 1475, main.scss */
+#karma #banner p {
+  font-size: 72px;
+  color: #fff;
+  font-weight: 400;
+  margin: -15px 0 25px 0;
+  font-style: italic;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+/* line 1488, main.scss */
+#karma #banner.content_banner h2 {
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #fff;
+}
+/* line 1498, main.scss */
+#karma #banner.content_banner p {
+  font-size: 72px;
+  color: #fff;
+  font-weight: 400;
+  margin: -15px 0 25px 0;
+  font-style: italic;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+/* line 1510, main.scss */
+#karma #banner.content_banner .content img {
+  margin: 20px 0;
+  max-width: 200px;
+}
+/* line 1520, main.scss */
+#karma #banner.home_banner h2 {
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 20px;
+}
+/* line 1527, main.scss */
+#karma #banner.home_banner h2 span {
+  font-style: italic;
+  text-transform: none;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+/* line 1538, main.scss */
+#karma #banner.home_banner p {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 100;
+  margin-bottom: 20px;
+  font-style: normal;
+}
+/* line 1549, main.scss */
+#karma #banner.home_banner .content img {
+  margin: 20px 0;
+  max-width: 200px;
+}
+/* line 1560, main.scss */
+#karma #banner.location_banner h2 {
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #fff;
+}
+/* line 1570, main.scss */
+#karma #banner.location_banner p {
+  font-size: 72px;
+  color: #fff;
+  font-weight: 400;
+  margin: -15px 0 25px 0;
+  font-style: italic;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+/* line 1582, main.scss */
+#karma #banner.location_banner .content img {
+  margin: 20px 0;
+}
+/* line 1594, main.scss */
+#karma #banner.news_events_banner .content img {
+  margin: 20px 0;
+  max-width: 200px;
+}
+/* line 1602, main.scss */
+#karma #banner .content {
+  padding: 200px 0 100px 0;
+  text-align: center;
+  max-width: 870px;
+  margin: 0 auto;
+  background: url("../imgs/fade.png") no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+/* line 1612, main.scss */
+#karma #banner .content select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: 10px 30px 10px 20px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 0;
+  border: 2px solid #fff;
+  background-image: url("../imgs/icons/dropdown-arrow-icon.png");
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+}
+/* line 1628, main.scss */
+#karma #banner .content select option {
+  color: #1b1b1b;
+}
+/* line 1634, main.scss */
+#karma #banner .destination_search {
+  background-color: #121212;
+  /* Fallback */
+  background-color: rgba(18, 18, 18, 0.65);
+  padding: 25px 0;
+}
+/* line 1640, main.scss */
+#karma #banner .destination_search p {
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+  font-size: 14px !important;
+  font-weight: 700;
+  font-style: normal;
+  font-family: inherit;
+}
+/* line 1650, main.scss */
+#karma #banner .destination_search p img {
+  vertical-align: middle;
+}
+/* line 1655, main.scss */
+#karma #banner .destination_search ul {
+  color: #fff;
+  padding: 10px 0;
+}
+/* line 1660, main.scss */
+#karma #banner .destination_search ul li {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 1665, main.scss */
+#karma #banner .destination_search ul li img {
+  vertical-align: middle;
+}
+/* line 1669, main.scss */
+#karma #banner .destination_search ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+/* line 1679, main.scss */
+#karma #banner .destination_search .search_form_container {
+  position: relative;
+}
+/* line 1684, main.scss */
+#karma #banner .destination_search .search_form_container input.search {
+  width: 100%;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  border-radius: 0;
+  font-size: 52px;
+  font-weight: 100;
+  color: #fff;
+  outline: none;
+  padding-right: 60px;
+}
+/* line 1698, main.scss */
+#karma #banner .destination_search .search_form_container button.search_submit {
+  border: 0;
+  background: none;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 50%;
+  margin-top: -26px;
+}
+@media (max-width: 991px) {
+  /* line 1719, main.scss */
+  #karma #banner .content {
+    padding: 150px 0 100px 0;
+  }
+  /* line 1726, main.scss */
+  #karma #banner.content_banner h2, #karma #banner.location_banner h2 {
+    font-size: 38px;
+  }
+  /* line 1730, main.scss */
+  #karma #banner.content_banner p, #karma #banner.location_banner p {
+    font-size: 52px;
+  }
+  /* line 1741, main.scss */
+  #karma #banner .destination_search .search_form_container input.search {
+    font-size: 36px;
+  }
+  /* line 1745, main.scss */
+  #karma #banner .destination_search .search_form_container button.search_submit {
+    width: 50px;
+  }
+}
+/* line 1763, main.scss */
+#karma #find_destination_map {
+  padding: 50px 0;
+  background-color: #111110;
+}
+/* line 1769, main.scss */
+#karma #find_destination_map .map_title {
+  width: 30%;
+  margin: 0 -4px;
+  font-size: 36px;
+  color: #fff;
+  font-style: italic;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 1780, main.scss */
+#karma #find_destination_map .filter_wrapper {
+  padding: 25px 0;
+}
+/* line 1784, main.scss */
+#karma #find_destination_map .filter_wrapper .map_filters {
+  width: 70%;
+  display: inline-block;
+  text-align: right;
+}
+/* line 1791, main.scss */
+#karma #find_destination_map .filter_brand, #karma #find_destination_map .filter_type {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 1796, main.scss */
+#karma #find_destination_map .filter_brand .brand_selector, #karma #find_destination_map .filter_brand .type_selector, #karma #find_destination_map .filter_type .brand_selector, #karma #find_destination_map .filter_type .type_selector {
+  border: 2px solid #fff;
+  background: none;
+  color: #fff;
+  padding: 8px 35px 8px 20px;
+  background: url(../imgs/icons/dropdown-arrow-icon.png) center right 15px no-repeat;
+  cursor: pointer;
+  width: 200px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+/* line 1809, main.scss */
+#karma #find_destination_map .filter_brand ul, #karma #find_destination_map .filter_type ul {
+  display: none;
+  position: absolute;
+  margin: 0;
+  background: #dddddd;
+  list-style: none;
+  padding: 0;
+  z-index: 5;
+  max-height: 200px;
+  overflow: scroll;
+  text-align: left;
+}
+/* line 1822, main.scss */
+#karma #find_destination_map .filter_brand ul li, #karma #find_destination_map .filter_type ul li {
+  width: 200px;
+  background: #1b1b1b;
+  color: #8d7249;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 1833, main.scss */
+#karma #find_destination_map .filter_brand ul li:hover, #karma #find_destination_map .filter_type ul li:hover {
+  background: #fff;
+}
+/* line 1837, main.scss */
+#karma #find_destination_map .filter_brand ul li.selected, #karma #find_destination_map .filter_type ul li.selected {
+  background-color: #8d7249;
+  color: #fff;
+}
+/* line 1845, main.scss */
+#karma #find_destination_map img {
+  max-width: none;
+}
+/* line 1849, main.scss */
+#karma #find_destination_map .destination_map {
+  height: 500px;
+  width: 100%;
+}
+/* line 1878, main.scss */
+#karma #find_destination_map #map_infoBubble .title h3 {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+}
+/* line 1885, main.scss */
+#karma #find_destination_map #map_infoBubble .desc {
+  font-size: 12px;
+  margin: 5px 0;
+}
+/* line 1890, main.scss */
+#karma #find_destination_map #map_infoBubble a.link {
+  font-size: 12px;
+  text-decoration: underline;
+}
+/* line 1909, main.scss */
+#karma .global_search {
+  padding: 50px 0;
+}
+/* line 1913, main.scss */
+#karma .global_search .item {
+  margin: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+/* line 1932, main.scss */
+#karma .two_column {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+/* line 1937, main.scss */
+#karma .two_column .left {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+  margin: 0 -4px;
+}
+/* line 1946, main.scss */
+#karma .two_column .left img {
+  margin: 0 auto;
+  display: block;
+}
+/* line 1952, main.scss */
+#karma .two_column .right {
+  display: inline-block;
+  vertical-align: middle;
+  width: 49%;
+}
+/* line 1960, main.scss */
+#karma .two_column .right img {
+  margin: 0 auto;
+  display: block;
+}
+@media (max-width: 1400px) {
+  /* line 1973, main.scss */
+  #karma .two_column {
+    padding: 0 5%;
+  }
+}
+@media (max-width: 991px) {
+  /* line 1980, main.scss */
+  #karma .two_column {
+    margin-bottom: 50px;
+  }
+  /* line 1984, main.scss */
+  #karma .two_column .left {
+    margin-bottom: 25px;
+  }
+  /* line 1988, main.scss */
+  #karma .two_column .inner {
+    padding: 0 !important;
+  }
+}
+/* line 2009, main.scss */
+#karma .news_list .search_filter {
+  padding: 20px;
+  background-color: #333;
+  text-align: center;
+}
+/* line 2015, main.scss */
+#karma .news_list .search_filter p {
+  margin: 0;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 600;
+}
+/* line 2024, main.scss */
+#karma .news_list .search_filter label {
+  font-size: 30px;
+  font-weight: 300;
+  cursor: pointer;
+  vertical-align: middle;
+  color: #5f5f5f;
+  margin: 0 15px;
+}
+/* line 2033, main.scss */
+#karma .news_list .search_filter label.selected {
+  color: #8d7249;
+}
+/* line 2038, main.scss */
+#karma .news_list .search_filter input[type=checkbox] {
+  visibility: hidden;
+  opacity: 0;
+  /* For mobile, it's typically better to position checkbox on top of clickable
+  area and turn opacity to 0 instead. */
+}
+/* line 2045, main.scss */
+#karma .news_list .search_filter input[type="checkbox"]:checked + label {
+  color: #fff !important;
+}
+/* line 2050, main.scss */
+#karma .news_list .search_filter button {
+  border: 0;
+  background: none;
+  cursor: pointer;
+  vertical-align: middle;
+}
+/* line 2057, main.scss */
+#karma .news_list .search_filter a {
+  font-size: 30px;
+  font-weight: 300;
+  cursor: pointer;
+  vertical-align: middle;
+}
+/* line 2065, main.scss */
+#karma .news_list .news_item {
+  text-align: center;
+  margin-bottom: 25px;
+}
+/* line 2070, main.scss */
+#karma .news_list .news_item .left_content {
+  display: inline-block;
+  margin-left: -3px;
+  vertical-align: middle;
+  padding-right: 15px;
+}
+/* line 2078, main.scss */
+#karma .news_list .news_item .left_content .article_image {
+  width: 280px;
+  height: 240px;
+}
+/* line 2084, main.scss */
+#karma .news_list .news_item .right_content {
+  display: inline-block;
+  width: 70%;
+  margin-left: -1.5px;
+  vertical-align: middle;
+  padding-left: 15px;
+  text-align: left;
+}
+/* line 2093, main.scss */
+#karma .news_list .news_item .right_content .title {
+  font-size: 30px;
+  font-style: italic;
+  color: #101820;
+}
+/* line 2099, main.scss */
+#karma .news_list .news_item .right_content .description {
+  font-size: 20px;
+  color: #101820;
+  margin: 15px 0;
+  font-weight: 100;
+}
+/* line 2108, main.scss */
+#karma .news_list .page_list {
+  margin: 70px auto;
+}
+/* line 2112, main.scss */
+#karma .news_list #pagination {
+  padding: 50px 0;
+  background-color: #333;
+}
+/* line 2117, main.scss */
+#karma .news_list #pagination .ccm-page-left, #karma .news_list #pagination .ccm-page-right {
+  font-size: 30px;
+  color: #5f5f5f;
+  top: -10px;
+  font-weight: 300;
+}
+/* line 2124, main.scss */
+#karma .news_list #pagination .numbers {
+  color: #5f5f5f;
+  font-size: 18px;
+}
+/* line 2129, main.scss */
+#karma .news_list #pagination .numbers a {
+  color: #5f5f5f;
+}
+/* line 2134, main.scss */
+#karma .news_list #pagination .currentPage.active.numbers {
+  color: #8d7249;
+}
+/* line 2150, main.scss */
+#karma .contact_form_container, #karma .enquiry_form_container, #karma .enquiryspa_form_container,  #karma .spa_form_container, #karma .ba_promo_form {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  background-color: rgba(51, 51, 51, 0.85);
+}
+/* line 2161, main.scss */
+#karma .contact_form_container #contact_form, #karma .enquiry_form_container #contact_form, #karma .enquiryspa_form_container #contact_form, #karma .spa_form_container #spa_form, #karma .ba_promo_form #contact_form {
+  width: 90%;
+  max-width: 600px;
+  position: relative;
+  top: 50px;
+  margin: auto;
+  background: #1b1b1b;
+  padding: 25px;
+}
+/* line 2175, main.scss */
+#karma .contact_form_container #contact_form h2.form_title, #karma .enquiry_form_container #contact_form h2.form_title, #karma .spa_form_container #spa_form h2.form_title, #karma .enquiryspa_form_container #contact_form h2.form_title, #karma .spa_form_container #spa_form h2.form_title, #karma .ba_promo_form #contact_form h2.form_title {
+  color: #fff;
+  margin-top: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 2182, main.scss */
+#karma .contact_form_container #contact_form input, #karma .contact_form_container #contact_form select, #karma .enquiry_form_container #contact_form input, #karma .enquiryspa_form_container #contact_form input, #karma .spa_form_container #spa_form input, #karma .enquiry_form_container #contact_form select,  #karma .enquiryspa_form_container #contact_form select, #karma .spa_form_container #spa_form select, #karma .ba_promo_form #contact_form input, #karma .ba_promo_form #contact_form select {
+  display: block;
+  width: 100%;
+}
+/* line 2187, main.scss */
+#karma .contact_form_container #contact_form input[type="text"], #karma .contact_form_container #contact_form input[type="email"], #karma .enquiry_form_container #contact_form input[type="text"], #karma .enquiryspa_form_container #contact_form input[type="text"], #karma .spa_form_container #spa_form input[type="text"], #karma .enquiry_form_container #contact_form input[type="email"],  #karma .enquiryspa_form_container #contact_form input[type="email"], #karma .spa_form_container #spa_form input[type="email"], #karma .ba_promo_form #contact_form input[type="text"], #karma .ba_promo_form #contact_form input[type="email"] {
+  border: 0;
+  padding: 10px;
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+  background: #363636;
+  color: #fff;
+  -webkit-appearance: none;
+}
+/* line 2198, main.scss */
+#karma .contact_form_container #contact_form input#website, #karma .enquiry_form_container #contact_form input#website,  #karma .enquiryspa_form_container #contact_form input#website, #karma .spa_form_container #spa_form input#website, #karma .ba_promo_form #contact_form input#website {
+  display: none !important;
+}
+/* line 2202, main.scss */
+#karma .contact_form_container #contact_form input[type="checkbox"], #karma .enquiry_form_container #contact_form input[type="checkbox"], #karma .enquiryspa_form_container #contact_form input[type="checkbox"], #karma .spa_form_container #spa_form input[type="checkbox"], #karma .ba_promo_form #contact_form input[type="checkbox"] {
+  display: inline-block;
+  width: initial;
+}
+/* line 2207, main.scss */
+#karma .contact_form_container #contact_form span, #karma .enquiry_form_container #contact_form span, #karma .enquiryspa_form_container #contact_form span, #karma .spa_form_container #spa_form span, #karma .ba_promo_form #contact_form span {
+  color: #fff;
+  font-size: 14px;
+}
+/* line 2212, main.scss */
+#karma .contact_form_container #contact_form select, #karma .enquiry_form_container #contact_form select, #karma .enquiryspa_form_container #contact_form select, #karma .spa_form_container #spa_form select, #karma .ba_promo_form #contact_form select {
+  padding: 8px;
+  margin-bottom: 5px;
+  border: 0;
+  border-radius: 0;
+  background-color: #333;
+  color: #fff;
+  background-image: url("../imgs/icons/dropdown-arrow-icon.png");
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+/* line 2226, main.scss */
+#karma .contact_form_container #contact_form textarea, #karma .enquiry_form_container #contact_form textarea, #karma .enquiryspa_form_container #contact_form textarea, #karma .spa_form_container #spa_form textarea,  #karma .ba_promo_form #contact_form textarea {
+  display: block;
+  width: 100%;
+  border: 0;
+  background-color: #333;
+  padding: 10px;
+  color: #fff;
+}
+/* line 2235, main.scss */
+#karma .contact_form_container #contact_form label, #karma .enquiry_form_container #contact_form label, #karma .enquiryspa_form_container #contact_form label, #karma .spa_form_container #spa_form label, #karma .ba_promo_form #contact_form label {
+  color: #fff;
+  font-size: 12px;
+  display: inline-block;
+  width: 80%;
+  vertical-align: middle;
+  margin: 10px 0;
+}
+/* line 2244, main.scss */
+#karma .contact_form_container #contact_form .submit_btn, #karma .enquiry_form_container #contact_form .submit_btn, #karma .enquiryspa_form_container #contact_form .submit_btn, #karma .spa_form_container #spa_form .submit_btn, #karma .ba_promo_form #contact_form .submit_btn {
+  margin-top: 15px;
+}
+/* line 2248, main.scss */
+#karma .contact_form_container #contact_form .close_btn, #karma .enquiry_form_container #contact_form .close_btn, #karma .enquiryspa_form_container #contact_form .close_btn, #karma .spa_form_container #spa_form .close_btn, #karma .ba_promo_form #contact_form .close_btn {
+  height: 25px;
+  width: 25px;
+  background-size: contain;
+  background-image: url("../imgs/icons/close-icon-rounded.png");
+  float: right;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 2259, main.scss */
+#karma .contact_form_container #contact_form .error_message, #karma .enquiry_form_container #contact_form .error_message, #karma .enquiryspa_form_container #contact_form .error_message, #karma .spa_form_container #spa_form .error_message, #karma .ba_promo_form #contact_form .error_message {
+  display: none;
+  border: 1px solid red;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+/* line 2266, main.scss */
+#karma .contact_form_container #contact_form .error_message li, #karma .enquiry_form_container #contact_form .error_message li, #karma .enquiryspa_form_container #contact_form .error_message li, #karma .spa_form_container #spa_form .error_message li, #karma .ba_promo_form #contact_form .error_message li {
+  color: red;
+}
+/* line 2271, main.scss */
+#karma .contact_form_container #contact_form .success_message, #karma .enquiry_form_container #contact_form .success_message, #karma .enquiryspa_form_container #contact_form .success_message, #karma .spa_form_container #spa_form .success_message, #karma .ba_promo_form #contact_form .success_message {
+  border: 1px solid;
+  color: #fff;
+  font-size: 21px;
+}
+/* line 2294, main.scss */
+#karma #book_online_select h2 {
+  color: #8d7249;
+}
+/* line 2298, main.scss */
+#karma #book_online_select p {
+  color: #8d7249;
+}
+/* line 2302, main.scss */
+#karma #book_online_select select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: 11px 0px 10px 10px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #54565b; /* change this */
+  border-radius: 0;
+  border: 0;
+  background-image: url("../imgs/icons/dropdown-arrow-icon.png");
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  text-align: center;
+}
+/* line 2331, main.scss */
+#karma .resort_search {
+  padding: 25px 0;
+}
+/* line 2335, main.scss */
+#karma .resort_search .search_result_title {
+  margin: 25px 0 !important;
+  word-break: break-word;
+}
+/* line 2340, main.scss */
+#karma .resort_search .item_container {
+  width: 49%;
+  display: inline-block;
+  padding: 10px;
+  vertical-align: top;
+}
+/* line 2346, main.scss */
+#karma .resort_search .item_container .item {
+  /*background-color: #eee;*/
+}
+/* line 2350, main.scss */
+#karma .resort_search .item_container .content {
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+@media (max-width: 768px) {
+  /* line 2359, main.scss */
+  #karma #searchResults {
+    text-align: center;
+  }
+  /* line 2363, main.scss */
+  #karma .resort_search .item_container {
+    width: 100%%;
+  }
+}
+/* line 2381, main.scss */
+#karma #flex_banner ul.slides {
+  padding: 0;
+}
+/* line 2385, main.scss */
+#karma #flex_banner .content {
+  padding: 225px 0 130px 0;
+  text-align: initial;
+  background: url("../imgs/fade.png") no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+/* line 2393, main.scss */
+#karma #flex_banner .content h1, #karma #flex_banner .content h2, #karma #flex_banner .content h3, #karma #flex_banner .content h4, #karma #flex_banner .content h5, #karma #flex_banner .content h6, #karma #flex_banner .content p, #karma #flex_banner .content ul, #karma #flex_banner .content ol {
+  color: #fff;
+}
+/* line 2409, main.scss */
+#karma .calendar {
+  background-color: #333;
+  padding: 100px 0;
+}
+/* line 2414, main.scss */
+#karma .calendar .main {
+  max-width: 600px;
+  margin: auto;
+}
+/* line 2419, main.scss */
+#karma .calendar h2, #karma .calendar h3 {
+  font-weight: 400;
+}
+/* line 2423, main.scss */
+#karma .calendar .fc-calendar .fc-head {
+  color: #8d7249;
+}
+/* line 2427, main.scss */
+#karma .calendar .fc-calendar .fc-row > div.fc-today {
+  background: #8d7249;
+}
+/* line 2431, main.scss */
+#karma .calendar .fc-calendar .fc-row > div.fc-content:hover:after {
+  color: #8d7249;
+}
+/* line 2435, main.scss */
+#karma .calendar .custom-header {
+  border-top: 5px solid #8d7249;
+}
+/* line 2439, main.scss */
+#karma .calendar .custom-content-reveal span.custom-content-close {
+  background: #8d7249;
+}
+/* line 2443, main.scss */
+#karma .calendar .custom-content-reveal h4 {
+  border-top: 5px solid #8d7249;
+}
+/* line 2447, main.scss */
+#karma .calendar .custom-header nav span:before {
+  color: #8d7249;
+}
+/* line 2463, main.scss */
+#karma .cta_banner {
+  position: relative;
+}
+/* line 2467, main.scss */
+#karma .cta_banner .content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+  position: relative;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+/* line 2477, main.scss */
+#karma .cta_banner .content h2, #karma .cta_banner .content h4 {
+  color: #fff;
+}
+/* line 2481, main.scss */
+#karma .cta_banner .content h2 {
+  font-size: 30px;
+  font-style: italic;
+}
+/* line 2486, main.scss */
+#karma .cta_banner .content h4 {
+  margin: 5px 0 15px 0;
+}
+/* line 2491, main.scss */
+#karma .cta_banner .cta_banner_overlay {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url("../imgs/cta-banner-overlay.png");
+  background: rgba(0, 0, 0, 0.8);
+}
+/* line 2515, main.scss */
+#karma #carousel_cta_section {
+  padding: 50px 0;
+  margin: 0 auto;
+  position: relative;
+}
+/* line 2522, main.scss */
+#karma #carousel_cta_section .carousel_container {
+  position: relative;
+}
+/* line 2526, main.scss */
+#karma #carousel_cta_section .carousel {
+  padding: 25px 25px 0 25px;
+}
+/* line 2532, main.scss */
+#karma #carousel_cta_section .carousel .image {
+  height: 250px;
+}
+/* line 2536, main.scss */
+#karma #carousel_cta_section .carousel .content {
+  padding: 20px;
+}
+/* line 2540, main.scss */
+#karma #carousel_cta_section .carousel h2 {
+  font-size: 30px;
+  font-style: italic;
+  color: #101820;
+}
+/* line 2546, main.scss */
+#karma #carousel_cta_section .carousel p {
+  font-size: 18px;
+  color: #262626;
+  padding: 10px 0;
+  margin: 5px 0;
+}
+/* line 2553, main.scss */
+#karma #carousel_cta_section .carousel button {
+  border: 0;
+  background: none;
+  border: 3px solid #101820;
+  padding: 15px 25px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #101820;
+  cursor: pointer;
+  margin-top: 15px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+/* line 2567, main.scss */
+#karma #carousel_cta_section .carousel button:hover {
+  background-color: #101820;
+  color: #fff;
+}
+/* line 2574, main.scss */
+#karma #carousel_cta_section .flex-direction-nav li {
+  list-style-type: none;
+}
+/* line 2578, main.scss */
+#karma #carousel_cta_section .flex-prev {
+  background: url(../imgs/icons/slider-arrow-left.png) 5px center no-repeat;
+  left: 0;
+  background-position: center;
+  text-indent: -9999em;
+  left: -30px;
+  opacity: 1;
+  z-index: 2;
+  margin-top: -100px;
+}
+/* line 2589, main.scss */
+#karma #carousel_cta_section .flex-next {
+  background: url(../imgs/icons/slider-arrow-right.png) 5px center no-repeat;
+  right: 0;
+  background-position: center;
+  text-indent: 9999em;
+  right: -30px;
+  opacity: 1;
+  z-index: 2;
+  margin-top: -100px;
+}
+/* line 2600, main.scss */
+#karma #carousel_cta_section:hover .flex-prev {
+  opacity: 1;
+  left: -30px;
+}
+/* line 2605, main.scss */
+#karma #carousel_cta_section:hover .flex-next {
+  opacity: 1;
+  right: -30px;
+}
+/* line 2625, main.scss */
+#karma #accomodation_slider, #karma #cuisine_slider {
+  padding: 50px;
+}
+/* line 2629, main.scss */
+#karma #accomodation_slider .top_section, #karma #cuisine_slider .top_section {
+  padding: 30px;
+  background-color: #ebeced;
+  text-align: center;
+}
+/* line 2635, main.scss */
+#karma #accomodation_slider .top_section .content, #karma #cuisine_slider .top_section .content {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 2641, main.scss */
+#karma #accomodation_slider .top_section .content h2, #karma #cuisine_slider .top_section .content h2 {
+  font-size: 36px;
+  font-weight: 400;
+  font-style: italic;
+  color: #101820;
+}
+/* line 2651, main.scss */
+#karma #accomodation_slider .top_section .slider_btns a, #karma #cuisine_slider .top_section .slider_btns a {
+  margin: 0 3px 5px;
+}
+/* line 2655, main.scss */
+#karma #accomodation_slider .top_section .slider_btns a.flex-active, #karma #cuisine_slider .top_section .slider_btns a.flex-active {
+  background-color: #101820;
+  color: #fff;
+}
+/* line 2666, main.scss */
+#karma #accomodation_slider .bottom_section .slider, #karma #cuisine_slider .bottom_section .slider {
+  background-color: #101820;
+  position: relative;
+}
+/* line 2671, main.scss */
+#karma #accomodation_slider .bottom_section .slider .left, #karma #cuisine_slider .bottom_section .slider .left {
+  width: 50%;
+  display: inline-block;
+  height: 450px;
+  margin-right: -4.5px;
+  vertical-align: top;
+}
+/* line 2679, main.scss */
+#karma #accomodation_slider .bottom_section .slider .right, #karma #cuisine_slider .bottom_section .slider .right {
+  width: 50%;
+  display: inline-block;
+  padding: 50px;
+  background-color: #101820;
+  vertical-align: top;
+  position: relative;
+}
+/* line 2692, main.scss */
+#karma #accomodation_slider .bottom_section .slider .right ul, #karma #cuisine_slider .bottom_section .slider .right ul {
+  padding-left: 30px;
+  margin: 15px 0;
+}
+/* line 2697, main.scss */
+#karma #accomodation_slider .bottom_section .slider .right ul li, #karma #cuisine_slider .bottom_section .slider .right ul li {
+  color: #4f8196;
+  list-style-type: disc;
+}
+/* line 2704, main.scss */
+#karma #accomodation_slider .bottom_section .slider ul, #karma #cuisine_slider .bottom_section .slider ul {
+  padding: 0;
+}
+/* line 2708, main.scss */
+#karma #accomodation_slider .bottom_section .slider ul.flex-direction-nav, #karma #cuisine_slider .bottom_section .slider ul.flex-direction-nav {
+  list-style-type: none !important;
+}
+/* line 2712, main.scss */
+#karma #accomodation_slider .bottom_section .slider ul.flex-direction-nav a.flex-prev, #karma #cuisine_slider .bottom_section .slider ul.flex-direction-nav a.flex-prev {
+  background: url(../imgs/icons/flex-arrow-prev.png) 5px center no-repeat;
+  left: -50px;
+  text-indent: 9999em;
+  opacity: 1;
+}
+/* line 2719, main.scss */
+#karma #accomodation_slider .bottom_section .slider ul.flex-direction-nav a.flex-next, #karma #cuisine_slider .bottom_section .slider ul.flex-direction-nav a.flex-next {
+  background: url(../imgs/icons/flex-arrow-next.png) 5px center no-repeat;
+  right: -50px;
+  text-indent: 9999em;
+  opacity: 1;
+}
+/* line 2728, main.scss */
+#karma #accomodation_slider .bottom_section .slider .flex-control-nav, #karma #cuisine_slider .bottom_section .slider .flex-control-nav {
+  text-align: left;
+}
+/* line 2756, main.scss */
+#karma #accomodation_slider .bottom_section .right p {
+  font-weight: 400;
+  color: #fff;
+}
+@media (max-width: 991px) {
+  /* line 2766, main.scss */
+  #karma #accomodation_slider, #karma #cuisine_slider {
+    padding: 5%;
+  }
+  /* line 2770, main.scss */
+  #karma #accomodation_slider .flex-direction-nav, #karma #cuisine_slider .flex-direction-nav {
+    display: none;
+  }
+}
+/* line 2786, main.scss */
+#karma #welcome_booking {
+  /* url("../imgs/welcome-booking-bg.jpg") */
+  background: #f2e6d6;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../imgs/welcome-booking-bg.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+src='../imgs/welcome-booking-bg.jpg',
+sizingMethod='scale')";
+}
+/* line 2797, main.scss */
+#karma #welcome_booking .left {
+  width: 50%;
+  float: left;
+  padding: 35px 90px;
+  background: #f2e6d6;
+}
+/* line 2803, main.scss */
+#karma #welcome_booking .left h2 {
+  font-size: 36px;
+  color: #101820;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+/* line 2810, main.scss */
+#karma #welcome_booking .left h3 {
+  font-size: 26px;
+  color: #101820;
+}
+/* line 2815, main.scss */
+#karma #welcome_booking .left h4 {
+  font-size: 20px;
+  color: #101820;
+}
+/* line 2821, main.scss */
+#karma #welcome_booking .right {
+  width: 50%;
+  float: right;
+  background-color: #101820;
+}
+/* line 2828, main.scss */
+#karma #welcome_booking .right .content_upper {
+  padding: 35px 90px 20px 90px;
+}
+/* line 2832, main.scss */
+#karma #welcome_booking .right h2 {
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+/* line 2839, main.scss */
+#karma #welcome_booking .right p {
+  color: #fff;
+}
+/* line 2843, main.scss */
+#karma #welcome_booking .right img {
+  display: block;
+  margin: 25px auto;
+  max-width: 100%;
+}
+/* line 2849, main.scss */
+#karma #welcome_booking .right #find_destination_map {
+  height: 300px;
+  width: 100%;
+  margin: 25px 0 0 0;
+  padding: 0;
+}
+/* line 2856, main.scss */
+#karma #welcome_booking .right #find_destination_map .destination_map {
+  height: inherit;
+  width: inherit;
+}
+/* line 2861, main.scss */
+#karma #welcome_booking .right #find_destination_map .destination_map .title {
+  display: inline-block;
+}
+/* line 2865, main.scss */
+#karma #welcome_booking .right #find_destination_map .destination_map img {
+  display: initial;
+  margin: 0;
+  max-width: none;
+}
+/* line 2871, main.scss */
+#karma #welcome_booking .right #find_destination_map .destination_map p {
+  color: #333;
+}
+/* line 2877, main.scss */
+#karma #welcome_booking .right .best_value_btn {
+  height: 40px;
+  width: 140px;
+  background: url("../imgs/icons/BestValueGuaranteed.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+@media (max-width: 991px) {
+  /* line 2901, main.scss */
+  #karma #welcome_booking .right .content_upper {
+    padding: 50px 0;
+  }
+}
+/* line 2919, main.scss */
+#karma #testimonials {
+  padding: 50px;
+  position: relative;
+}
+/* line 2924, main.scss */
+#karma #testimonials .left {
+  width: 60%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 25px;
+  margin: 0 -5px 0 0;
+}
+/* line 2933, main.scss */
+#karma #testimonials .left .quote {
+  font-style: italic;
+  font-size: 36px;
+  color: #101820;
+  margin-bottom: 20px;
+  position: relative;
+  font-weight: 300;
+}
+/* line 2942, main.scss */
+#karma #testimonials .left .quote .open_quotes {
+  position: absolute;
+  left: -30px;
+  top: 0;
+  background: url("../imgs/icons/open-quote.png") no-repeat center;
+  height: 30px;
+  width: 30px;
+}
+/* line 2951, main.scss */
+#karma #testimonials .left .quote .close_quotes {
+  position: absolute;
+  right: -40px;
+  bottom: 20px;
+  background: url("../imgs/icons/close-quote.png") no-repeat center;
+  height: 30px;
+  width: 30px;
+}
+/* line 2961, main.scss */
+#karma #testimonials .left .name_location {
+  color: #8d7249;
+  font-size: 24px;
+  font-style: italic;
+}
+/* line 2968, main.scss */
+#karma #testimonials .right {
+  width: 40%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 25px;
+}
+/* line 2976, main.scss */
+#karma #testimonials .right .image {
+  height: 300px;
+}
+/* line 2995, main.scss */
+#karma .simple_banner {
+  background-color: #101820;
+  padding: 50px 0;
+}
+/* line 3000, main.scss */
+#karma .simple_banner .content {
+  max-width: 768px;
+  margin: 0 auto;
+  text-align: center;
+  font-style: italic;
+}
+/* line 3007, main.scss */
+#karma .simple_banner .content h2 {
+  font-size: 36px;
+  color: #8d7249;
+}
+/* line 3013, main.scss */
+#karma .simple_banner .openQuote {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url("../imgs/icons/open-quote-gold.png") no-repeat center;
+  height: 30px;
+  width: 30px;
+}
+/* line 3022, main.scss */
+#karma .simple_banner .closeQuote {
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+  background: url("../imgs/icons/close-quote-gold.png") no-repeat center;
+  height: 30px;
+  width: 30px;
+}
+/* line 3044, main.scss */
+#karma .hotel_resort_search {
+  background: url("../imgs/welcome-booking-bg.jpg");
+  background-size: cover;
+}
+/* line 3049, main.scss */
+#karma .hotel_resort_search .left {
+  width: 75%;
+  /*float: left;*/
+  padding: 50px 90px;
+  display: inline-block;
+  margin-left: -1.5px;
+}
+/* line 3057, main.scss */
+#karma .hotel_resort_search .right {
+  width: 25%;
+  /*float: right;*/
+  padding: 100px 30px;
+  background-color: #101820;
+  display: inline-block;
+  margin-left: -3px;
+}
+/* line 3066, main.scss */
+#karma .hotel_resort_search .right p {
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+/* line 3073, main.scss */
+#karma .hotel_resort_search .right img {
+  vertical-align: middle;
+}
+/* line 3077, main.scss */
+#karma .hotel_resort_search .right .form_container {
+  position: relative;
+}
+/* line 3081, main.scss */
+#karma .hotel_resort_search .right form input[type="text"] {
+  width: 100%;
+  padding: 15px 65px 8px 0;
+  border: 0;
+  background: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 100;
+}
+/* line 3092, main.scss */
+#karma .hotel_resort_search .right form button.submit {
+  -webkit-appearance: none;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 50%;
+  margin-top: -40px;
+}
+/* line 3114, main.scss */
+#karma .login_form_wrapper {
+  padding-top: 120px;
+  background-color: #1b1b1b;
+}
+/* line 3119, main.scss */
+#karma #login-form {
+  padding: 50px 0;
+  color: #362f2d;
+  background: #8d7249;
+  /* Fallback */
+  background: rgba(219, 168, 73, 0.8);
+  padding: 25px;
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ccc;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  position: relative;
+  border-radius: 4px;
+  width: 50%;
+  float: left;
+}
+/* line 3138, main.scss */
+#karma #login-form fieldset {
+  border: 0;
+}
+/* line 3142, main.scss */
+#karma #login-form label {
+  color: #fff;
+}
+/* line 3146, main.scss */
+#karma #login-form .login_title {
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+}
+/* line 3152, main.scss */
+#karma #login-form input#submit, #karma #login-form input#register, #karma #login-form input#save {
+  border: 0;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: none;
+  border-radius: 2px;
+  padding: 15px;
+  text-shadow: none;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  width: 100%;
+  -moz-opacity: 0.8;
+  opacity: 0.9;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 3169, main.scss */
+#karma #login-form input#register, #karma #login-form input#save {
+  width: 150px;
+}
+/* line 3173, main.scss */
+#karma #login-form input#submit:hover, #karma #login-form input#register:hover, #karma #login-form input#save:hover {
+  -moz-opacity: 1;
+  opacity: 1;
+  filter: alpha(opacity=50);
+}
+/* line 3179, main.scss */
+#karma #login-form input[type="text"], #karma #login-form input[type="password"] {
+  padding: 15px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 2px;
+  background: white;
+  background: rgba(255, 255, 255, 0.4);
+  color: #fff;
+  width: 100%;
+}
+/* line 3190, main.scss */
+#karma #login-form .login_bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+/* line 3197, main.scss */
+#karma #login-form ::-webkit-input-placeholder {
+  color: red;
+}
+/* line 3201, main.scss */
+#karma #login-form :-moz-placeholder {
+  /* Firefox 18- */
+  color: red;
+}
+/* line 3205, main.scss */
+#karma #login-form ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: red;
+}
+/* line 3209, main.scss */
+#karma #login-form :-ms-input-placeholder {
+  color: red;
+}
+@media (max-width: 950px) {
+  /* line 3219, main.scss */
+  #karma .ccm-login-form, #karma .ccm-forgot-password-form {
+    width: 100%;
+    float: none;
+    margin: 10px 0;
+  }
+}
+/* line 3239, main.scss */
+#karma .forgot_password_form {
+  width: 50%;
+  float: right;
+  background: #8d7249;
+  /* Fallback */
+  background: rgba(219, 168, 73, 0.8);
+  padding: 25px;
+  color: #fff;
+  border-radius: 4px;
+  margin-top: 50px;
+}
+/* line 3250, main.scss */
+#karma .forgot_password_form h2 {
+  color: #ccc;
+}
+/* line 3254, main.scss */
+#karma .forgot_password_form p {
+  color: #fff;
+  padding: 10px 0 20px 0;
+  font-size: 22px;
+  padding-bottom: 0;
+}
+/* line 3261, main.scss */
+#karma .forgot_password_form label {
+  font-size: 14px;
+  color: #fff;
+}
+/* line 3266, main.scss */
+#karma .forgot_password_form input {
+  padding: 15px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 2px;
+  background: white;
+  background: rgba(255, 255, 255, 0.4);
+  color: #fff;
+  width: 100%;
+  max-width: 320px;
+  display: block;
+  margin-bottom: 10px;
+}
+/* line 3280, main.scss */
+#karma .forgot_password_form input#submit {
+  border: 0;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: none;
+  border-radius: 2px;
+  padding: 15px;
+  text-shadow: none;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  width: 100%;
+  -moz-opacity: .8;
+  opacity: .9;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 3297, main.scss */
+#karma .forgot_password_form input#submit:hover {
+  -moz-opacity: 1;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+/* line 3305, main.scss */
+#karma .forgot_password_form .forgot_pass_text {
+  margin: 4px 0;
+  padding: 0;
+}
+/* line 3310, main.scss */
+#karma .forgot_password_form .forgot_pass_toggle {
+  text-align: center;
+}
+/* line 3325, main.scss */
+#karma #gallery {
+  padding: 50px 0;
+  background: url("../imgs/welcome-booking-bg.jpg");
+  background-size: cover;
+}
+/* line 3331, main.scss */
+#karma #gallery .gallery_title {
+  color: #333;
+}
+/* line 3335, main.scss */
+#karma #gallery .view_gallery {
+  text-align: center;
+  margin-top: 50px;
+}
+/* line 3340, main.scss */
+#karma #gallery .gallery_block_slider {
+  position: relative;
+}
+/* line 3344, main.scss */
+#karma #gallery .gallery_block_slider .gallery_image {
+  height: 200px; width: 210px;
+}
+/* line 3348, main.scss */
+#karma #gallery .gallery_block_slider .flex-control-paging li a {
+  width: 15px;
+  height: 15px;
+  border: 2px solid #8d7249;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: none;
+  box-shadow: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+/* line 3360, main.scss */
+#karma #gallery .gallery_block_slider .flex-control-paging li a.flex-active {
+  background-color: #8d7249;
+}
+/* line 3368, main.scss */
+#karma #gallery .gallery_block_slider .flex-control-nav li {
+  display: inline-block;
+}
+/* line 3375, main.scss */
+#karma #gallery .gallery_block_slider .flex-direction-nav a.flex-prev {
+  background: url(../imgs/icons/gallery-arrow-prev.png) 5px center no-repeat;
+  text-indent: 9999em;
+  opacity: 1;
+}
+/* line 3381, main.scss */
+#karma #gallery .gallery_block_slider .flex-direction-nav a.flex-next {
+  background: url(../imgs/icons/gallery-arrow-next.png) 5px center no-repeat;
+  text-indent: 9999em;
+  opacity: 1;
+}
+/* line 3389, main.scss */
+#karma #gallery ul {
+  padding: 0;
+  list-style: none;
+}
+/* line 3410, main.scss */
+#karma #contact_section .contacts_list {
+  background-color: #101820;
+}
+/* line 3414, main.scss */
+#karma #contact_section .contacts_list li {
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 20px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 3425, main.scss */
+#karma #contact_section .contacts_list li.active {
+  color: #8d7249;
+}
+/* line 3431, main.scss */
+#karma #contact_section .contact_details {
+  padding: 80px 0;
+}
+/* line 3435, main.scss */
+#karma #contact_section .contact_details .left {
+  width: 59%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 50px;
+}
+/* line 3442, main.scss */
+#karma #contact_section .contact_details .left .contacts {
+  font-size: 36px;
+  font-weight: 400;
+  color: #8d7249;
+  font-style: italic;
+  margin-bottom: 25px;
+}
+/* line 3450, main.scss */
+#karma #contact_section .contact_details .left select#contact_select {
+  padding: 10px 60px 10px 20px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #101820;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 0;
+  border: 2px solid #101820;
+  background-image: url("../imgs/icons/dropdown-arrow-icon-blue.png");
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+  text-transform: uppercase;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+/* line 3466, main.scss */
+#karma #contact_section .contact_details .left .resort_contact_info {
+  display: none;
+  margin-bottom: 20px;
+}
+/* line 3471, main.scss */
+#karma #contact_section .contact_details .left .resort_contact_info.show {
+  display: block;
+}
+/* line 3476, main.scss */
+#karma #contact_section .contact_details .left .title {
+  font-style: italic;
+  margin-top: 15px;
+  font-weight: 400;
+}
+/* line 3482, main.scss */
+#karma #contact_section .contact_details .left .resort_info {
+  margin: 15px 0;
+  vertical-align: middle;
+}
+/* line 3487, main.scss */
+#karma #contact_section .contact_details .left .resort_info img {
+  vertical-align: middle;
+}
+/* line 3491, main.scss */
+#karma #contact_section .contact_details .left .resort_info .icon {
+  width: 50px;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 3501, main.scss */
+#karma #contact_section .contact_details .left .resort_info.one .icon {
+  vertical-align: top;
+}
+/* line 3506, main.scss */
+#karma #contact_section .contact_details .left .resort_info .desc {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  color: #101820;
+  font-size: 18px;
+  font-weight: 100;
+  max-width: 300px;
+}
+/* line 3516, main.scss */
+#karma #contact_section .contact_details .left .resort_info .email {
+  font-size: 26px;
+  font-weight: 100;
+  color: #8d7249;
+  border-bottom: 1px solid #8d7249;
+  word-break: break-word;
+}
+/* line 3524, main.scss */
+#karma #contact_section .contact_details .left .resort_info .tel, #karma #contact_section .contact_details .left .resort_info .fax {
+  font-size: 26px;
+  font-weight: 100;
+  color: #8d7249;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 3534, main.scss */
+#karma #contact_section .contact_details .right {
+  width: 40%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 50px;
+}
+/* line 3541, main.scss */
+#karma #contact_section .contact_details .right img.resort_image {
+  display: none;
+}
+/* line 3562, main.scss */
+#karma .offer_container {
+  width: 49%;
+  display: inline-block;
+  padding: 50px 0;
+  vertical-align: top;
+}
+/* line 3569, main.scss */
+#karma .offer_container .offer {
+  margin: auto;
+  max-width: 85%;
+}
+/* line 3574, main.scss */
+#karma .offer_container .offer img {
+  display: block;
+  width: 100%;
+}
+/* line 3579, main.scss */
+#karma .offer_container .offer .content {
+  padding: 35px;
+  text-align: left;
+  background-color: #fdf4e2;
+}
+@media (min-width: 768px) and (max-width: 1250px) {
+  /* line 3591, main.scss */
+  #karma .offer_container {
+    width: 49%;
+  }
+}
+@media (max-width: 768px) {
+  /* line 3601, main.scss */
+  #karma .offer_container {
+    width: 100%;
+  }
+}
+/* line 3618, main.scss */
+#karma .signature_cocktails {
+  background-color: #101820;
+  background-image: url("../imgs/cocktails.png");
+  background-size: cover;
+  padding: 100px 0;
+  color: #fff;
+}
+/* line 3626, main.scss */
+#karma .signature_cocktails .drink_option {
+  margin: 20px 0;
+  text-align: left;
+  display: inline-block;
+  width: 49%;
+  vertical-align: middle;
+}
+/* line 3646, main.scss */
+#karma .signature_cocktails .image {
+  display: inline-block;
+  width: 23%;
+  vertical-align: middle;
+  text-align: center;
+  padding-right: 10px;
+}
+/* line 3654, main.scss */
+#karma .signature_cocktails .content {
+  display: inline-block;
+  width: 75%;
+  vertical-align: middle;
+  padding-left: 10px;
+}
+/* line 3673, main.scss */
+#karma #karma_music {
+  background-image: url("/files/7314/3740/2799/karma-music-bg.jpg");
+  background-repeat: no-repeat;
+  padding: 50px 0 50px 0;
+  background-size: cover;
+}
+/* line 3680, main.scss */
+#karma #karma_music .left {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+  margin: 0 -4px;
+  padding-right: 25px;
+}
+/* line 3688, main.scss */
+#karma #karma_music .right {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+  padding-left: 25px;
+}
+/* line 3695, main.scss */
+#karma #karma_music .section {
+  margin: 25px 0;
+}
+/* line 3699, main.scss */
+#karma #karma_music .section .left_content {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  margin: 0 -4px;
+  padding-right: 10px;
+}
+/* line 3707, main.scss */
+#karma #karma_music .section .right_content {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  padding-left: 10px;
+}
+@media (max-width: 991px) {
+  /* line 3719, main.scss */
+  #karma #karma_music {
+    padding: 50px 20px;
+  }
+  /* line 3726, main.scss */
+  #karma #karma_music .inner .section {
+    margin: 50px 0;
+  }
+  /* line 3730, main.scss */
+  #karma #karma_music .inner .section .left_content {
+    width: 100%;
+    padding: 0;
+  }
+  /* line 3735, main.scss */
+  #karma #karma_music .inner .section .right_content {
+    width: 100%;
+    padding: 0;
+  }
+}
+/* line 3758, main.scss */
+#karma #blocks_section .grid_block, #karma #blocks_section .grid-sizer {
+  width: 33.333%;
+}
+/* line 3762, main.scss */
+#karma #blocks_section .grid_block .title, #karma #blocks_section .grid-sizer .title {
+  color: #fff;
+}
+/* line 3766, main.scss */
+#karma #blocks_section .grid_block .title a, #karma #blocks_section .grid-sizer .title a {
+  color: #fff;
+}
+/* line 3772, main.scss */
+#karma #blocks_section .grid_block {
+  padding: 25px;
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-size: cover !important;
+}
+/* line 3782, main.scss */
+#karma #blocks_section .grid_block.page_link {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+/* line 3787, main.scss */
+#karma #blocks_section .grid_block.page_link:hover {
+  -moz-filter: none;
+  -webkit-filter: none;
+  filter: none;
+}
+/* line 3799, main.scss */
+#karma #blocks_section .grid_block h3, #karma #blocks_section .grid_block p {
+  color: #333;
+}
+/* line 3803, main.scss */
+#karma #blocks_section .grid_block p {
+  font-size: 18px;
+}
+/* line 3810, main.scss */
+#karma #blocks_section .grid_block .grid_block_news h2 {
+  font-style: italic;
+  font-weight: 400;
+  color: #262626;
+}
+.mobile_hidden{display:none;color:white;}
+@media (max-width: 991px) {
+	.mobile_hidden{color:black;}
+  /* line 3822, main.scss */
+  #karma #blocks_section .grid_block {
+    width: 100%;
+  }
+  /* line 3826, main.scss */
+  #karma #blocks_section .grid_block {
+    background-size: cover !important;
+  }
+  /* line 3830, main.scss */
+  #karma #blocks_section .grid_block:hover {
+    background-size: cover !important;
+  }
+}
+/* line 3849, main.scss */
+#karma #twitter {
+  background-color: #fff;
+  padding: 50px 0;
+  width: 50%;
+  display: inline-block;
+  margin: 0 -5px 0 0;
+  vertical-align: middle;
+}
+/* line 3858, main.scss */
+#karma #twitter .right {
+  display: inline-block;
+  width: 25%;
+  vertical-align: middle;
+  padding-right: 25px;
+  color: #8d7249;
+  font-size: 18px;
+}
+/* line 3867, main.scss */
+#karma #twitter .right p {
+  font-weight: 300;
+  font-style: italic;
+  padding-top: 0;
+  margin: 0;
+}
+/* line 3874, main.scss */
+#karma #twitter .right .username {
+  font-style: none;
+  font-weight: 600;
+}
+/* line 3879, main.scss */
+#karma #twitter .right .twitter_logo {
+  width: 20%;
+  float: left;
+  vertical-align: top;
+}
+/* line 3885, main.scss */
+#karma #twitter .right .twitter_follow {
+  width: 80%;
+  float: right;
+  vertical-align: top;
+}
+/* line 3892, main.scss */
+#karma #twitter .left {
+  display: inline-block;
+  width: 74%;
+  vertical-align: middle;
+  padding-left: 25px;
+}
+/* line 3899, main.scss */
+#karma #twitter h3 {
+  font-size: 24px;
+  font-weight: 100;
+}
+/* line 3904, main.scss */
+#karma #twitter a {
+  color: #8d7249;
+}
+/* line 3909, main.scss */
+#karma #instagram {
+  width: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 3915, main.scss */
+#karma #instagram .insta_slider {
+  margin: 0;
+}
+/* line 3923, main.scss */
+#karma #instagram .follow_slide {
+  text-align: center;
+  font-weight: 300;
+  font-style: italic;
+  padding: 50px 0;
+  border: 1px solid #eee;
+  font-size: 18px;
+}
+/* line 3932, main.scss */
+#karma #instagram .follow_slide span {
+  color: #8d7249;
+  font-weight: 500;
+}
+/* line 3952, main.scss */
+#karma #galleryPage li {
+  display: inline-block !important;
+  width: 25%;
+  margin: 0 -4px 0 0;
+  height: 300px;
+  vertical-align: top;
+}
+/* line 3960, main.scss */
+#karma #galleryPage .gallery_image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/* line 3966, main.scss */
+#karma #galleryPage .paging {
+  padding: 25px;
+  text-align: center;
+}
+/* line 3971, main.scss */
+#karma #galleryPage .paging .numbers {
+  padding: 2px 8px;
+}
+/* line 3975, main.scss */
+#karma #galleryPage .paging .numbers.active {
+  background: #8d7249;
+  color: #fff;
+}
+/* line 3993, main.scss */
+#karma footer {
+  background: url("../imgs/footer-bg.jpg");
+  background-size: cover;
+}
+/* line 3998, main.scss */
+#karma footer .upper_footer {
+  padding: 50px 0;
+  border-bottom: 1px solid #2f2f2f;
+}
+/* line 4003, main.scss */
+#karma footer .col {
+  float: left;
+  width: 24%;
+}
+#karma footer .col.one,
+#karma footer .col.two{float:left !important; width:24%;}
+/* line 4008, main.scss */
+#karma footer .col.four {
+  width: 28%;
+}
+/* line 4012, main.scss */
+#karma footer .gold_footer_header {
+  font-size: 18px;
+  color: #8d7249;
+  font-weight: 600;
+  margin: 15px 0;
+  text-transform: uppercase;
+}
+/* line 4020, main.scss */
+#karma footer .gold_footer_header a {
+  color: #8d7249;
+}
+/* line 4025, main.scss */
+#karma footer .col h3 {
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+  margin: 10px 0;
+}
+/* line 4032, main.scss */
+#karma footer .col h3 a {
+  color: #fff;
+}
+/* line 4037, main.scss */
+#karma footer .col li {
+  list-style-type: none;
+  padding: 6px 0 6px 10px;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: italic;
+}
+/* line 4045, main.scss */
+#karma footer .col li a {
+  color: #fff;
+}
+/* line 4049, main.scss */
+#karma footer .col li.app_download_btn {
+  width: 49%;
+  display: inline-block;
+  padding: 0;
+}
+/* line 4055, main.scss */
+#karma footer .col li.app_download_btn img {
+  max-width: 100%;
+  height: auto;
+}
+/* line 4063, main.scss */
+#karma footer .form_container {
+  position: relative;
+}
+/* line 4072, main.scss */
+#karma footer .form_container #newsletter_signup input[type="text"], #karma footer .form_container #newsletter_signup input[type="email"] {
+  border: 0;
+  padding: 10px;
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+  background: #363636;
+  color: #fff;
+  -webkit-appearance: none;
+}
+/* line 4083, main.scss */
+#karma footer .form_container #newsletter_signup input[type="text"]::-webkit-input-placeholder, #karma footer .form_container #newsletter_signup input[type="email"]::-webkit-input-placeholder {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+/* line 4089, main.scss */
+#karma footer .form_container #newsletter_signup input[type="text"]:-moz-placeholder, #karma footer .form_container #newsletter_signup input[type="email"]:-moz-placeholder {
+  /* Firefox 18- */
+  font-size: 12px;
+  text-transform: uppercase;
+}
+/* line 4095, main.scss */
+#karma footer .form_container #newsletter_signup input[type="text"]::-moz-placeholder, #karma footer .form_container #newsletter_signup input[type="email"]::-moz-placeholder {
+  /* Firefox 19+ */
+  font-size: 12px;
+  text-transform: uppercase;
+}
+/* line 4101, main.scss */
+#karma footer .form_container #newsletter_signup input[type="text"]:-ms-input-placeholder, #karma footer .form_container #newsletter_signup input[type="email"]:-ms-input-placeholder {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+/* line 4107, main.scss */
+#karma footer .form_container #newsletter_signup select {
+  display: block;
+  width: 100%;
+  margin-bottom: 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: 10px 60px 10px 10px;
+  font-size: 12px;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #363636;
+  border-radius: 0;
+  border: 0;
+  background-image: url("../imgs/icons/dropdown-arrow-icon.png");
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+}
+/* line 4126, main.scss */
+#karma footer .form_container #newsletter_signup button {
+  font-size: 12px;
+  padding: 10px 20px;
+}
+/* line 4133, main.scss */
+#karma footer .lower_footer {
+  padding: 25px 0;
+}
+/* line 4137, main.scss */
+#karma footer .lower_footer .left {
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+}
+/* line 4143, main.scss */
+#karma footer .lower_footer .left .copy_date {
+  color: #9f9f9f;
+  font-size: 14px;
+  width: 100%;
+}
+/* line 4150, main.scss */
+#karma footer .lower_footer .right {
+  display: inline-block;
+  width: 69%;
+  vertical-align: middle;
+  text-align: right;
+}
+/* line 4160, main.scss */
+#karma footer .lower_footer .right .social_icons_group .icon {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  vertical-align: middle;
+}
+/* line 4167, main.scss */
+#karma footer .lower_footer .right .social_icons_group .icon.karma {
+  background: url("../imgs/social-icons-sprite.png");
+  background-position: 3px -1px;
+}
+/* line 4172, main.scss */
+#karma footer .lower_footer .right .social_icons_group .icon.facebook {
+  background: url("../imgs/social-icons-sprite.png");
+  background-position: -45px -1px;
+}
+/* line 4177, main.scss */
+#karma footer .lower_footer .right .social_icons_group .icon.twitter {
+  background: url("../imgs/social-icons-sprite.png");
+  background-position: -90px -1px;
+}
+/* line 4182, main.scss */
+#karma footer .lower_footer .right .social_icons_group .icon.gplus {
+  background: url("../imgs/social-icons-sprite.png");
+  background-position: -140px -1px;
+}
+/* line 4187, main.scss */
+#karma footer .lower_footer .right .social_icons_group .icon.instagram {
+  background: url("../imgs/social-icons-sprite.png");
+  background-position: -185px -1px;
+}
+/* line 4192, main.scss */
+#karma footer .lower_footer .right .social_icons_group .icon.flickr {
+  background: url("../imgs/social-icons-sprite.png");
+  background-position: -235px -1px;
+}
+/* line 4197, main.scss */
+#karma footer .lower_footer .right .social_icons_group .icon.pinterest {
+  background: url("../imgs/social-icons-sprite.png");
+  background-position: -283px -1px;
+}
+/* line 4202, main.scss */
+#karma footer .lower_footer .right .social_icons_group .icon.youtube {
+  background: url("../imgs/social-icons-sprite.png");
+  background-position: -330px -1px;
+}
+/* line 4207, main.scss */
+#karma footer .lower_footer .right .social_icons_group .icon.soundcloud {
+  background: url("../imgs/social-icons-sprite.png");
+  background-position: -378px -1px;
+}
+/* line 4212, main.scss */
+#karma footer .lower_footer .right .social_icons_group .icon.tripadvisor {
+  background: url("../imgs/social-icons-sprite.png");
+  background-position: -426px -1px;
+}
+/* line 4219, main.scss */
+#karma footer .lower_footer .right .staff_login {
+  display: inline-block;
+  color: #777;
+  background-color: #333;
+  padding: 8px 35px 8px 15px;
+  font-size: 10px;
+  font-weight: 700;
+  background-image: url("../imgs/icons/lock-icon-grey.png");
+  background-position: right 10px center;
+}
+/* line 4246, main.scss */
+#karma .quick_enquire {
+  position: fixed;
+  bottom: 0;
+  z-index: 200;
+}
+/* line 4252, main.scss */
+#karma .quick_enquire li {
+  display: inline-block;
+  color: #fff;
+  font-size: 18px;
+  padding: 7.5px 15px;
+  margin: 0 0 0 -4px;
+}
+/* line 4260, main.scss */
+#karma .quick_enquire li.live_chat_btn {
+  background-color: #8d7249;
+  padding: 0;
+  margin: 0;
+  vertical-align: bottom;
+}
+/* line 4267, main.scss */
+#karma .quick_enquire li.email_enquiry_btn {
+  background-color: #8d7249;
+}
+/* line 4295, main.scss */
+#karma .services_slider .top_section {
+  padding: 50px 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+/* line 4305, main.scss */
+#karma .services_slider .top_section .left {
+  width: 50%;
+  display: inline-block;
+  margin-left: -4.5px;
+  vertical-align: middle;
+  padding-right: 25px;
+}
+/* line 4313, main.scss */
+#karma .services_slider .top_section .left p {
+  font-weight: 400;
+}
+/* line 4318, main.scss */
+#karma .services_slider .top_section .right {
+  width: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 25px;
+}
+/* line 4328, main.scss */
+#karma .services_slider .top_section .slide_controls a {
+  color: #fff;
+  font-weight: 600;
+}
+/* line 4333, main.scss */
+#karma .services_slider .top_section .slide_controls a.flex-active {
+  color: #8d7249;
+}
+/* line 4337, main.scss */
+#karma .services_slider .top_section .slide_controls a span {
+  color: #8d7249;
+}
+/* line 4342, main.scss */
+#karma .services_slider .top_section .slide_controls li {
+  border-bottom: 1px solid #616161;
+  padding: 6px 0px;
+  display: block;
+  margin-right: 10px;
+}
+/* line 4348, main.scss */
+#karma .services_slider .top_section .slide_controls .left {
+  padding-right: 0;
+  vertical-align: top;
+}
+/* line 4353, main.scss */
+#karma .services_slider .top_section .slide_controls .right {
+  padding-left: 0;
+  vertical-align: top;
+}
+/* line 4360, main.scss */
+#karma .services_slider .bottom_section {
+  padding: 25px 0;
+  position: relative;
+}
+/* line 4365, main.scss */
+#karma .services_slider .bottom_section .left {
+  width: 50%;
+  display: inline-block;
+  margin-left: -4.5px;
+  vertical-align: middle;
+  padding-right: 25px;
+}
+/* line 4373, main.scss */
+#karma .services_slider .bottom_section .right {
+  width: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 25px;
+}
+/* line 4380, main.scss */
+#karma .services_slider .bottom_section .right .image {
+  height: 350px;
+  max-width: 500px;
+  margin: 0 auto;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+}
+/* line 4389, main.scss */
+#karma .services_slider .bottom_section:after {
+  bottom: 100%;
+  left: 66%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-bottom-color: #87714d;
+  border-width: 30px;
+}
+/* line 4402, main.scss */
+#karma .services_slider .bottom_section ul.flex-direction-nav {
+  display: none;
+}
+/* line 4416, main.scss */
+#karma #events_calendar {
+  padding: 50px 0;
+}
+/* line 4420, main.scss */
+#karma #events_calendar select {
+  display: block;
+  width: 100%;
+  padding: 20px 60px 20px 20px;
+  max-width: 400px;
+  margin: auto;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: 10px 30px 10px 20px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #101820;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 0;
+  border: 2px solid #101820;
+  background-image: url("../imgs/icons/dropdown-arrow-icon-blue.png");
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+}
+/* line 4440, main.scss */
+#karma #events_calendar .event {
+  width: 50%;
+  float: left;
+  padding: 25px;
+  box-sizing: border-box;
+}
+/* line 4447, main.scss */
+#karma #events_calendar .event .lower_content {
+  padding: 25px;
+  background-color: #fdf4e2;
+}
+/* line 4452, main.scss */
+#karma #events_calendar .event img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  width: 100%;
+}
+/* line 4470, main.scss */
+#karma .text_image_block {
+  background: url("../imgs/welcome-booking-bg.jpg");
+  background-size: cover;
+}
+/* line 4475, main.scss */
+#karma .text_image_block .left {
+  padding: 50px 90px;
+  width: 50%;
+  display: inline-block;
+  margin-left: -1.5px;
+  vertical-align: middle;
+}
+/* line 4483, main.scss */
+#karma .text_image_block .right {
+  padding: 50px 90px;
+  width: 50%;
+  display: inline-block;
+  margin-left: -3px;
+  vertical-align: middle;
+  min-height: 475px;
+}
+@media (max-width: 991px) {
+  /* line 4506, main.scss */
+  #karma .left, #karma .right, #karma .services_slider .top_section .left {
+    width: 100% !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    float: none !important;
+    margin: 0 auto;
+  }
+  /* line 4518, main.scss */
+  #karma #banner .social_icons_group {
+    top: 83px;
+  }
+  /* line 4525, main.scss */
+  #karma #carousel_cta_section .carousel {
+    padding: 40px;
+  }
+  /* line 4529, main.scss */
+  #karma #carousel_cta_section .flex-prev {
+    left: -6px;
+  }
+  /* line 4533, main.scss */
+  #karma #carousel_cta_section .flex-next {
+    right: -6px;
+  }
+  /* line 4537, main.scss */
+  #karma #carousel_cta_section:hover .flex-prev {
+    left: -6px;
+  }
+  /* line 4541, main.scss */
+  #karma #carousel_cta_section:hover .flex-next {
+    right: -6px;
+  }
+  /* line 4546, main.scss */
+  #karma #testimonials {
+    padding: 100px 20px;
+  }
+  /* line 4554, main.scss */
+  #karma .text_image_block .right {
+    margin-left: 0;
+  }
+  /* line 4566, main.scss */
+  #karma #twitter .right .twitter_logo {
+    width: 100%;
+    text-align: center;
+  }
+  /* line 4571, main.scss */
+  #karma #twitter .right .twitter_follow {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  /* line 4578, main.scss */
+  #karma #twitter .left {
+    text-align: center;
+  }
+  /* line 4590, main.scss */
+  #karma footer .upper_footer .col {
+    margin-top: 50px;
+  }
+  /* line 4594, main.scss */
+  #karma footer .upper_footer .col.two {
+    margin-top: 25px;
+  }
+  /* line 4602, main.scss */
+  #karma .hide_mobile {
+    display: none;
+  }
+}
+
+/*#carousel_cta_section ul.slides > li:nth-child(4){
+  display: none !important;
+}*/
+
+/* JQuery accordian changes */
+.ui-accordion .ui-accordion-content{padding:0 !important;}
+#karma .fa{font-family:FontAwesome;}
+.accordion #location .lower_section .left{margin: 0 0px 0 -5px;}
+
+#location .accordion-content .lower_section .left{width:100%;}
+#location.accordion-content .lower_section .resort_details_section .left,
+#accordion-location-gallery{}
+#accordion-location-gallery{padding-bottom:80px;}
+#location.location2{padding:0;}
+#karma footer .col.left.footer_header{float:none;}
+#karma footer .col.four {margin-top: -44px;}
+#karma footer .footer_header .gold_footer_header{margin-bottom:5px;}
+.nav_toggle_booking,
+.nav_toggle_contact,
+.booking_nav{display:none;}
+.cdsComponent.cdsLocName{max-width: none !important; overflow:auto;}
+.booking_form_top_margin{margin:10px auto 10px;}
+.page-type-location .booking_form_top_margin{margin:0 auto;}
+.booking-bar-wrapper{width:100%; background: #f2e6d6;}
+#type-home .booking-bar-wrapper{background: #FFF;}
+@media only screen and (min-width: 993px) and (max-width: 1199px) { /* iPad in landscape mode */
+}
+@media only screen and (max-width: 992px) and (device-aspect-ratio: 3/4) { /* iPad only: */    
+}
+@media (max-width: 991px) {
+  /*#karma header .main_nav .upper_nav li.member_login_bt,
+  #karma header .main_nav .upper_nav li:nth-of-type(3)::before{content:'\A'; white-space: pre;}*/
+  #karma header .main_nav .upper_nav li:nth-of-type(3){width:100%; padding-top:2vw; padding-bottom:5vw;}
+  #karma footer .lower_footer .left .copy_date {text-align:center;}
+  #carousel_cta_section .button-wrapper{text-align:center;}
+  .flex-direction-nav a.flex-next:before{content: '\f105';}
+  #karma #accomodation_slider .top_section .slider_btns a, #karma #cuisine_slider .top_section .slider_btns a{min-width:70vw;}
+  #karma .services_slider .bottom_section:after {left: 0;right: 0;margin: 0 auto;}
+  /* phone stuff can go here */
+  #location.location2{margin:0;}
+  #deviceCover{height:auto !important;}
+  #enterCode{padding-top:0 !important;}
+  .social_icons_group{margin-bottom:2em;}
+  .cdsROW.white.wide{width:87% !important;}
+  #karma footer .col.four {padding-top:9vw;}
+  #karma footer .col.left.one,
+  #karma footer .col.left.two{width:50% !important;}
+  #karma footer .footer_header .gold_footer_header{margin-bottom:15px;}
+  #karma .accordion .white_button {background-color: #101820;border: 2px solid #101820; padding: 15px 25px;
+    text-transform: uppercase; font-size: 14px; color: white; cursor: pointer; font-weight: 700; display: inline-block;
+	text-decoration: none; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;}
+  .accordion #location{padding:0; margin:0;}
+  #accordion-location-gallery{padding-bottom:0;}
+  #karma #location_page_nav {display: none;}
+  .accordion-content .left > h2,
+  .accordion-content .content > h2{display:none;}
+  #karma .accordion-heading{font-size:8vw; padding:9vw 0; font-family: Georgia; font-style: italic;}
+  .accordion-heading .icon{display:inline-block; width:14vw; padding-left:4vw; padding-right:0;}
+  #gallery .accordion-heading .icon::before{}
+  .accordion-heading .indicator{float:right; margin-right:6vw; width:3vw; height:0; background-color:black; font-size:4.5vw; color:white;
+      font-weight: bold; text-align: center; line-height: 4.5vw; margin-top:4vw;}
+  .accordion-heading .indicator::before{color:black; background-color:white; display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;content: "\f055";}
+  #karma .accordion-heading.expanded .indicator{}
+  .accordion-heading.expanded .indicator::before{content: "\f056"; line-height:4vw;} /* for long dash use {content: "\2014";} */  
+  .accordion-content,
+  #karma .type-content .main_content li.accordion-content,
+  #welcome_booking.welcome-booking-hidden .right,
+  #location_nav_mobile{display:none;}
+  #karma .accordion-content .button_outline.black{margin-top:5vw;} 
+  #accordion-location-gallery .accordion-content{display:block; height:0;}
+  .accordion #weddings{background-color: white; color:black;}
+  #karma .accordion .cta_banner .cta_banner_overlay{background: none;}
+  #karma .accordion .white_button{margin-top: 7vw;}  
+  #karma .accordion #cuisine_slider,
+  #karma .accordion #accomodation_slider{padding:0;}
+  #karma .container.for-accordion{width:100%;}
+  #karma #carousel_cta_section.for-accordion{padding:0;}
+  .fa.fa-picture-o.fa-lg{font-size:8vw;}
+  #accordion-weddings .icon{padding-left:3vw;}
+  #karma .container.wide.accordion-gallery{width:100%;}
+  #accordion-location .accordion-heading,
+  #accordion-location .accordion-heading .indicator::before{color: #8d714c;}
+  #accordion-location .accordion-heading .indicator::before{background-color:transparent;}
+  #accordion-accommodation,
+  #accordion-cuisine,
+  #accordion-cuisine .accordion-heading .indicator::before,
+  .accordion-heading.even .indicator::before,
+  .accordion-heading.even,
+  .accordion-content.even,
+  #accordion-accommodation .accordion-heading .indicator::before{background-color: #ebeced;}
+  #accordion-location-gallery{background-color: #8d714c;}
+  #accordion-location-gallery .accordion-heading,
+  #accordion-services  .accordion-heading{color:white;}
+  #accordion-services{background-size: cover;}
+  #accordion-location-gallery .accordion-heading .indicator::before,
+  #accordion-services .accordion-heading .indicator::before{color:white; background-color:transparent;}
+  #accordion-weddings .cta_banner{background-image: none !important}
+  #karma #accordion-weddings .white_text{color:black !important;}
+  .carousel_container.cf .accordion-heading .icon{height:0;}
+  #karma #carousel_cta_section .accordion-content .carousel,
+  #karma .accordion-content #accomodation_slider .top_section,
+  #karma .accordion-content #cuisine_slider .top_section,
+  #karma .accordion-content .services_slider .top_section,
+  #karma .accordion-content .cta_banner .content{padding-top:0;}
+  #karma .accordion-content #accomodation_slider .top_section .content > p,
+  #karma .accordion-content #cuisine_slider .top_section .content > p,
+  #karma .accordion-content .services_slider .top_section .left > p,
+  #karma .accordion-content .cta_banner .content > p{margin-top:0;}
+  #karma .accordion-content .cta_banner .content p:last-of-type{margin-bottom:0;}
+  #karma #accordion-location-gallery .button_outline.gold{border-color: white; color:white;}
+  #karma .accordion-content .cta_banner .content{padding-bottom:40px;}
+  #karma #carousel_cta_section .accordion-content .carousel .content{padding-bottom:0;}
+  .gallery_info{display:none;}
+  #gallery_thumb_controls,
+  #gallery_thumb_controls2{margin-top:1em;}
+  #karma footer .upper_footer .col.footer_header,
+  #karma footer .upper_footer .col.left.half{margin-top:0 !important;}
+  #karma footer .gold_footer_header {margin: 5px 0 10px !important;}
+  .col.four.left{clear:both; margin-top:50px;}
+  #karma .col.one.left.half{padding-right:0 !important;}
+  #karma .nav_toggle_booking,
+  #karma .nav_toggle_contact{display:inline-block; color:white; font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px; font-style: italic; padding: 15px 0; margin: 0 22vw 0 0; height: 50px; position:absolute; top:15px;
+    right:0; width:160px; text-align: right;}
+  .booking_nav > div{padding-top:75px;}
+  .accordion .slider_btns{}
+  .slider_menu{}
+  .slider_menu_controls{border:2px solid black; overflow:auto;}
+  .room_type{float:left; width:80%;}
+  .menu_arrow{float:left; width:20%; border-left:1px solid black;}
+  .slider_menu_links{}
+  .accordion #location .lower_section .resort_details_section .brand_logo{display:none;}
+  #karma select#location_nav_mobile {display: none;}
+  #type-location .main_content #ctrlSiteHeader_ctrlBooking_ctrlBookingDevice{display:none;}
+  #gallery_thumb_controls,
+  #gallery_thumb_controls2{display:none;}
+  #location .lower_section .gallery_slider li{display:block;}
+  .accordion .flex-direction-nav a:before {color: #AAA;}
+  #karma .accordion .services_slider .bottom_section ul.flex-direction-nav{display:block;} 
+  .social_icons_group a:last-of-type{display:block; margin-top:3vw;}
+  i.fa-tint{margin-left: 1vw;}
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) { /* iPad */
+	.accordion-heading .indicator {margin-top: 1vw;}
+	#karma .accordion-heading{font-size: 5vw; padding:5vw 0}
+	.booking_nav .bookingMask{margin-top:0;}
+	.bookingMask .form fieldset.line {margin: 0 auto; float: none; width: 676px;}
+	#bookingDevice > fieldset > label{margin-bottom:3em;}
+	#karma #accomodation_slider .top_section .slider_btns a, #karma #cuisine_slider .top_section .slider_btns a{min-width:none;}
+	#karma header .main_nav .upper_nav li:nth-of-type(3){width:100%; padding-top:2vw; padding-bottom:3vw;}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 374px) and (orientation : portrait) {/* iPhone5 */
+	#karma header .logo {max-width: 65px;}
+	#karma header .logo {padding: 22px 0;}
+	#karma .nav_toggle_booking,
+	#karma .nav_toggle_contact{font-size:15px; margin:0 25vw 0 0;}
+}
+
+@media (min-width: 991px) { /* Desktop */
+	.accordion-heading{display:none;}
+}
+
+/* REMOVED FROM HEAD SECTION */
+
+.banner_slider_top_padding{padding:70px 0 0 0;}
+
+/* copy of old site's https://karmagroup.com/concrete/css/ccm.base.css */
+/* Automatically included across all of c5 - use this file gingerly */
+img.ccm-captcha-image {display: block}
+
+/* clear and pagination styles */
+*.ccm-spacer {clear: both; font-size:1px; line-height:1px; }
+div.ccm-pagination { text-align:center; position: relative}
+div.ccm-pagination span.ccm-page-right {position: absolute; top: 0px; right: 0px; margin-right: 0px !important}
+div.ccm-pagination span.ccm-page-right span {margin-right: 0px}
+div.ccm-pagination span.ccm-page-left {position: absolute; top: 0px; left: 0px}
+div.ccm-pagination span {margin-right: 4px}
+.ccm-ui div.ccm-pagination span {margin-right: 0px;}
+
+/* Extra pagination styling to make code generated by C5 pagination helper look nice */
+div.pagination ul strong, div.pagination ul span.ltgray {
+	display:block;
+	padding:0 14px;
+	float:left;
+	line-height:34px;
+	border-right:1px solid #DDD;
+	text-decoration:none;
+}
+
+/* Layout */ 
+/*
+.ccm-layout .ccm-layout-cell{ overflow:hidden; }
+*/
+.ccm-layout-table .ccm-layout-col {float:left}
+.ccm-layout .first .ccm-layout-col-spacing { margin-left:0px !important } 
+.ccm-layout .last .ccm-layout-col-spacing { margin-right:0px !important } 
+
+/* global error styles */
+.ccm-error {font-weight: bold; color: #f00}
+.ccm-required {font-weight: bold; color: #3975AD}
+
+div#ccm-overlay {
+	position: fixed;
+	z-index:99;
+	top: 0px;
+	left: 0px;
+	background-color:#000;
+	filter:alpha(opacity=70);
+	-moz-opacity: 0.7;
+	opacity: 0.7;
+	height:100%;
+	width:100%;
+	display: none;
+} 
+
+.ccm-input-time-wrapper select {width: 55px !important; margin-right: 4px !important;}
+.ccm-input-date {width: 80px !important; margin-right: 4px !important;}
+
+/* google-maps layout */ 
+
+.google-maps {
+    position: relative;
+       padding-bottom: 75%; 
+    height: 0;
+    overflow: hidden;
+   }
+   .google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+   }
