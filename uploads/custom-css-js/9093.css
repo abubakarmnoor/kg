@@ -1,0 +1,12 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+@media (max-width: 768px){
+	a #btn-exclusive-ski {
+		margin-left: 0 !important;
+      	text-align: center;
+      	width: 100%
+	} 
+}
+
+</style>
+<!-- end Simple Custom CSS and JS -->

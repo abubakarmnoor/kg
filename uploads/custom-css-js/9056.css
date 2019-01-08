@@ -1,0 +1,16 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+div.message-validator{
+z-index:1;
+width: 140px;
+}
+
+End of comment */ 
+@media (max-width: 767px){
+.esg-center{
+margin-top:50px !important;
+}
+}</style>
+<!-- end Simple Custom CSS and JS -->

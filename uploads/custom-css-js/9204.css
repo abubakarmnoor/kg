@@ -1,0 +1,9 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+#book_online_select optgroup {
+    background: #54565a;
+}
+#karma select#find_destination optgroup {
+    background: #54565a;
+}</style>
+<!-- end Simple Custom CSS and JS -->

@@ -1,0 +1,8 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+@media (min-width: 1024px){
+	.booking-bar-wrapper .open_destination_mobile{
+		display: none;
+	}
+}</style>
+<!-- end Simple Custom CSS and JS -->
